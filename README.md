@@ -59,6 +59,7 @@ A metodologia da Passos Mágicos é baseada em quatro pilares principais:
 
 ### **2019**
 * Aumento de Impacto: Expandiu para 812 alunos atendidos diretamente e beneficiou 3248 pessoas.
+  
 **Novas Iniciativas:**
 * Parceria com o Programa Paidéia (USP), oferecendo cursos como Sustentabilidade e Programação, impactando diretamente 40 adolescentes.
 * Introdução de turmas do Ensino Médio e foco em preparação para vestibulares.
@@ -76,6 +77,7 @@ A metodologia da Passos Mágicos é baseada em quatro pilares principais:
 **Gestão e Transparência:**
 * Recebeu certificações importantes como o Selo Doar e o Selo de Gestão e Confiança VOA.
 * Manteve as atividades online com 763 alunos atendidos e expandiu a formação de professores em ensino remoto.
+  
 **Novos Projetos:**
 * Cursos técnicos em parceria com SENAI, abrangendo áreas como tecnologia e programação.
 * Inclusão de 11 programas complementares, como Clube do Livro, que beneficiou 241 alunos​.
