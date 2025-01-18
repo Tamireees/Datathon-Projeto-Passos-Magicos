@@ -1,4 +1,6 @@
-# Datathon-Projeto-Passos-Magicos
+
+
+![logo](https://github.com/user-attachments/assets/cf81b6e0-f4b2-4403-9020-2e0199172c06) # Datathon: Projeto Passos Magicos
 
 
 ## Introdução da Atividade
