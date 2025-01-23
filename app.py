@@ -89,6 +89,58 @@ A metodologia da Passos Mágicos é baseada em quatro pilares principais:
 * Programa de Aceleração do Conhecimento (PAC): Uma jornada educacional com 7 fases e foco no desenvolvimento integral, oferecendo aulas complementares, suporte psicológico e bolsas de estudos.
 * Parcerias Estratégicas: Colaborações com instituições como USP (Programa Paidéia), SENAI, FIAP e empresas privadas como Itaú, Santander, e Estácio de Sá. Essas parcerias possibilitam bolsas, treinamentos e acesso a tecnologias para potencializar o impacto educacional.
 
+## Dados por Relatório
+
+### **2018:**
+* Impacto Social: Atendeu 355 alunos diretamente e beneficiou 1420 pessoas.
+* Programas Iniciais: Desenvolveu turmas de alfabetização, Ensino Fundamental I e II, e projetos de protagonismo juvenil para estudantes avançados.
+* Atividades Culturais: Organizou passeios a museus e outros espaços culturais, promovendo um aprendizado além das salas de aula.
+* Colaboração Institucional: Recebeu apoio de empresas como Microsoft (doações de software) e CIESP, que premiou Michelle Ivanoff com o Prêmio Excelência Mulher​.
+
+### **2019**
+* Aumento de Impacto: Expandiu para 812 alunos atendidos diretamente e beneficiou 3248 pessoas.
+  
+**Novas Iniciativas:**
+* Parceria com o Programa Paidéia (USP), oferecendo cursos como Sustentabilidade e Programação, impactando diretamente 40 adolescentes.
+* Introdução de turmas do Ensino Médio e foco em preparação para vestibulares.
+* Suporte Ampliado: Implementou três níveis de acompanhamento psicológico (individual, em grupo e oficinas) para alunos e familiares​.
+* Empresas e Colaborações: Firmou parcerias com Itaú Social e outras instituições para financiar projetos e estruturar atividades educacionais.
+
+### **2020**
+**Resiliência Durante a Pandemia:**
+* Adaptação total para ensino online, com fornecimento de equipamentos e planos de internet para famílias em situação de vulnerabilidade.
+* Atendeu 841 alunos e expandiu o suporte a cerca de 654 domicílios com uma pesquisa socioeconômica detalhada.
+* Iniciativas Emergenciais: Distribuiu mais de 2000 cestas básicas e criou campanhas de saúde pública para prevenir a COVID-19.
+* Colaborações e Apoio: Parcerias com Google for Education e Santander Universidades viabilizaram recursos tecnológicos para ensino remoto​.
+
+### **2021**
+**Gestão e Transparência:**
+* Recebeu certificações importantes como o Selo Doar e o Selo de Gestão e Confiança VOA.
+* Manteve as atividades online com 763 alunos atendidos e expandiu a formação de professores em ensino remoto.
+  
+**Novos Projetos:**
+* Cursos técnicos em parceria com SENAI, abrangendo áreas como tecnologia e programação.
+* Inclusão de 11 programas complementares, como Clube do Livro, que beneficiou 241 alunos​.
+
+### **2022**
+**Comemoração de 30 Anos:**
+* Impactou diretamente mais de 1000 alunos, com crescimento do Programa de Aceleração do Conhecimento.
+* Superação do aprendizado prejudicado pela pandemia, com foco em recuperação escolar.
+
+**Parcerias e Iniciativas:**
+* Bolsas de estudo para 71 universitários, em colaboração com Estácio de Sá e FIAP.
+* Ampliação da assistência social, com ênfase no fortalecimento dos laços familiares​.
+* 
+### **2023**
+**Expansão Estrutural:**
+* Inauguração de uma nova unidade no Centro de Embu-Guaçu, com seis salas de aula, biblioteca e áreas específicas para psicologia e psicopedagogia.
+* Atendeu 1100 alunos com mais de 11.500 horas de aula no PAC.
+  
+**Resultados Educacionais:**
+* Acompanhou a evolução de desempenho dos alunos, com uma média de 77% de melhoria nas notas ao longo do ano.
+* Empresas Parceiras: Parcerias com Omie, Itaú, e a comunidade local viabilizaram os novos espaços e expansão do impacto​.
+
+
 ''')
 
 if selected_page == "Dashboard Interativo":
@@ -102,304 +154,140 @@ if selected_page == "Dashboard Interativo":
 
     
 if selected_page == "Etapas do Desenvolvimento: Análise de Dados":
+
+    st.title("Etapas do Desenvolvimento:")
     
-    st.title("Etapas do Desenvolvimento: Análise de Dados")
-    
-    # Carregar os dados do CSV
-    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/df_clean_datathon.csv"
-    dados_clean = pd.read_csv(url_dados, sep=',')
-    
-    # Visualizar os dados
-    st.write("### Visualização dos Dados:")
-    st.dataframe(dados_clean.head(20))
-    
-        # Link para o notebook no GitHub
+    # 2. Link para o notebook no GitHub
     st.write("### Acesse o Notebook Completo:")
     notebook_url = "https://github.com/Tamireees/Datathon-Projeto-Passos-Magicos/blob/main/Datathon-Passos_Magicos.ipynb"
     st.markdown(f"[Clique aqui para acessar o notebook]({notebook_url})")
-    
-    st.title("📊 Análise de Dados")
 
-    # 1. Importação do Dataset
-    st.header("1️⃣ Carregando e Explorando os Dados")
-    st.write("Carregando o dataset diretamente do GitHub.")
-    data_url = 'https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/refs/heads/main/dados/PEDE_PASSOS_DATASET_FIAP.csv'
-    df = pd.read_csv(data_url, sep=';')
+    st.title("Análise de Dados - Passos Mágicos")  
 
-    # Exibindo as primeiras linhas do dataset
-    st.subheader("Primeiras linhas do dataset:")
-    st.dataframe(df.head())
+    # Carregar os dados do arquivo remoto
+    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/df_clean_datathon.csv"
+    df_inteiro_clean = pd.read_csv(url_dados)   
 
-    # Exibindo o formato do dataset
-    st.subheader("Dimensões do dataset:")
-    st.write(f"O dataset possui {df.shape[0]} linhas e {df.shape[1]} colunas.")
+    # ----------------------------------------------
+    # **SEÇÃO 1: Conhecendo os Dados**
+    # ----------------------------------------------
+    st.header("Conhecendo os Dados")    
 
-    # Exibindo as colunas do dataset
-    st.subheader("Colunas do dataset:")
-    st.write(list(df.columns))
+    # Exibir código e resultados lado a lado
+    with st.expander("Ver Código - Conhecendo os Dados"):
+        st.code("""
+    df_inteiro_clean.to_csv('df_clean_datathon.csv', index=False)
+    df_inteiro_clean.shape
+    df_inteiro_clean.info()
+    df_inteiro_clean['NOME'].duplicated().sum()
+    df_inteiro_clean.isnull().sum()
+        """, language="python") 
 
-    # 2. Funções Utilizadas
-    st.header("2️⃣ Funções para Manipulação de Dados")
+    st.subheader("Dimensão dos Dados")
+    st.write(f"Linhas e Colunas: {df_inteiro_clean.shape}") 
 
-    # Função para filtrar colunas
-    def filter_columns(df, filters: list):
-        """
-        Filtra colunas do dataframe que não possuem determinados padrões definidos no array `filters`.
-        """
-        selected_columns = [True] * len(df.columns)  # Inicializa todas as colunas como True
-        for index, column in enumerate(df.columns):
-            if any(filter in column for filter in filters): 
-                selected_columns[index] = False
-        return df[df.columns[selected_columns]]
+    st.subheader("Informações Gerais dos Dados")
+    buffer = st.empty()
+    buffer.write(df_inteiro_clean.info(verbose=True, memory_usage="deep", buf=buffer))
 
-    st.code("""
-    def filter_columns(df, filters: list):
-        selected_columns = [True] * len(df.columns)
-        for index, column in enumerate(df.columns):
-            if any(filter in column for filter in filters): 
-                selected_columns[index] = False
-        return df[df.columns[selected_columns]]
-    """, language="python")
+    st.subheader("Duplicatas em 'NOME'")
+    st.write(f"Duplicatas: {df_inteiro_clean['NOME'].duplicated().sum()}")
 
-    # Função para limpeza de dados
-    def cleaning_dataset(df):
-        """
-        Limpa o dataset, removendo linhas que tenham todos os valores nulos, exceto na coluna 'NOME'.
-        """
-        _df = df.dropna(subset=df.columns.difference(['NOME']), how='all')
-        _df = _df[~_df.isna().all(axis=1)]
-        return _df
+    st.subheader("Dados Faltantes")
+    st.write(df_inteiro_clean.isnull().sum())
 
-    st.code("""
-    def cleaning_dataset(df):
-        _df = df.dropna(subset=df.columns.difference(['NOME']), how='all')
-        _df = _df[~_df.isna().all(axis=1)]
-        return _df
-    """, language="python")
+    # ----------------------------------------------
+    # **SEÇÃO 2: Tratamento e Limpeza de Dados**
+    # ----------------------------------------------
+    st.header("Tratamento e Limpeza de Dados")
 
-    # Função para gerar gráfico de contagem
-    def plot_exact_counter(size, x, y, df):
-        """
-        Plota um gráfico de contagem com os valores exatos em cada barra.
-        """
-        plt.figure(figsize=size)
-        barplot = plt.bar(y.index, y.values)
-        plt.xlabel(x)
-        plt.ylabel('Count')
+    with st.expander("Ver Código - Tratamento e Limpeza"):
+        st.code("""
+    def classificar_aluno(row):
+        if row['ANO_INGRESSO_2022'] == 2022:
+            return 'Ingressou em 2022'
+        elif row['ANO_INGRESSO_2021'] == 2021 and row.isnull().sum() > 0:
+            return 'Possível desistência'
+        return 'Ativo'
 
-        for index, value in enumerate(y.values):
-            plt.text(index, value, round(value, 2), color='black', ha="center")
+    df_inteiro_clean['STATUS_ALUNO'] = df_inteiro_clean.apply(classificar_aluno, axis=1)
+    df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']] = df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']].applymap(lambda x: int(x) if pd.notna(x) else x)
+        """, language="python")
 
-    st.code("""
-    def plot_exact_counter(size, x, y, df):
-        plt.figure(figsize=size)
-        barplot = plt.bar(y.index, y.values)
-        plt.xlabel(x)
-        plt.ylabel('Count')
+    # Aplicando as transformações
+    def classificar_aluno(row):
+        if row['ANO_INGRESSO_2022'] == 2022:
+            return 'Ingressou em 2022'
+        elif row['ANO_INGRESSO_2021'] == 2021 and row.isnull().sum() > 0:
+            return 'Possível desistência'
+        return 'Ativo'
 
-        for index, value in enumerate(y.values):
-            plt.text(index, value, round(value, 2), color='black', ha="center")
-    """, language="python")
+    df_inteiro_clean['STATUS_ALUNO'] = df_inteiro_clean.apply(classificar_aluno, axis=1)
+    df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']] = df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']].applymap(
+        lambda x: int(x) if pd.notna(x) else x
+    )
 
-    # Função para analisar correlações
-    def analyse_corr(df):
-        """
-        Gera um mapa de correlação entre as variáveis numéricas.
-        """
-        df = df.apply(pd.to_numeric, errors='coerce')
-        corr_matrix = df.corr()
-        plt.figure(figsize=(10, 8))
-        sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', center=0)
-        plt.show()
+    # Mostrar os dados tratados
+    st.subheader("Dados Tratados")
+    st.write(df_inteiro_clean.head(20))
 
-    st.code("""
-    def analyse_corr(df):
-        df = df.apply(pd.to_numeric, errors='coerce')
-        corr_matrix = df.corr()
-        plt.figure(figsize=(10, 8))
-        sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', center=0)
-        plt.show()
-    """, language="python")
-
-    # 3. Aplicando Funções
-    st.header("3️⃣ Aplicando as Funções")
-
-    # Exemplo: Filtrar colunas
-    st.subheader("Filtrando colunas do dataset")
-    filters = ['2020', '2021']
-    filtered_df = filter_columns(df, filters)
-    st.write(f"Colunas após o filtro (removendo colunas com {filters}):")
-    st.dataframe(filtered_df)
-
-    # Exemplo: Limpeza do dataset
-    st.subheader("Limpando o dataset")
-    cleaned_df = cleaning_dataset(filtered_df)
-    st.write("Dataset após limpeza:")
-    st.dataframe(cleaned_df)
-
-    # Carregar os dados
-    st.title('Explorando os Dados do Ano 2020')
-
-    data_url = 'https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/refs/heads/main/dados/PEDE_PASSOS_DATASET_FIAP.csv'
-    df = pd.read_csv(data_url, sep=';')
-        # Limpeza e seleção dos dados
-
-    def cleaning_dataset(df):
-        return df.dropna().drop_duplicates()
-
-    def analyse_corr(df):
-        plt.figure(figsize=(12, 8))
-        sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
-        st.pyplot(plt)
-
-    st.dataframe(df.head())
-
-    # Filtro inicial do dataset
-    df_2020 = filter_columns(df, ['2021', '2022'])
-    df_2020 = cleaning_dataset(df_2020)
-
-    st.write("### Dataset 2020 - Após Filtro e Limpeza Inicial:")
-    st.dataframe(df_2020.head())
-
-    st.write(f"**Colunas no Dataset:** {df_2020.columns.tolist()}")
-    st.write(f"**Tamanho do Dataset:** {df_2020.shape}")
-
-    # Dados nulos e duplicados
-    st.write("### Dados Nulos e Duplicados")
-    st.write("**Dados Nulos:**")
-    st.write(df_2020.isnull().sum())
-    st.write("**Contagem de Valores em 'NOME':**")
-    st.write(df_2020['NOME'].value_counts())
-
-
-    # Tratamento dos Dados
-    st.write("### Tratamento e Limpeza dos Dados")
-
-    df_2020_clean = df_2020.copy()
-    df_2020_clean = df_2020_clean[df_2020_clean['PEDRA_2020'] != 'D9891/2A']
-
-    ano_map_2020 = {
-        2020: '0',
-        2019: '1',
-        2018: '2',
-        2017: '3',
-        2016: '4',
-        None: 'D971'
-    }
-
-    reverse_ano_map_2020 = {v: k for k, v in ano_map_2020.items()}
-    
-    df_2020_clean['ANOS_PM_2020'] = df_2020_clean['ANOS_PM_2020'].map(reverse_ano_map_2020)
-
-    df_2020_clean.rename(columns={'ANOS_PM_2020': 'ANO_INGRESSO_2020'}, inplace=True)
-    df_2020_clean['ANO_INGRESSO_2020'] = pd.to_datetime(df_2020_clean['ANO_INGRESSO_2020'], format='%Y', errors='coerce')
-    df_2020_clean['ANO_INGRESSO_2020'] = df_2020_clean['ANO_INGRESSO_2020'].dt.year
-
-    df_2020_clean['FASE_2020'] = df_2020_clean['FASE_TURMA_2020'].str.extract('(\\d+)')
-    df_2020_clean['TURMA_2020'] = df_2020_clean['FASE_TURMA_2020'].str.extract('([A-Za-z]+)')
-
-    df_2020_clean['PONTO_VIRADA_2020'] = df_2020_clean['PONTO_VIRADA_2020'].apply(lambda x: 1 if x == 'Sim' else 0)
-    df_2020_clean['INDE_2020'] = pd.to_numeric(df_2020_clean['INDE_2020'], errors='coerce')
-    df_2020_clean['PEDRA_2020'] = pd.Categorical(df_2020_clean['PEDRA_2020'])
-
-    destaque_cols = ['DESTAQUE_IPV_2020', 'DESTAQUE_IDA_2020', 'DESTAQUE_IEG_2020']
-    for col in destaque_cols:
-        df_2020_clean[col] = df_2020_clean[col].apply(lambda x: 1 if isinstance(x, str) and 'Seu destaque' in x else 0)
-
-    metric_cols = ['IAA_2020', 'IEG_2020', 'IPS_2020', 'IDA_2020', 'IPP_2020', 'IPV_2020', 'IAN_2020']
-    df_2020_clean[metric_cols] = df_2020_clean[metric_cols].apply(pd.to_numeric, errors='coerce')
-
-    df_2020_clean = df_2020_clean.drop(columns=['TURMA_2020', 'FASE_TURMA_2020', 'INSTITUICAO_ENSINO_ALUNO_2020', 'IDADE_ALUNO_2020', 'INDE_CONCEITO_2020'])
-
-    st.write("### Dataset Final Após Limpeza:")
-    st.dataframe(df_2020_clean.head())
-
-    st.write("### Estatísticas Descritivas do Dataset Limpo:")
-    st.write(df_2020_clean.describe())
-    
-    
-        # Limpeza e seleção dos dados
-    df_2020_clean = df_2020_clean[['NOME', 'ANO_INGRESSO_2020','FASE_2020', 'PEDRA_2020', 'IAN_2020', 'DESTAQUE_IDA_2020', 'IDA_2020', 'DESTAQUE_IEG_2020', 
-                        'IEG_2020', 'IAA_2020', 'IPS_2020', 'IPP_2020', 'DESTAQUE_IPV_2020', 'IPV_2020', 
-                        'INDE_2020', 'PONTO_VIRADA_2020']]
+    # ----------------------------------------------
+    # **SEÇÃO 3: Explorando os Dados**
+    # ----------------------------------------------
+    st.header("Explorando os Dados")
 
     # Variáveis qualitativas
-    qualitative_columns_2020 = [
-        'FASE_2020','PEDRA_2020','DESTAQUE_IDA_2020', 'DESTAQUE_IEG_2020', 
-        'DESTAQUE_IPV_2020', 'PONTO_VIRADA_2020']
+    categories = {
+        'FASE': ['FASE_2020', 'FASE_2021', 'FASE_2022'],
+        'PEDRA': ['PEDRA_2020', 'PEDRA_2021', 'PEDRA_2022'],
+        'PONTO_VIRADA': ['PONTO_VIRADA_2020', 'PONTO_VIRADA_2021', 'PONTO_VIRADA_2022'],
+        'STATUS_ALUNO': ['STATUS_ALUNO']
+    }
 
-    # Análise de Frequência
-    st.subheader("Análise de Frequência")
-    st.write("Porcentagem da quantidade de alunos em cada fase:")
-    st.write(df_2020_clean['FASE_2020'].value_counts(normalize=True)*100)
-    st.write("Porcentagem por classificação de pedra:")
-    st.write(df_2020_clean['PEDRA_2020'].value_counts(normalize=True)*100)
-    st.write("Destaque no Indicador de Aprendizagem (IDA):")
-    st.write(df_2020_clean['DESTAQUE_IDA_2020'].value_counts(normalize=True)*100)
-    st.write("Destaque no Indicador de Engajamento (IEG):")
-    st.write(df_2020_clean['DESTAQUE_IEG_2020'].value_counts(normalize=True)*100)
-    st.write("Destaque no Indicador de Ponto de Virada (IPV):")
-    st.write(df_2020_clean['DESTAQUE_IPV_2020'].value_counts(normalize=True)*100)
-    st.write("Ponto de Virada:")
-    st.write(df_2020_clean['PONTO_VIRADA_2020'].value_counts(normalize=True)*100)
+    # Análise de Frequências
+    st.subheader("Distribuição de Frequências - Variáveis Qualitativas")
+    for category, cols in categories.items():
+        st.write(f"**{category}:**")
+        st.write(df_inteiro_clean[cols].apply(pd.Series.value_counts))
 
-    # Visualizações
-    st.subheader("Visualizações")
-    for column in qualitative_columns_2020:
-        fig, ax = plt.subplots(figsize=(4, 2))
-        sns.countplot(x=column, data=df_2020_clean, palette=['#F79651', '#2A6DA6', '#A2CFE6'])
-        plt.title(f'Contagem de {column}')
-        st.pyplot(fig)
+    # Gráficos de Distribuição
+    st.subheader("Gráficos de Distribuição - Variáveis Qualitativas")
+    for col_group in categories.values():
+        if all(col in df_inteiro_clean.columns for col in col_group):
+            melted_data = pd.melt(
+                df_inteiro_clean[col_group].reset_index(),
+                id_vars=['index'],
+                var_name='Ano',
+                value_name=col_group[0]
+            )
+            plt.figure(figsize=(8, 5))
+            sns.countplot(
+                data=melted_data,
+                x=col_group[0],
+                hue='Ano',
+                palette=['#F79651', '#2A6DA6', '#A2CFE6']
+            )
+            plt.title(f"Distribuição de Frequências - {col_group[0]}")
+            st.pyplot(plt)
 
-    # Comparação entre Variáveis Quantitativas e Categóricas
-    st.subheader("Boxplot da FASE_2020 por INDE_2020")
-    fig, ax = plt.subplots(figsize=(4, 2))
-    sns.boxplot(x='FASE_2020', y='INDE_2020', data=df_2020_clean, palette=['#F79651', '#2A6DA6', '#A2CFE6'])
-    plt.title('Boxplot da FASE_2020 por INDE_2020')
-    st.pyplot(fig)
+    # Continue construindo as outras seções: Proporções, Quantitativas, Outliers, Correlação, Temporal...
 
-    # Análise Temporal
-    st.subheader("Análise Temporal")
-    quantitative_columns_2020 = ['IAN_2020', 'IDA_2020', 'IEG_2020', 'IAA_2020', 'IPS_2020', 'IPP_2020', 'IPV_2020', 'INDE_2020']
-    for column in quantitative_columns_2020:
-        fig, ax = plt.subplots(figsize=(4, 2))
-        df_2020_clean.groupby('ANO_INGRESSO_2020')[column].mean().plot(kind='line', marker='o', color= '#2A6DA6')
-        plt.title(f'Evolução de {column} ao longo dos anos', fontsize=10)
-        plt.xlabel('Ano de Ingresso', fontsize=9)
-        plt.ylabel(column, fontsize=9)
-        plt.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.7)
-        st.pyplot(fig)
+    # ----------------------------------------------
+    # **SEÇÃO 4: Visualização de Densidade**
+    # ----------------------------------------------
+    st.header("Visualização de Densidade - Variáveis Quantitativas")
 
-    # Análise de Variabilidade
-    st.subheader("Análise de Variabilidade")
-    st.write(df_2020_clean[quantitative_columns_2020].std())
+    quantitative_columns = [
+        'IAN_2020', 'IDA_2020', 'IEG_2020', 'IAA_2020',
+        'IPS_2020', 'IPP_2020', 'IPV_2020', 'INDE_2020'
+    ]
 
-    # Visualização de Densidade
-    st.subheader("Visualização de Densidade")
-    for column in quantitative_columns_2020:
-        fig, ax = plt.subplots(figsize=(4, 2))
-        df_2020_clean[column].plot(kind='density', color='#F79651', linewidth=2)
-        mean_value = df_2020_clean[column].mean()
-        plt.axvline(mean_value, color='red', linestyle='--', linewidth=1, label=f'Média: {mean_value:.2f}')
-        lower_bound = df_2020_clean[column].quantile(0.01)
-        upper_bound = df_2020_clean[column].quantile(0.99)
-        plt.xlim(lower_bound, upper_bound)
-        plt.title(f'Densidade de {column}', fontsize=10)
-        plt.xlabel(column, fontsize=9)
-        plt.legend(fontsize=9)
-        st.pyplot(fig)
-
-
-
-
-
-
-
-
-
-
-
-
+    for col_base in ['IAN', 'IDA', 'IEG', 'IAA', 'IPS', 'IPP', 'IPV', 'INDE']:
+        cols = [f"{col_base}_{year}" for year in [2020, 2021, 2022]]
+        plt.figure(figsize=(8, 5))
+        sns.kdeplot(data=df_inteiro_clean[cols], fill=True)
+        plt.title(f'Densidade - {col_base}')
+        st.pyplot(plt)
 
 
 
