@@ -159,14 +159,14 @@ if selected_page == "Etapas do Desenvolvimento: Análise de Dados":
     
     # 2. Link para o notebook no GitHub
     st.write("### Acesse o Notebook Completo:")
-    notebook_url = "https://github.com/Tamireees/Datathon-Projeto-Passos-Magicos/blob/main/Datathon-Passos_Magicos.ipynb"
+    notebook_url = "https://github.com/Tamireees/Datathon-Projeto-Passos-Magicos/blob/main/notebook/Passos_Magicos_dataset.ipynb"
     st.markdown(f"[Clique aqui para acessar o notebook]({notebook_url})")
 
     st.title("Análise de Dados - Passos Mágicos")  
 
     # Carregar os dados do arquivo remoto
-    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/df_clean_datathon.csv"
-    df_inteiro_clean = pd.read_csv(url_dados)   
+    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/refs/heads/main/dados/df_clean.csv"
+    df_clean = pd.read_csv(url_dados)   
 
     # ----------------------------------------------
     # **SEÇÃO 1: Conhecendo os Dados**
@@ -176,119 +176,140 @@ if selected_page == "Etapas do Desenvolvimento: Análise de Dados":
     # Exibir código e resultados lado a lado
     with st.expander("Ver Código - Conhecendo os Dados"):
         st.code("""
-    df_inteiro_clean.to_csv('df_clean_datathon.csv', index=False)
-    df_inteiro_clean.shape
-    df_inteiro_clean.info()
-    df_inteiro_clean['NOME'].duplicated().sum()
-    df_inteiro_clean.isnull().sum()
+    df_inteiro_clean.to_csv('df_clean.csv', index=False)
+    df_clean.shape
+    df_clean.info()
+    df_clean['NOME'].duplicated().sum()
+    df_clean.isnull().sum()
         """, language="python") 
 
     st.subheader("Dimensão dos Dados")
-    st.write(f"Linhas e Colunas: {df_inteiro_clean.shape}") 
+    st.write(f"Linhas e Colunas: {df_clean.shape}") 
 
     st.subheader("Informações Gerais dos Dados")
     buffer = st.empty()
-    buffer.write(df_inteiro_clean.info(verbose=True, memory_usage="deep", buf=buffer))
+    buffer.write(df_clean.info(verbose=True, memory_usage="deep", buf=buffer))
 
     st.subheader("Duplicatas em 'NOME'")
-    st.write(f"Duplicatas: {df_inteiro_clean['NOME'].duplicated().sum()}")
+    st.write(f"Duplicatas: {df_clean['NOME'].duplicated().sum()}")
 
     st.subheader("Dados Faltantes")
-    st.write(df_inteiro_clean.isnull().sum())
+    st.write(df_clean.isnull().sum())
 
-    # ----------------------------------------------
-    # **SEÇÃO 2: Tratamento e Limpeza de Dados**
-    # ----------------------------------------------
-    st.header("Tratamento e Limpeza de Dados")
+    # Função para exibir o gráfico de barras
+    def plot_bar_chart(data, title, xlabel, ylabel, figsize=(10, 6)):
+        plt.figure(figsize=figsize)
+        sns.barplot(x=data.index, y=data.values, palette=custom_palette)
+        plt.title(title, fontsize=12)
+        plt.xlabel(xlabel, fontsize=10)
+        plt.ylabel(ylabel, fontsize=10)
+        plt.xticks(rotation=45, fontsize=9)
+        plt.tight_layout()
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+        st.pyplot()
 
-    with st.expander("Ver Código - Tratamento e Limpeza"):
-        st.code("""
-    def classificar_aluno(row):
-        if row['ANO_INGRESSO_2022'] == 2022:
-            return 'Ingressou em 2022'
-        elif row['ANO_INGRESSO_2021'] == 2021 and row.isnull().sum() > 0:
-            return 'Possível desistência'
-        return 'Ativo'
+    # Função para exibir o gráfico de distribuição
+    def plot_histogram(data, title, xlabel, ylabel, figsize=(10, 6), bins=10):
+        plt.figure(figsize=figsize)
+        sns.histplot(data, kde=True, palette=custom_palette, bins=bins)
+        plt.title(title, fontsize=12)
+        plt.xlabel(xlabel, fontsize=10)
+        plt.ylabel(ylabel, fontsize=10)
+        plt.tight_layout()
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+        st.pyplot()
 
-    df_inteiro_clean['STATUS_ALUNO'] = df_inteiro_clean.apply(classificar_aluno, axis=1)
-    df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']] = df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']].applymap(lambda x: int(x) if pd.notna(x) else x)
-        """, language="python")
+    custom_palette = ['#F79651', '#2A6DA6', '#A2CFE6']
 
-    # Aplicando as transformações
-    def classificar_aluno(row):
-        if row['ANO_INGRESSO_2022'] == 2022:
-            return 'Ingressou em 2022'
-        elif row['ANO_INGRESSO_2021'] == 2021 and row.isnull().sum() > 0:
-            return 'Possível desistência'
-        return 'Ativo'
+    st.title("Análise de Desempenho de Alunos")
 
-    df_inteiro_clean['STATUS_ALUNO'] = df_inteiro_clean.apply(classificar_aluno, axis=1)
-    df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']] = df_inteiro_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']].applymap(
-        lambda x: int(x) if pd.notna(x) else x
-    )
+    # 1. Saber em qual fase o aluno parou (Data de Entrada e Saída)
+    st.header("Distribuição das Fases em que os Alunos Pararam")
+    df_clean['FASE_PARADA'] = df_clean[['FASE_2020', 'FASE_2021', 'FASE_2022']].bfill(axis=1).iloc[:, -1]
+    fase_counts = df_clean['FASE_PARADA'].value_counts()
+    plot_bar_chart(fase_counts, "Distribuição das Fases em que os Alunos Pararam", "Fase", "Número de Alunos")
 
-    # Mostrar os dados tratados
-    st.subheader("Dados Tratados")
-    st.write(df_inteiro_clean.head(20))
-
-    # ----------------------------------------------
-    # **SEÇÃO 3: Explorando os Dados**
-    # ----------------------------------------------
-    st.header("Explorando os Dados")
-
-    # Variáveis qualitativas
-    categories = {
-        'FASE': ['FASE_2020', 'FASE_2021', 'FASE_2022'],
-        'PEDRA': ['PEDRA_2020', 'PEDRA_2021', 'PEDRA_2022'],
-        'PONTO_VIRADA': ['PONTO_VIRADA_2020', 'PONTO_VIRADA_2021', 'PONTO_VIRADA_2022'],
-        'STATUS_ALUNO': ['STATUS_ALUNO']
-    }
-
-    # Análise de Frequências
-    st.subheader("Distribuição de Frequências - Variáveis Qualitativas")
-    for category, cols in categories.items():
-        st.write(f"**{category}:**")
-        st.write(df_inteiro_clean[cols].apply(pd.Series.value_counts))
-
-    # Gráficos de Distribuição
-    st.subheader("Gráficos de Distribuição - Variáveis Qualitativas")
-    for col_group in categories.values():
-        if all(col in df_inteiro_clean.columns for col in col_group):
-            melted_data = pd.melt(
-                df_inteiro_clean[col_group].reset_index(),
-                id_vars=['index'],
-                var_name='Ano',
-                value_name=col_group[0]
-            )
-            plt.figure(figsize=(8, 5))
-            sns.countplot(
-                data=melted_data,
-                x=col_group[0],
-                hue='Ano',
-                palette=['#F79651', '#2A6DA6', '#A2CFE6']
-            )
-            plt.title(f"Distribuição de Frequências - {col_group[0]}")
-            st.pyplot(plt)
-
-    # Continue construindo as outras seções: Proporções, Quantitativas, Outliers, Correlação, Temporal...
-
-    # ----------------------------------------------
-    # **SEÇÃO 4: Visualização de Densidade**
-    # ----------------------------------------------
-    st.header("Visualização de Densidade - Variáveis Quantitativas")
-
-    quantitative_columns = [
-        'IAN_2020', 'IDA_2020', 'IEG_2020', 'IAA_2020',
-        'IPS_2020', 'IPP_2020', 'IPV_2020', 'INDE_2020'
+    # 2. Justificativa de desistência
+    st.header("Distribuição dos Motivos de Desistência")
+    colunas_abordadas = [
+        'IAN_2020', 'IAN_2021', 'IAN_2022', 'IDA_2020', 'IDA_2021', 'IDA_2022',
+        'IEG_2020', 'IEG_2021', 'IEG_2022', 'IAA_2020', 'IAA_2021', 'IAA_2022',
+        'IPS_2020', 'IPS_2021', 'IPS_2022', 'IPP_2020', 'IPP_2021', 'IPP_2022',
+        'IPV_2020', 'IPV_2021', 'IPV_2022'
     ]
+    df_desistencia = df_clean[df_clean['STATUS_ALUNO'] == 'Possível desistência'][colunas_abordadas]
+    df_desistencia['MOTIVO_DESISTENCIA'] = df_desistencia.idxmin(axis=1)
+    traducao_motivos = {
+        'IAN': 'Indicador Acadêmico',
+        'IDA': 'Indicador de Desempenho Acadêmico',
+        'IEG': 'Indicador de Engajamento',
+        'IAA': 'Indicador de Avaliação Acadêmica',
+        'IPS': 'Indicador Psicossocial',
+        'IPP': 'Indicador de Planejamento Pessoal',
+        'IPV': 'Indicador de Visão'
+    }
+    df_desistencia['MOTIVO_DESISTENCIA'] = df_desistencia['MOTIVO_DESISTENCIA'].str.extract(r'(\w+)_\d+')
+    df_desistencia['MOTIVO_DESISTENCIA'] = df_desistencia['MOTIVO_DESISTENCIA'].map(traducao_motivos)
+    motivos_counts = df_desistencia['MOTIVO_DESISTENCIA'].value_counts()
+    plot_bar_chart(motivos_counts, "Distribuição dos Motivos de Desistência - Possíveis Desistentes", "Motivos", "Número de Alunos")
 
-    for col_base in ['IAN', 'IDA', 'IEG', 'IAA', 'IPS', 'IPP', 'IPV', 'INDE']:
-        cols = [f"{col_base}_{year}" for year in [2020, 2021, 2022]]
-        plt.figure(figsize=(8, 5))
-        sns.kdeplot(data=df_inteiro_clean[cols], fill=True)
-        plt.title(f'Densidade - {col_base}')
-        st.pyplot(plt)
+    # 3. Tempo de Permanência para alunos com "Possível desistência"
+    st.header("Distribuição do Tempo de Permanência - Possíveis Desistentes")
+    df_desistencia['TEMPO_PERMANENCIA'] = df_desistencia['ANO_SAIDA'] - df_desistencia['ANO_INGRESSO']
+    plot_histogram(df_desistencia['TEMPO_PERMANENCIA'], "Distribuição do Tempo de Permanência - Possíveis Desistentes", "Tempo de Permanência (anos)", "Número de Alunos")
 
+    # 4. Justificativa de Permanência
+    st.header("Distribuição de Índices - Justificativa de Permanência")
+    df_permanencia = df_clean[df_clean['STATUS_ALUNO'] == 'Ativo'][colunas_abordadas]
+    df_permanencia['MOTIVO_PERMANENCIA'] = df_permanencia.idxmin(axis=1).str.extract(r'(\w+)_\d+')
+    df_permanencia['MOTIVO_PERMANENCIA'] = df_permanencia['MOTIVO_PERMANENCIA'].map(traducao_motivos)
+    motivos_counts = df_permanencia['MOTIVO_PERMANENCIA'].value_counts()
+    plot_bar_chart(motivos_counts, "Distribuição de Índices - Justificativa de Permanência", "Motivos", "Número de Alunos")
+
+    # 5. Tempo de permanência dos alunos na fase 7
+    st.header("Distribuição dos Anos de Permanência dos Alunos na Fase 7")
+    df_fase7 = df_clean[df_clean['FASE_PARADA'] == 7]
+    df_fase7['ANO_PERMANENCIA'] = df_fase7[['ANO_INGRESSO_2020', 'ANO_INGRESSO_2021', 'ANO_INGRESSO_2022']].bfill(axis=1).iloc[:, -1]
+    df_fase7['PERMANENCIA_ANOS'] = 2022 - df_fase7['ANO_PERMANENCIA']
+    plot_histogram(df_fase7['PERMANENCIA_ANOS'], "Distribuição dos Anos de Permanência dos Alunos na Fase 7", "Anos de Permanência", "Número de Alunos")
+
+    # 6. Comparação entre alunos indo bem e não indo bem
+    st.header("Comparação de Desempenho entre Alunos Indo Bem e Não Indo Bem")
+    df_ativos = df_clean[df_clean['STATUS_ALUNO'] == 'Ativo']
+    indices = ['IAN_2020', 'IAN_2021', 'IAN_2022', 'IDA_2020', 'IDA_2021', 'IDA_2022', 
+               'IEG_2020', 'IEG_2021', 'IEG_2022', 'IAA_2020', 'IAA_2021', 'IAA_2022',
+               'IPS_2020', 'IPS_2021', 'IPS_2022', 'IPP_2020', 'IPP_2021', 'IPP_2022', 
+               'IPV_2020', 'IPV_2021', 'IPV_2022']
+    df_ativos['MEDIA_INDICES'] = df_ativos[indices].mean(axis=1)
+    media_global = df_ativos[indices].stack().mean()
+    limite_bem = media_global
+    df_ativos['STATUS_DESEMPENHO'] = ['Indo Bem' if x > limite_bem else 'Não Indo Bem' for x in df_ativos['MEDIA_INDICES']]
+    df_comparacao = df_ativos.groupby('STATUS_DESEMPENHO')[indices].mean()
+
+    # Comparações entre os grupos
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(data=df_ativos, x='STATUS_DESEMPENHO', y='MEDIA_INDICES', palette=['#A2CFE6', '#F79651'])
+    plt.title('Distribuição dos Índices de Desempenho entre Alunos Indo Bem e Não Indo Bem', fontsize=12)
+    plt.xlabel('Status de Desempenho', fontsize=10)
+    plt.ylabel('Média dos Índices', fontsize=10)
+    plt.axhline(y=media_global, color='red', linestyle='--', label=f'Média Global: {media_global:.2f}')
+    plt.legend()
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.tight_layout()
+    st.pyplot()
+
+    # Comparações entre indicadores
+    df_comparacao.T.plot(kind='bar', figsize=(14, 7), color=['#A2CFE6', '#F79651'])
+    plt.title('Comparação de Médias dos Indicadores entre Alunos Indo Bem e Não Indo Bem', fontsize=12)
+    plt.ylabel('Média dos Indicadores', fontsize=10)
+    plt.xlabel('Indicadores', fontsize=10)
+    plt.xticks(rotation=45, ha='right')
+    plt.axhline(y=media_global, color='red', linestyle='--', label=f'Média Global: {media_global:.2f}')
+    plt.legend()
+    plt.tight_layout()
+    st.pyplot()
+
+    st.write(f"Média global dos índices: {media_global:.2f}")
 
 
 
