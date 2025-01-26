@@ -56,11 +56,10 @@ Os participantes podem optar por entregar apenas uma proposta ou ambas. A entreg
     
     
 
-    col1, col2 = st.columns([1, 3])  # Define duas colunas, a primeira menor para o logo e a segunda maior para o texto
+    col1, col2 = st.columns([1, 3])  
 
     with col1:
-        st.image("logo.png", width=300)  # Insere o logotipo na primeira coluna
-
+        st.image("logo.png", width=300) 
     with col2:
         st.title("Conhecendo o Projeto Passos Mágicos") 
      
@@ -271,6 +270,7 @@ As análises revelaram padrões importantes no progresso e nos desafios enfrenta
 * A maioria dos alunos progride bem ao longo dos anos, mas as fases iniciais apresentam maior índice de desistência.
 * A pandemia impactou negativamente o engajamento, o desempenho psicossocial e o psicopedagógico em 2021.
 * Indicadores como IEG e INDE são cruciais para monitorar o desenvolvimento acadêmico.
+
 ''')
         
     with st.expander("## **Especulação de Melhorias para a ONG**"):
@@ -297,7 +297,7 @@ na formação educacional e social dos beneficiários.
 ''')
         
     # Carregar os dados do arquivo remoto
-    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/refs/heads/main/df_clean.csv"
+    url_dados = "https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/refs/heads/main/dados/df_clean.csv"
     df_clean = pd.read_csv(url_dados)   
 
 
