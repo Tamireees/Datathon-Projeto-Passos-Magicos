@@ -144,12 +144,40 @@ A metodologia da Passos Mágicos é baseada em quatro pilares principais:
 
 if selected_page == "Dashboard Interativo":
     
-    st.title("Dashboard Interativo")   
-    
-     
+    st.title("Dashboard Interativo")
 
+    pbi_url = r'https://app.powerbi.com/view?r=eyJrIjoiZTNmNDg3OWMtYmEwNy00YWVjLWJkZDItYmZkYTZlNTY0ZWU1IiwidCI6ImRlOTgwY2Y4LWYwYzctNGFlZC1iNjc2LTJlOTlkNjg2YzAzMyJ9 '
 
+    st.components.v1.html(f'<iframe width="100%" height="600" src="{pbi_url}" frameborder="0" allowFullScreen="true"></iframe>', height=600)
     
+    st.markdown(
+        '''
+        **Apresentação do Dashboard Interativo**
+
+        Foco em Gênero, Idade e Classificações por Pedras
+
+        **Introdução**
+
+        Nossa apresentação do Dashboard Interativo tem como objetivo principal fornecer uma análise detalhada dos dados relacionados a gênero, idade e classificações por pedras. Este dashboard foi desenvolvido para oferecer uma visualização clara e intuitiva, permitindo aos usuários interagir e explorar os dados de forma eficiente.
+
+        **Análise por Gênero**
+
+        O dashboard apresenta uma segmentação detalhada dos dados por gênero, permitindo a identificação de padrões e tendências específicas entre diferentes grupos. Com isso, podemos entender melhor as dinâmicas de gênero e como elas influenciam outros fatores no contexto analisado.
+
+        **Análise por Idade**
+
+        A análise por faixa etária é outro aspecto crucial do nosso dashboard. As visualizações são projetadas para destacar as diferenças e semelhanças entre diferentes grupos de idade, facilitando a identificação de tendências demográficas importantes que podem impactar as decisões estratégicas.
+
+        **Análise por Classificações de Pedras**
+
+        Por fim, o dashboard inclui uma seção dedicada às classificações por pedras. Esta análise permite uma compreensão aprofundada das preferências e classificações associadas a diferentes tipos de pedras, proporcionando insights valiosos para diversas aplicações, como marketing, vendas e atendimento ao cliente.
+
+        **Conclusão**
+
+        Em resumo, nosso Dashboard Interativo oferece uma ferramenta poderosa para a análise de dados, focando em gênero, idade e classificações por pedras. Esperamos que esta apresentação demonstre a eficácia do dashboard em fornecer insights acionáveis e apoiar tomadas de decisão informadas.
+        '''
+    )
+
 if selected_page == "Etapas do Desenvolvimento: Análise de Dados":
 
     st.title("Etapas do Desenvolvimento:")
