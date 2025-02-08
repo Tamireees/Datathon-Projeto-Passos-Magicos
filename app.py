@@ -24,7 +24,12 @@ pages = {
     }
 
 # Barra de navegação
-selected_page = st.sidebar.radio("Selecione a Página", list(pages.keys()))
+st.sidebar.markdown(
+    "<h3 style='font-size:22px;'>Selecione uma Página:</h3>", 
+    unsafe_allow_html=True
+)
+
+selected_page = st.sidebar.radio("", list(pages.keys()))
 
 if selected_page == "Apresentação: Projeto e Passos Mágicos":
     
@@ -565,8 +570,610 @@ dtypes: category(3), float64(35), object(2)
 
     
 if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
-    
+
     st.title("Etapas do Desenvolvimento: Modelo Preditivo")
+
+    st.write("## Acesse o Notebook Completo:")
+    notebook_url = "https://github.com/Tamireees/Datathon-Projeto-Passos-Magicos/blob/main/notebook/Datathon-Passos_Magicos.ipynb"
+    st.markdown(f"[Clique aqui para acessar o notebook]({notebook_url})")
+    
+    st.markdown(
+            '''
+            **Introdução**
+
+            Foram utilizados três datasets neste projeto: df_2020_clean.csv, df_2021_clean.csv e df_2022_clean.csv. 
+            Identificamos que seria benéfico dividir os dados por ano, pois essa abordagem nos permitiria obter uma visualização mais clara e detalhada das informações. Além disso, essa divisão facilita uma análise mais precisa ao observar as variações e tendências ao longo de diferentes períodos. Para dividir os dataframes, realizar a limpeza dos dados, gerar o mapa de correlação e criar o gráfico de contagem, seguimos uma metodologia estruturada que garantiu a integridade e a clareza dos resultados obtidos.
+            ''')
+    
+    with st.expander('Criando Funções'):
+        st.markdown(
+            '''
+            A função filter_columns foi utilizada para filtrar colunas de um DataFrame com base em padrões específicos. Ela recebeu um DataFrame (df) e uma lista de padrões (filters). A função verifica se os nomes das colunas contêm algum dos padrões especificados na lista de filtros. Se uma coluna contiver um dos padrões, ela será excluída do DataFrame final. Essa função foi útil para remover colunas indesejadas de forma eficiente
+            ''')
+        
+        st.image(r'midias\imagem01.png')
+
+        st.markdown(
+            '''
+            A função cleaning_dataset foi utilizada para limpar o DataFrame removendo linhas com valores ausentes (NaN). Nela executamos duas operações principais:
+            Removemos a linhas onde todas as colunas, exceto a coluna 'NOME', contêm valores NaN.
+            Removemos linhas que contêm apenas valores NaN. Com isso, garantimos que o DataFrame resultante não tivesse linhas completamente vazias, melhorando a qualidade dos dados para análise.
+            ''')
+        
+        st.image(r'midias\imagem02.png')
+
+    with st.expander('Limpeza dos dados 2020'):
+
+        st.markdown(
+            '''
+            Neste trecho de código, realizamos a transformação dos dados de ingresso dos alunos para o ano de 2020. As etapas foram as seguintes:
+
+            -   Mapeamento de Anos: Criamos um dicionário (ano_map_2020) para mapear os anos de ingresso dos alunos. Em seguida, criamos um dicionário reverso (reverse_ano_map_2020) para facilitar a substituição dos valores mapeados.
+            -   Substituição de Valores: Utilizamos o dicionário reverso para substituir os valores na coluna ANOS_PM_2020 do DataFrame df_2020_clean.
+            -	Renomeação de Coluna: Renomeamos a coluna ANOS_PM_2020 para ANO_INGRESSO_2020 para refletir a transformação realizada.
+            - 	Conversão para Datetime: Convertimos a coluna ANO_INGRESSO_2020 para o formato datetime e extraímos apenas o ano.
+
+            '''
+        )
+
+        st.image(r'midias\imagem03.png')
+
+        st.markdown(
+            '''
+            Neste trecho de código, realizamos a separação da parte numérica e alfabética da coluna FASE_TURMA_2020 do DataFrame df_2020_clean. As etapas foram as seguintes:
+
+            - 	Captura dos Números: Utilizamos a função str.extract para capturar a parte numérica da coluna FASE_TURMA_2020 e armazená-la em uma nova coluna chamada FASE_2020.
+            - 	Captura das Letras: Utilizamos a função str.extract para capturar a parte alfabética da coluna FASE_TURMA_2020 e armazená-la em uma nova coluna chamada TURMA_2020
+        Convertemos a coluna PONTO_VIRADA_2020 em valores binários (0 e 1), onde 'Sim' é mapeado para 1 e qualquer outro valor é mapeado para 0.
+        Convertemos a coluna INDE_2020 para valores numéricos, utilizando pd.to_numeric com a opção errors='coerce' para tratar valores inválidos.
+        Convertemos a coluna PEDRA_2020 para uma categoria utilizando pd.Categorical.
+
+        Verificamos os valores únicos na coluna INDE_CONCEITO_2020 para entender melhor os dados presentes nessa coluna.
+            ''')
+        
+        st.image(r'midias\imagem04.png')
+
+        st.markdown(
+            '''
+        Aqui, verificamos se cada valor na coluna 'DESTAQUE_IPV_2020' é uma string e contém a frase 'Seu destaque em 2020:'. Se sim, marcamos com 1; se não, marcamos com 0. Basicamente, estamos identificando quem recebeu destaque em 2020.
+
+        Convertemos as colunas IAA_2020, IEG_2020, IPS_2020, IDA_2020, IPP_2020, IPV_2020 e IAN_2020 para valores numéricos, utilizando a função pd.to_numeric e definindo errors='coerce' para tratar erros.
+
+        Removemos as colunas TURMA_2020, FASE_TURMA_2020, INSTITUICAO_ENSINO_ALUNO_2020, IDADE_ALUNO_2020 e INDE_CONCEITO_2020 do DataFrame df_2020_clean.
+        Aplicamos essa mesma transformação para os datasets de 2021 e 2022.
+        '''
+        )
+
+        st.image(r'midias\imagem05.png')
+
+    with st.expander('Limpeza dos dados 2021 e 2022'):
+
+        st.markdown(
+            '''
+            Realizamos várias operações de limpeza e transformação no DataFrame df_2021_clean. Primeiro, verificamos a contagem de valores na coluna SINALIZADOR_INGRESSANTE_2021 e a quantidade de valores nulos. Em seguida, aplicamos uma função lambda para definir o valor como 2021 se a string contiver 'Ingressante', caso contrário, definimos como 'Veterano'.
+
+            Depois, criamos um DataFrame df_ano_veterano com os alunos veteranos e o mesclamos com os dados de 2020 para obter o ano de ingresso. Atualizamos a coluna ANO_INGRESSO_2020 para os ingressantes de 2021 que não tinham essa informação. Removemos alunos específicos e colunas desnecessárias, renomeamos a coluna ANO_INGRESSO_2020 para ANO_INGRESSO_2021, e convertimos essa coluna para o formato de ano. Por fim, identificamos que há 12 alunos sem data de entrada.
+            ''')
+        
+        st.image(r'midias\imagem06.png')
+
+        st.markdown(
+            '''
+            Nós realizamos várias transformações no DataFrame df_2021_clean. Primeiro, transformamos a coluna PONTO_VIRADA_2021 em valores binários (0 e 1), onde 'Sim' é convertido para 1 e qualquer outro valor para 0. Em seguida, convertimos a coluna INDE_2021 para valores numéricos, tratando erros com errors='coerce'. Também transformamos as colunas NIVEL_IDEAL_2021 e PEDRA_2021 em categorias.
+
+            Para unificar as colunas de recomendações (REC_EQUIPE_1_2021, REC_EQUIPE_2_2021, REC_EQUIPE_3_2021, REC_EQUIPE_4_2021), criamos uma nova coluna REC_AVA_UNIFICADO, que contém a recomendação mais frequente de cada linha. Removemos as colunas originais de recomendações após a unificação.
+
+            Corrigimos a sintaxe do dicionário fase_map_2021 e criamos um dicionário reverso para mapear os textos de NIVEL_IDEAL_2021 para números correspondentes. Finalmente, substituímos os textos em NIVEL_IDEAL_2021 pela numeração correspondente.
+            ''')
+        
+        st.image(r'midias\imagem07.png')
+
+        st.markdown('OBS: Fizemos o mesmo tratamento para a base de 2022.')
+
+    with st.expander('Unindo os DataFrames'):
+
+        st.markdown(
+            '''
+            Realizamos a fusão dos DataFrames df_2020_clean, df_2021_clean e df_2022_clean utilizando a coluna NOME como chave, com a opção how='outer' para incluir todos os registros de cada DataFrame. Em seguida, selecionamos as colunas de interesse para o DataFrame final df_clean, que inclui informações sobre fases, pedras, pontos de virada, anos de ingresso e várias outras métricas para os anos de 2020, 2021 e 2022.
+            ''')
+        
+        st.image(r'midias\imagem08.png')
+
+    with st.expander('Tratando Dados Nulos'):
+
+        st.markdown(
+            '''
+            A coluna NOME tem 1348 entradas não nulas e é do tipo object (string).
+            A coluna FASE_2020 tem 727 entradas não nulas e é do tipo object.
+            A coluna PEDRA_2020 tem 727 entradas não nulas e é do tipo category.
+            '''
+        )
+
+        st.image(r'midias\imagem09.png')
+
+        
+        st.markdown(
+            '''
+            Nós verificamos se há valores duplicados na coluna NOME do DataFrame df_clean e confirmamos que não há duplicatas (np.int64(0)). Em seguida, contamos o número de valores nulos em cada coluna do DataFrame. A observação final sugere que os valores nulos podem indicar alunos que desistiram de participar do projeto.
+            '''
+        )
+
+        st.image(r'midias\imagem10.png')
+
+    with st.expander('Explorando os Dados'):
+        st.markdown(
+            '''
+            Definimos uma lista de colunas qualitativas qualitative_columns_total e um dicionário categories que agrupa essas colunas em categorias (FASE, PEDRA, PONTO_VIRADA, STATUS_ALUNO). Em seguida, realizamos uma análise de frequência para cada categoria, calculando a distribuição de frequências normalizadas (em porcentagem) para cada coluna dentro das categorias. 
+            ''')
+        
+        st.image(r'midias\imagem11.png')
+
+        st.markdown(
+            '''
+            **Distribuição de Frequências para FASE**
+
+            Aumento na fase inicial (0): A porcentagem de indivíduos na fase inicial cresceu de 11.28% em 2020 para 22.04% em 2022, indicando um influxo significativo de novos participantes nos últimos anos.
+
+            Redistribuição em fases intermediárias: As fases intermediárias (1 a 5) mostram estabilidade relativa, com variações moderadas. No entanto, a fase 2 diminuiu de 23.68% em 2021 para 17.98% em 2022, sugerindo uma possível dificuldade em avançar a partir dessa etapa.
+
+            Redução em fases avançadas (6 e superiores): Observa-se uma tendência decrescente nas fases finais. A fase 8 praticamente desaparece em 2021 e 2022, o que pode indicar que estes alunos ingressaram nos cursos superiores.
+
+            A alta concentração inicial em 2022 e a redução nas fases avançadas apontam para uma necessidade de estratégias para aumentar a progressão e retenção em níveis mais elevados.
+            ''')
+        
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.image(r'midias\imagem12.png')
+        with col2:
+            st.image(r'midias\imagem13.png')
+
+        st.markdown(
+            '''
+            **Distribuição de Frequências para PONTO_VIRADA**
+
+            Predominância do valor 0 (não atingiram o ponto de virada): A maior parte dos indivíduos não conseguiu avançar para os próximos passos, com a porcentagem de participantes que não atingiram o ponto de virada variando de 87.07% em 2020 para 86.89% em 2022.
+            Leve aumento do valor 1 (atingiram o ponto de virada) em 2021: A porcentagem de indivíduos que conseguiram avançar para os próximos passos aumentou ligeiramente em 2021, alcançando 15.79%. Esse aumento pode ser reflexo de mudanças no ambiente ou na dinâmica dos participantes, como impactos externos, incluindo a pandemia de COVID-19.
+            Embora a maioria dos indivíduos não tenha avançado para os próximos passos, o aumento observado em 2021 sugere que é importante monitorar fatores externos e suas influências no progresso dos alunos.
+            ''')
+        
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.image(r'midias\imagem14.png')
+        with col2:
+            st.image(r'midias\imagem15.png')
+
+        st.markdown(
+            '''
+            **Distribuição de Frequências para STATUS_ALUNO**
+
+            Alta taxa de desistência: Quase metade dos alunos (46.07%) desiste do programa, sendo um indicador crítico para avaliação. Entre os que desistem, 19.21% o fazem em 2021 e 10.46% em 2022.
+            Baixa taxa de retorno: Apenas 0.96% dos alunos retornam ao programa em 2022, indicando dificuldades de reintegração.
+            Proporção de ativos: Apenas 23.29% permanecem ativos, reforçando a necessidade de intervenções para melhorar a retenção.
+            ''')
+        
+        st.image(r'midias\imagem16.png ')
+
+    with st.expander('Alunos Que Desistiram'):
+
+        st.markdown(
+            '''
+            Criamos um gráfico de barras para visualizar a distribuição de desistências por fase e ano
+            ''')
+
+        st.image(r'midias\imagem17.png')
+
+        st.markdown(
+            '''
+            A alta taxa de desistência e o baixo retorno ao programa são sinais de alerta, sugerindo a necessidade de estratégias para engajamento, suporte e acompanhamento dos alunos.
+
+            Aumento progressivo das desistências ao longo dos anos: Há uma tendência clara de aumento nas desistências conforme o tempo passa, com picos significativos em 2022. Isso sugere que fatores externos, como a pandemia de COVID-19 ou outras mudanças no contexto educacional, podem ter influenciado negativamente o progresso dos alunos.
+
+            Fases mais críticas: As fases iniciais e intermediárias (Fase 0 a Fase 3) parecem ser os pontos de maior risco para desistência, com aumento considerável ao longo dos anos. Isso pode indicar a necessidade de intervenções mais eficazes nessas fases, oferecendo apoio extra aos alunos para que não desistam antes de avançarem.
+
+            Alunos mais avançados (Fase 4 a Fase 7): Apesar de uma quantidade menor de desistências nessas fases, ainda há uma preocupação, já que o aumento nas desistências de 2021 para 2022 pode ser reflexo de desafios acumulados ao longo do percurso acadêmico.
+            ''')
+        
+        st.image(r'midias\imagem18.png')
+
+    with st.expander('Ano de Ingresso dos Alunos'):
+
+        st.markdown(
+            '''
+            Nós definimos uma lista de colunas quantitativas quantitative_columns_total, que inclui várias métricas para os anos de 2020, 2021 e 2022, além da coluna ANO_INGRESSO. Essas colunas contêm dados numéricos que podem ser analisados estatisticamente.
+            ''')
+        
+        st.image(r'midias\imagem19.png')
+
+        st.markdown(
+            '''
+            O ano médio de ingresso é 2019, o que é esperado, considerando que os dados são relativos a três anos consecutivos. O desvio padrão (1.78) indica que a variação dos anos de ingresso não é muito grande, a maioria dos alunos ingressou em 2019, com poucos ingressando em 2016 e 2022.
+            ''')
+        
+        st.image(r'midias\imagem20.png')
+
+    with st.expander('Correlação entre Variáveis'):
+
+        st.markdown(
+            '''
+            Valores próximos de 1 indicam uma forte correlação positiva, enquanto valores próximos de -1 indicam uma forte correlação negativa.
+            Valores próximos de 0 indicam pouca ou nenhuma correlação linear.
+            Esse gráfico ajuda a identificar quais variáveis têm relações fortes entre si, o que pode ser útil para análises estatísticas e modelagem preditiva.
+
+            **Maiores correlações positivas:**
+
+            -	IDA_2021 e IDA_2022: Correlação muito alta, acima de 0.85, sugerindo forte relação entre os anos consecutivos.
+            -	INDE_2021 e INDE_2022: Correlação alta, acima de 0.86, indicando consistência ou padrão similar entre essas variáveis ao longo dos anos.
+            -	IEG_2021 e IEG_2022: Correlação acima de 0.87, também indicando alta relação entre os anos consecutivos para essas variáveis.
+
+            **Maiores correlações negativas:**
+            -	ANO_INGRESSO e IPP_2022: Correlação negativa forte em torno de -0.35, sugerindo uma relação inversa entre o ano de ingresso e o desempenho ou métrica associada ao IPP em 2022.
+            ''')
+        
+        st.image(r'midias\imagem21.png')
+
+    with st.expander('INDE(Indice de Desenvolvimento)'):
+
+        st.markdown(
+            '''
+            Criamos gráficos de barras para visualizar as estatísticas de INDE (Índice de Desenvolvimento) para os anos de 2020, 2021 e 2022.          
+            ''')
+        
+        st.image(r'midias\imagem22.png')
+
+        st.markdown(
+            '''
+            O INDE_2020 apresenta a maior média (7.30), seguida de uma leve diminuição para 6.89 em 2021 e 7.03 em 2022.
+
+            O desvio padrão menor ao longo dos anos sugere uma redução na variabilidade entre os alunos em relação à necessidade de desenvolvimento educacional, indicando que o apoio oferecido foi mais homogêneo ao longo do tempo.
+            ''')
+        
+        st.image(r'midias\imagem23.png')
+
+    with st.expander('Análise Temporal '):
+
+        st.markdown(
+            '''
+            Fizemos uma visualização da tendência anual das médias de várias métricas ao longo dos anos 2020, 2021 e 2022, para ajudar a identificar como essas métricas evoluíram ao longo do tempo, fornecendo insights sobre possíveis padrões ou mudanças. 
+
+            Análise de Tendências: O código calcula as médias anuais para cada métrica (IAN, IDA, IEG, IAA, IPS, IPP, IPV, INDE).
+
+            Identificação de Padrões: Ao visualizar as médias anuais, é possível identificar padrões, como aumentos ou diminuições consistentes em determinadas métricas. Isso pode ajudar a entender o comportamento dos dados e a tomar decisões informadas com base nas tendências observadas.
+
+            Comparação entre Anos: Permite comparar as médias de cada métrica entre os anos 2020, 2021 e 2022. Isso é útil para avaliar o impacto de diferentes fatores ao longo do tempo e para identificar anos específicos em que ocorreram mudanças significativas.
+
+            Visualização Intuitiva: A utilização de gráficos de linha com pontos e anotações torna a visualização das tendências mais intuitiva e fácil de interpretar.
+            ''')
+        
+        st.image(r'midias\imagem24.png')
+
+        st.markdown(
+            '''
+            IAN (Índice de Avaliação de Necessidades): O índice IAN mostra uma tendência de queda ao longo dos três anos analisados, com uma redução de 7,43 em 2020 para 6,42 em 2022. Isso sugere uma diminuição nas necessidades dos alunos ao longo do tempo, o que pode indicar uma melhoria nas condições ou nos apoios oferecidos, resultando em menos necessidades de intervenção.
+            ''')
+        
+        st.image(r'midias\imagem25.png')
+
+        st.markdown(
+            '''
+            IDA (Índice de Desempenho Acadêmico): O desempenho acadêmico diminui de 2020 (6,32) para 2021 (5,43), o que pode ser um reflexo de desafios enfrentados pelos alunos, como a pandemia de COVID-19. Em 2022, há uma leve recuperação para 6,07, o que pode indicar um processo de adaptação, onde os alunos começam a se recuperar do impacto das circunstâncias anteriores.
+            ''')
+        
+        st.image(r'midias\imagem26.png')
+
+        st.markdown(
+            '''
+            IEG (Índice de Engajamento Geral): O engajamento segue uma tendência interessante: cai de 7,80 em 2020 para 6,84 em 2021, possivelmente devido ao impacto da pandemia e mudanças no formato de ensino. No entanto, há uma recuperação em 2022 para 7,88, sugerindo que os alunos estão voltando a se engajar mais, possivelmente com a retomada das atividades presenciais ou com melhorias nos métodos de ensino.
+            ''')
+        
+        st.image(r'midias\imagem27.png')
+
+        st.markdown(
+            '''
+            IAA (Índice de Apoio Acadêmico): O apoio acadêmico se manteve bastante estável ao longo dos três anos, com pequenas variações entre 2020 (8,37), 2021 (8,16) e 2022 (8,26). Isso indica que o suporte oferecido aos alunos não foi drasticamente afetado pela pandemia e manteve-se eficaz ao longo do tempo, com uma leve queda apenas.            
+            ''')
+        
+        st.image(r'midias\imagem28.png')
+
+        st.markdown(
+            '''
+             IPS (Índice de Progresso Social): O progresso social apresentou uma leve melhoria ao longo dos três anos, com a média aumentando de 6,74 em 2020 para 6,90 em 2022. Isso pode refletir esforços para apoiar o desenvolvimento social dos alunos, possivelmente devido a iniciativas para lidar com os efeitos da pandemia e melhorar as condições sociais.           
+            ''')
+        
+        st.image(r'midias\imagem29.png')
+
+        st.markdown(
+            '''
+            IPP (Índice de Progresso Pessoal): O índice de progresso pessoal apresenta uma melhoria em 2021 (7,60), mas uma queda significativa em 2022 (6,30). Esse comportamento pode estar relacionado ao impacto prolongado da pandemia, que pode ter afetado o bem-estar emocional e pessoal dos alunos, resultando em dificuldades no desenvolvimento pessoal em 2022.            
+            '''
+        )
+
+        st.image(r'midias\imagem30.png')
+
+        st.markdown(
+            '''
+            IPV (Índice de Progresso Vital): O progresso vital mostra uma leve tendência de melhora em 2021 (7,43), mas com uma queda sutil em 2022 (7,25). Isso pode indicar que os alunos, apesar dos desafios, conseguiram manter uma boa trajetória em termos de seu progresso vital, embora com uma leve diminuição após o pico de 2021.
+            ''')
+        
+        st.image(r'midias\imagem31.png')
+
+        st.markdown(
+            '''
+            INDE (Índice de Necessidade de Desenvolvimento Educacional): O índice INDE apresentou uma leve queda de 2020 para 2021, mas em 2022 houve uma leve recuperação para 7,03. Isso sugere que, apesar de uma ligeira diminuição na necessidade de desenvolvimento educacional em 2021, houve uma leve reversão dessa tendência em 2022, possivelmente devido a melhorias nas condições educacionais.            
+            '''
+        )
+
+        st.image(r'midias\imagem32.png')
+
+    with st.expander('Visualização de Densidade'):
+
+        st.markdown(
+            '''
+            Analisamos a distribuição de densidade das métricas IAN, IDA, IEG, IAA, IPS, IPP, IPV e INDE para os anos de 2020, 2021 e 2022.
+            ''')
+        
+        st.image(r'midias\imagem33.png')
+
+        st.markdown(
+            '''
+            IAN (Índice de Aprovação de Notas): As curvas de densidade são simétricas nos três anos analisados. A maior densidade ocorre em 2022, enquanto a menor densidade é observada em 2020. Isso indica uma leve melhoria na distribuição dos índices de aprovação ao longo dos anos.
+
+            IDA (Índice de Desempenho Acadêmico): As curvas apresentam uma assimetria, inclinadas para o lado, sugerindo a presença de outliers. A maior densidade ocorre nos anos de 2021 e 2022, com a maior concentração de dados, enquanto o ano de 2020 apresenta uma distribuição mais dispersa.
+
+            IEG (Índice de Engajamento Geral): As curvas de densidade são simétricas nos anos de 2022 e 2020, enquanto em 2021, há uma assimetria inclinada para a esquerda. Os anos de 2022 e 2020 mostram uma maior concentração de dados próximos à média, enquanto 2021 apresenta uma dispersão maior, indicando variação no engajamento.
+
+            IAA (Índice de Atividade Acadêmica): As curvas de densidade de 2020, 2021 e 2022 quase se sobrepõem. Isso sugere que os valores das variáveis em cada um desses anos são semelhantes, sem grandes variações entre eles.
+
+            IPS (Índice de Participação Social): Para os valores abaixo da média combinada, as curvas são assimétricas, enquanto para os valores acima da média, as curvas se tornam simétricas. Essa diferença na distribuição pode indicar uma maior dispersão de dados em torno da média, mas uma tendência de normalidade para valores elevados.
+
+            IPP (Índice de Participação em Projetos): Em 2022, a curva está abaixo da média combinada, enquanto em 2021 e 2020 as curvas são simétricas, com variação na densidade. A dispersão dos dados parece ser maior em 2022, com uma menor concentração de índices perto da média.
+
+            IPV (Índice de Participação Voluntária): As curvas de densidade são simétricas nos anos de 2022 e 2020, com o pico na média combinada, enquanto em 2021, a curva é assimétrica, inclinada para o lado. O ano de 2021 apresenta uma maior dispersão, enquanto 2022 e 2020 têm maior concentração de dados próximos à média.
+
+            INDE (Índice de Desenvolvimento Educacional): As curvas de densidade são ligeiramente simétricas, com o pico próximo à média combinada. Isso sugere que os dados estão relativamente equilibrados e próximos da média, sem grandes flutuações.
+            ''')
+        
+        col1, col2, col3, col4 = st.columns(4)
+
+        with col1:
+            st.image(r'midias\imagem34.png')
+
+        with col2:
+            st.image(r'midias\imagem35.png')
+
+        with col3:
+            st.image(r'midias\imagem36.png')
+
+        with col4:
+            st.image(r'midias\imagem37.png')
+
+        col1, col2, col3, col4 = st.columns(4)
+
+        with col1:
+            st.image(r'midias\imagem38.png')
+
+        with col2:
+            st.image(r'midias\imagem39.png')
+
+        with col3:
+            st.image(r'midias\imagem40.png')
+
+        with col4:
+            st.image(r'midias\imagem41.png')
+
+    with st.expander('Analise de Desistências'):
+
+        st.markdown(
+            '''
+            Em que fase: A análise dos dados indica que as desistências são mais comuns nas fases iniciais do curso, especialmente nas fases 0 e 1, onde a adaptação e o comprometimento podem ser maiores desafios para os alunos. À medida que os alunos progridem para as fases mais avançadas, a quantidade de desistências diminui, sugerindo que aqueles que alcançam essas fases tendem a ser mais resilientes e comprometidos.
+            ''')
+        
+        st.image(r'midias\imagem42.png')
+
+        st.markdown(
+            '''
+            Diante das notas gerais em qual classificação estão as desistências: A análise dos motivos de desistência revela que a dimensão acadêmica é o principal fator relacionado às desistências, com uma quantidade considerável de alunos indicando dificuldades nesse aspecto. A dimensão psicossocial, embora ainda relevante, apresenta um impacto um pouco menor. Por fim, a dimensão psicopedagógica também se destaca, mas em uma proporção semelhante à acadêmica, indicando que as questões relacionadas ao aprendizado e ao apoio pedagógico têm um papel importante nas desistências.
+
+            Essa distribuição sugere que estratégias focadas no fortalecimento acadêmico e no suporte psicopedagógico poderiam ser eficazes para reduzir as desistências entre os alunos.
+            ''')
+        
+        st.image(r'midias\imagem43.png')
+
+        st.markdown(
+            '''
+            Tempo de Permanência para alunos com "Possível desistência”: A análise da distribuição do tempo de permanência entre os alunos que desistiram revela que a grande maioria deixou o curso nas primeiras fases, com destaque para as fases 0 e 1, que acumulam o maior número de desistências. As fases 2, 3, 4 e 5 têm um número significativamente menor de desistências, indicando que as desistências diminuem conforme o aluno avança nas fases. As fases 6 e 7 não aparecem, o que pode sugerir que os alunos que chegam a essas fases são mais resilientes ou encontram mais apoio.
+
+            Além disso, a média de tempo de permanência dos alunos que desistiram é de apenas 0.40 anos, o que reforça a ideia de que muitas desistências acontecem logo no início do curso, possivelmente devido a dificuldades acadêmicas, psicossociais ou psicopedagógicas. Isso indica a importância de um acompanhamento mais próximo nos primeiros anos, para identificar e mitigar os fatores que levam à desistência.
+            ''')
+
+        st.image(r'midias\imagem44.png')
+
+        st.markdown(
+            '''
+            Tempo de permanência dos alunos na fase 7: A análise da distribuição revela que a maioria dos alunos que chegaram a essa fase permaneceu por um período curto de tempo, com muitos ficando menos de 2 anos no curso. Alguns poucos estudantes ficaram por um período de 6 anos, indicando que, embora a fase 7 represente uma fase final, nem todos os alunos têm uma trajetória longa. Além disso, há um número considerável de alunos que desistiram logo após ingressar, com períodos de permanência muito curtos, como 0 anos, o que sugere que a desistência pode ocorrer logo após a chegada à fase 7.
+
+            O gráfico de distribuição, juntamente com os dados, sugere que a fase 7 pode ter um padrão misto: há alunos que permanecem por um tempo significativo, enquanto outros desistem rapidamente, o que pode indicar questões específicas de motivação, dificuldades acadêmicas ou outras razões externas que influenciam essa fase.
+            ''')
+        
+        st.image(r'midias\imagem45.png')
+
+        st.markdown(
+            '''
+            Média global dos Índices: A análise desses gráficos revela que os alunos classificados como "Indo Bem" apresentam um desempenho consistentemente superior em várias dimensões, enquanto os alunos "Não Indo Bem" apresentam um desempenho mais variado e, em muitos casos, inferior à média global. Além disso, pode-se inferir que fatores acadêmicos, psicossociais e psicopedagógicos estão fortemente correlacionados ao desempenho geral dos alunos, com aqueles indo bem em uma área tendendo a ir bem nas outras também.
+
+            Intervenções focadas nos alunos "Não Indo Bem" podem se beneficiar de uma abordagem mais personalizada, considerando suas dificuldades específicas, seja no campo acadêmico ou psicossocial.
+            ''')
+        
+        st.image(r'midias\imagem46.png')
+
+    with st.expander('Criando Modelos Treino e Teste'):
+
+        st.markdown(
+            '''
+            Estamos selecionando um subconjunto específico de colunas do DataFrame df_tratamento. Essas colunas foram selecionadas para focar em informações relevantes para a análise e tratamento dos dados
+            ''')
+
+        st.image(r'midias\imagem47.png')
+
+        st.markdown(
+            '''
+            Categorização do Status: Criamos uma nova coluna ATIVO para indicar se o aluno está ativo ou não, e removemos a coluna original STATUS_ALUNO.
+
+            Classificação das Dimensões: Classificamos as dimensões acadêmica, psicossocial e psicopedagógica como 'abaixo da media' ou 'excelente' com base nos valores.
+
+            Realizamos a limpeza do DataFrame, para preparar os dados para exportação (se necessário) e analisar a distribuição dos alunos ativos e não ativos
+
+            Essas operações ajudam a preparar os dados para análises posteriores, facilitando a interpretação e a visualização das informações.
+            ''')
+
+        st.image(r'midias\imagem48.png')
+
+        st.markdown('Separação de base treino e teste')
+
+        st.image(r'midias\imagem49.png')
+
+        st.markdown(
+            '''
+            Definimos uma classe chamada DropFeatures que herda de BaseEstimator e TransformerMixin do scikit-learn. Esta classe é um transformador personalizado que remove colunas específicas de um DataFrame.
+
+            Essa classe pode ser útil em pipelines de pré-processamento de dados, onde a remoção de colunas específicas é necessária antes de aplicar outras transformações ou modelos.
+            ''')
+        
+        st.image(r'midias\imagem50.png')
+        st.image(r'midias\imagem51.png')
+
+        st.markdown(
+            '''
+            Objetivo da Classe: Aplicar one-hot encoding a colunas específicas de um DataFrame. 
+
+            Inicialização: A lista de colunas a serem transformadas é passada como argumento ao instanciar a classe.
+            Ajuste (fit) e Transformação (transform): O método fit não faz nada além de retornar self, enquanto o método transform aplica one-hot encoding às colunas especificadas e concatena o resultado com o restante das colunas.
+
+            Essa classe é útil para preparar dados categóricos para modelos de machine learning, transformando categorias em um formato numérico que pode ser utilizado pelos algoritmos
+            ''')
+        
+        st.image(r'midias\imagem52.png')
+
+        st.markdown('Utilizamos a OrdinalFeature para transformar colunas do DataFrame que contêm dados ordinais (dados que têm uma ordem natural) em valores numéricos, utilizando a codificação ordinal.')
+
+        st.image(r'midias\imagem53.png')
+
+        st.markdown('A Oversample foi usada para aplicar a técnica de sobremostragem (oversampling) em um DataFrame, especificamente utilizando o método SMOTE (Synthetic Minority Over-sampling Technique) para balancear a classe minoritária na coluna ATIVO.')
+
+        st.image(r'midias\imagem54.png')
+
+        st.markdown('Aplicamos a Pipeline nos dados:')
+
+        st.image(r'midias\imagem55.png')
+
+        st.markdown(
+            '''
+            Execução do modelo
+
+            Treinamos o modelo de machine learning com dados de treino, avaliando seu desempenho em dados de teste para gerar várias métricas e visualizações para análise.
+            ''')
+
+        st.image(r'midias\imagem56.png')
+
+        st.markdown(
+            '''
+             Importamos a classe LogisticRegression, que criou uma instância do modelo de regressão logística com um estado aleatório fixo, e passou esse modelo para a função roda_modelo para treinar e avaliar o modelo com os dados de treino e teste.
+            ''')
+
+        st.image(r'midias\imagem57.png')
+
+        st.markdown(
+            '''
+            **Classification Report**
+
+            **Classe 0:**
+            -	Precision (Precisão): 0.98 - Aqui, 98% das previsões de classe 0 estão corretas.
+            -	Recall (Revocação): 1.00 - Aqui, o modelo identificou corretamente todos os exemplos da classe 0.
+            -	F1-Score: 0.99 - A média harmônica da precisão e da revocação. Um valor alto indica um bom equilíbrio entre precisão e revocação.
+            -	Support: 824 - O número de ocorrências reais da classe 0 no conjunto de dados.
+
+            **Classe 1:**
+            -	Precision (Precisão): 1.00 - A precisão é perfeita, indicando que todas as previsões de classe 1 estão corretas.
+            -	Recall (Revocação): 0.98 - O modelo identificou corretamente 98% dos exemplos da classe 1.
+            -	F1-Score: 0.99 - A média harmônica da precisão e da revocação.
+            -	Support: 824 - O número de ocorrências reais da classe 1 no conjunto de dados.
+
+            **Métricas Globais**
+            -	Accuracy (Acurácia): 0.99 - A proporção de todas as previsões corretas. Aqui, 99% das previsões do modelo estão corretas.
+            -	Macro Avg (Média Macro):
+            -	Precision: 0.99
+            -	Recall: 0.99
+            -	F1-Score: 0.99
+
+            A média macro calcula a média das métricas para cada classe, tratando todas as classes igualmente.
+            
+            A média ponderada leva em conta o suporte (número de ocorrências) de cada classe, dando mais peso às classes com mais exemplos.
+            -	Weighted Avg (Média Ponderada):
+            -	Precision: 0.99
+            -	Recall: 0.99
+            -	F1-Score: 0.99
+
+            **Resumo**
+
+            Precisão e Revocação: O modelo tem uma precisão e revocação muito altas para ambas as classes, indicando que ele é muito eficaz em identificar corretamente ambas as classes.
+
+            F1-Score: Alto para ambas as classes, mostrando um bom equilíbrio entre precisão e revocação.
+
+            Acurácia: Muito alta, com 99% de todas as previsões corretas.
+
+            Médias Macro e Ponderada: Ambas são altas, indicando que o modelo é consistente em seu desempenho em todas as classes.
+
+            Em resumo, o modelo de regressão logística está performando excepcionalmente bem, com alta precisão, revocação e F1-score, além de uma acurácia geral de 99%.
+            ''')
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.image(r'midias\imagem58.png')
+
+        with col2:
+            st.image(r'midias\imagem59.png')
+
+    with st.expander('DecisionTreeClassifier'):
+
+        st.image(r'midias\imagem60.png')
+
+        st.markdown(
+            '''
+            **AUC (Área Sob a Curva)**
+
+            Valor: 0.9997128028089357
+            Interpretação: Um valor de AUC muito próximo de 1 indica que o modelo tem uma capacidade quase perfeita de distinguir entre as classes positivas e negativas. Isso sugere que o modelo está performando excepcionalmente bem.
+
+            Métrica KS (Kolmogorov-Smirnov)
+            Resultado: KstestResult(statistic=np.float64(0.007281553398058253), pvalue=np.float64(0.9999999999939724), statistic_location=np.float64(0.5), statistic_sign=np.int8(-1))
+
+            **Interpretação:**
+
+            Statistic: 0.007281553398058253 - Este valor representa a maior diferença entre as distribuições cumulativas das classes positivas e negativas. Um valor tão baixo indica que as distribuições das classes são muito semelhantes.
+            P-value: 0.9999999999939724 - Um valor extremamente alto, indicando que a diferença entre as distribuições não é estatisticamente significativa. Em outras palavras, não há evidência de que as distribuições das classes sejam diferentes.
+            Statistic Location: 0.5 - O ponto onde a maior diferença ocorre.
+            Statistic Sign: -1 - Indica a direção da diferença.
+
+            **Resumo**
+
+            AUC: O valor extremamente alto de AUC sugere que o modelo tem uma capacidade quase perfeita de discriminação entre as classes.
+            KS: O valor muito baixo da estatística KS e o p-value extremamente alto indicam que as distribuições das classes positivas e negativas são muito semelhantes, o que pode ser um sinal de que o modelo está superajustado (overfitting) ou que as classes são muito bem separadas.
+            ''')
+
+        col1, col2= st.columns(2)
+
+        with col1:
+            st.image(r'midias\imagem61.png')
+
+        with col2:
+            st.image(r'midias\imagem62.png')
+
+
+
+
+        
     
 if selected_page == "Formulário: Modelo Preditivo":
     
