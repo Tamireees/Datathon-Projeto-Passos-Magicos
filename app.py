@@ -58,8 +58,7 @@ Os participantes podem optar por entregar apenas uma proposta ou ambas. A entreg
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown("<br>", unsafe_allow_html=True)  
-    
+    st.markdown("<br>", unsafe_allow_html=True) 
     
 
     col1, col2 = st.columns([1, 3])  
@@ -592,7 +591,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             A função filter_columns foi utilizada para filtrar colunas de um DataFrame com base em padrões específicos. Ela recebeu um DataFrame (df) e uma lista de padrões (filters). A função verifica se os nomes das colunas contêm algum dos padrões especificados na lista de filtros. Se uma coluna contiver um dos padrões, ela será excluída do DataFrame final. Essa função foi útil para remover colunas indesejadas de forma eficiente
             ''')
         
-        st.image(r'midias\imagem01.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem01.png')
 
         st.markdown(
             '''
@@ -601,7 +600,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Removemos linhas que contêm apenas valores NaN. Com isso, garantimos que o DataFrame resultante não tivesse linhas completamente vazias, melhorando a qualidade dos dados para análise.
             ''')
         
-        st.image(r'midias\imagem02.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem02.png')
 
     with st.expander('Limpeza dos dados 2020'):
 
@@ -617,7 +616,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             '''
         )
 
-        st.image(r'midias\imagem03.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem03.png')
 
         st.markdown(
             '''
@@ -632,7 +631,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         Verificamos os valores únicos na coluna INDE_CONCEITO_2020 para entender melhor os dados presentes nessa coluna.
             ''')
         
-        st.image(r'midias\imagem04.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem04.png')
 
         st.markdown(
             '''
@@ -645,7 +644,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         '''
         )
 
-        st.image(r'midias\imagem05.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem05.png')
 
     with st.expander('Limpeza dos dados 2021 e 2022'):
 
@@ -656,7 +655,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Depois, criamos um DataFrame df_ano_veterano com os alunos veteranos e o mesclamos com os dados de 2020 para obter o ano de ingresso. Atualizamos a coluna ANO_INGRESSO_2020 para os ingressantes de 2021 que não tinham essa informação. Removemos alunos específicos e colunas desnecessárias, renomeamos a coluna ANO_INGRESSO_2020 para ANO_INGRESSO_2021, e convertimos essa coluna para o formato de ano. Por fim, identificamos que há 12 alunos sem data de entrada.
             ''')
         
-        st.image(r'midias\imagem06.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem06.png')
 
         st.markdown(
             '''
@@ -667,7 +666,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Corrigimos a sintaxe do dicionário fase_map_2021 e criamos um dicionário reverso para mapear os textos de NIVEL_IDEAL_2021 para números correspondentes. Finalmente, substituímos os textos em NIVEL_IDEAL_2021 pela numeração correspondente.
             ''')
         
-        st.image(r'midias\imagem07.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem07.png')
 
         st.markdown('OBS: Fizemos o mesmo tratamento para a base de 2022.')
 
@@ -678,7 +677,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Realizamos a fusão dos DataFrames df_2020_clean, df_2021_clean e df_2022_clean utilizando a coluna NOME como chave, com a opção how='outer' para incluir todos os registros de cada DataFrame. Em seguida, selecionamos as colunas de interesse para o DataFrame final df_clean, que inclui informações sobre fases, pedras, pontos de virada, anos de ingresso e várias outras métricas para os anos de 2020, 2021 e 2022.
             ''')
         
-        st.image(r'midias\imagem08.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem08.png')
 
     with st.expander('Tratando Dados Nulos'):
 
@@ -690,7 +689,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             '''
         )
 
-        st.image(r'midias\imagem09.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem09.png')
 
         
         st.markdown(
@@ -699,7 +698,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             '''
         )
 
-        st.image(r'midias\imagem10.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem10.png')
 
     with st.expander('Explorando os Dados'):
         st.markdown(
@@ -707,7 +706,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Definimos uma lista de colunas qualitativas qualitative_columns_total e um dicionário categories que agrupa essas colunas em categorias (FASE, PEDRA, PONTO_VIRADA, STATUS_ALUNO). Em seguida, realizamos uma análise de frequência para cada categoria, calculando a distribuição de frequências normalizadas (em porcentagem) para cada coluna dentro das categorias. 
             ''')
         
-        st.image(r'midias\imagem11.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem11.png')
 
         st.markdown(
             '''
@@ -725,9 +724,9 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image(r'midias\imagem12.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem12.png')
         with col2:
-            st.image(r'midias\imagem13.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem13.png')
 
         st.markdown(
             '''
@@ -741,9 +740,9 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image(r'midias\imagem14.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem14.png')
         with col2:
-            st.image(r'midias\imagem15.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem15.png')
 
         st.markdown(
             '''
@@ -754,7 +753,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Proporção de ativos: Apenas 23.29% permanecem ativos, reforçando a necessidade de intervenções para melhorar a retenção.
             ''')
         
-        st.image(r'midias\imagem16.png ')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem16.png ')
 
     with st.expander('Alunos Que Desistiram'):
 
@@ -763,7 +762,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Criamos um gráfico de barras para visualizar a distribuição de desistências por fase e ano
             ''')
 
-        st.image(r'midias\imagem17.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem17.png')
 
         st.markdown(
             '''
@@ -776,7 +775,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Alunos mais avançados (Fase 4 a Fase 7): Apesar de uma quantidade menor de desistências nessas fases, ainda há uma preocupação, já que o aumento nas desistências de 2021 para 2022 pode ser reflexo de desafios acumulados ao longo do percurso acadêmico.
             ''')
         
-        st.image(r'midias\imagem18.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem18.png')
 
     with st.expander('Ano de Ingresso dos Alunos'):
 
@@ -785,14 +784,14 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Nós definimos uma lista de colunas quantitativas quantitative_columns_total, que inclui várias métricas para os anos de 2020, 2021 e 2022, além da coluna ANO_INGRESSO. Essas colunas contêm dados numéricos que podem ser analisados estatisticamente.
             ''')
         
-        st.image(r'midias\imagem19.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem19.png')
 
         st.markdown(
             '''
             O ano médio de ingresso é 2019, o que é esperado, considerando que os dados são relativos a três anos consecutivos. O desvio padrão (1.78) indica que a variação dos anos de ingresso não é muito grande, a maioria dos alunos ingressou em 2019, com poucos ingressando em 2016 e 2022.
             ''')
         
-        st.image(r'midias\imagem20.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem20.png')
 
     with st.expander('Correlação entre Variáveis'):
 
@@ -812,7 +811,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             -	ANO_INGRESSO e IPP_2022: Correlação negativa forte em torno de -0.35, sugerindo uma relação inversa entre o ano de ingresso e o desempenho ou métrica associada ao IPP em 2022.
             ''')
         
-        st.image(r'midias\imagem21.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem21.png')
 
     with st.expander('INDE(Indice de Desenvolvimento)'):
 
@@ -821,7 +820,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Criamos gráficos de barras para visualizar as estatísticas de INDE (Índice de Desenvolvimento) para os anos de 2020, 2021 e 2022.          
             ''')
         
-        st.image(r'midias\imagem22.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem22.png')
 
         st.markdown(
             '''
@@ -830,7 +829,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             O desvio padrão menor ao longo dos anos sugere uma redução na variabilidade entre os alunos em relação à necessidade de desenvolvimento educacional, indicando que o apoio oferecido foi mais homogêneo ao longo do tempo.
             ''')
         
-        st.image(r'midias\imagem23.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem23.png')
 
     with st.expander('Análise Temporal '):
 
@@ -847,42 +846,42 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Visualização Intuitiva: A utilização de gráficos de linha com pontos e anotações torna a visualização das tendências mais intuitiva e fácil de interpretar.
             ''')
         
-        st.image(r'midias\imagem24.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem24.png')
 
         st.markdown(
             '''
             IAN (Índice de Avaliação de Necessidades): O índice IAN mostra uma tendência de queda ao longo dos três anos analisados, com uma redução de 7,43 em 2020 para 6,42 em 2022. Isso sugere uma diminuição nas necessidades dos alunos ao longo do tempo, o que pode indicar uma melhoria nas condições ou nos apoios oferecidos, resultando em menos necessidades de intervenção.
             ''')
         
-        st.image(r'midias\imagem25.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem25.png')
 
         st.markdown(
             '''
             IDA (Índice de Desempenho Acadêmico): O desempenho acadêmico diminui de 2020 (6,32) para 2021 (5,43), o que pode ser um reflexo de desafios enfrentados pelos alunos, como a pandemia de COVID-19. Em 2022, há uma leve recuperação para 6,07, o que pode indicar um processo de adaptação, onde os alunos começam a se recuperar do impacto das circunstâncias anteriores.
             ''')
         
-        st.image(r'midias\imagem26.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem26.png')
 
         st.markdown(
             '''
             IEG (Índice de Engajamento Geral): O engajamento segue uma tendência interessante: cai de 7,80 em 2020 para 6,84 em 2021, possivelmente devido ao impacto da pandemia e mudanças no formato de ensino. No entanto, há uma recuperação em 2022 para 7,88, sugerindo que os alunos estão voltando a se engajar mais, possivelmente com a retomada das atividades presenciais ou com melhorias nos métodos de ensino.
             ''')
         
-        st.image(r'midias\imagem27.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem27.png')
 
         st.markdown(
             '''
             IAA (Índice de Apoio Acadêmico): O apoio acadêmico se manteve bastante estável ao longo dos três anos, com pequenas variações entre 2020 (8,37), 2021 (8,16) e 2022 (8,26). Isso indica que o suporte oferecido aos alunos não foi drasticamente afetado pela pandemia e manteve-se eficaz ao longo do tempo, com uma leve queda apenas.            
             ''')
         
-        st.image(r'midias\imagem28.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem28.png')
 
         st.markdown(
             '''
              IPS (Índice de Progresso Social): O progresso social apresentou uma leve melhoria ao longo dos três anos, com a média aumentando de 6,74 em 2020 para 6,90 em 2022. Isso pode refletir esforços para apoiar o desenvolvimento social dos alunos, possivelmente devido a iniciativas para lidar com os efeitos da pandemia e melhorar as condições sociais.           
             ''')
         
-        st.image(r'midias\imagem29.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem29.png')
 
         st.markdown(
             '''
@@ -890,14 +889,14 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             '''
         )
 
-        st.image(r'midias\imagem30.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem30.png')
 
         st.markdown(
             '''
             IPV (Índice de Progresso Vital): O progresso vital mostra uma leve tendência de melhora em 2021 (7,43), mas com uma queda sutil em 2022 (7,25). Isso pode indicar que os alunos, apesar dos desafios, conseguiram manter uma boa trajetória em termos de seu progresso vital, embora com uma leve diminuição após o pico de 2021.
             ''')
         
-        st.image(r'midias\imagem31.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem31.png')
 
         st.markdown(
             '''
@@ -905,7 +904,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             '''
         )
 
-        st.image(r'midias\imagem32.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem32.png')
 
     with st.expander('Visualização de Densidade'):
 
@@ -914,7 +913,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Analisamos a distribuição de densidade das métricas IAN, IDA, IEG, IAA, IPS, IPP, IPV e INDE para os anos de 2020, 2021 e 2022.
             ''')
         
-        st.image(r'midias\imagem33.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem33.png')
 
         st.markdown(
             '''
@@ -938,30 +937,30 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         col1, col2, col3, col4 = st.columns(4)
 
         with col1:
-            st.image(r'midias\imagem34.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem34.png')
 
         with col2:
-            st.image(r'midias\imagem35.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem35.png')
 
         with col3:
-            st.image(r'midias\imagem36.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem36.png')
 
         with col4:
-            st.image(r'midias\imagem37.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem37.png')
 
         col1, col2, col3, col4 = st.columns(4)
 
         with col1:
-            st.image(r'midias\imagem38.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem38.png')
 
         with col2:
-            st.image(r'midias\imagem39.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem39.png')
 
         with col3:
-            st.image(r'midias\imagem40.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem40.png')
 
         with col4:
-            st.image(r'midias\imagem41.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem41.png')
 
     with st.expander('Analise de Desistências'):
 
@@ -970,7 +969,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Em que fase: A análise dos dados indica que as desistências são mais comuns nas fases iniciais do curso, especialmente nas fases 0 e 1, onde a adaptação e o comprometimento podem ser maiores desafios para os alunos. À medida que os alunos progridem para as fases mais avançadas, a quantidade de desistências diminui, sugerindo que aqueles que alcançam essas fases tendem a ser mais resilientes e comprometidos.
             ''')
         
-        st.image(r'midias\imagem42.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem42.png')
 
         st.markdown(
             '''
@@ -979,7 +978,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Essa distribuição sugere que estratégias focadas no fortalecimento acadêmico e no suporte psicopedagógico poderiam ser eficazes para reduzir as desistências entre os alunos.
             ''')
         
-        st.image(r'midias\imagem43.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem43.png')
 
         st.markdown(
             '''
@@ -988,7 +987,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Além disso, a média de tempo de permanência dos alunos que desistiram é de apenas 0.40 anos, o que reforça a ideia de que muitas desistências acontecem logo no início do curso, possivelmente devido a dificuldades acadêmicas, psicossociais ou psicopedagógicas. Isso indica a importância de um acompanhamento mais próximo nos primeiros anos, para identificar e mitigar os fatores que levam à desistência.
             ''')
 
-        st.image(r'midias\imagem44.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem44.png')
 
         st.markdown(
             '''
@@ -997,7 +996,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             O gráfico de distribuição, juntamente com os dados, sugere que a fase 7 pode ter um padrão misto: há alunos que permanecem por um tempo significativo, enquanto outros desistem rapidamente, o que pode indicar questões específicas de motivação, dificuldades acadêmicas ou outras razões externas que influenciam essa fase.
             ''')
         
-        st.image(r'midias\imagem45.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem45.png')
 
         st.markdown(
             '''
@@ -1006,7 +1005,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Intervenções focadas nos alunos "Não Indo Bem" podem se beneficiar de uma abordagem mais personalizada, considerando suas dificuldades específicas, seja no campo acadêmico ou psicossocial.
             ''')
         
-        st.image(r'midias\imagem46.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem46.png')
 
     with st.expander('Criando Modelos Treino e Teste'):
 
@@ -1015,7 +1014,7 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Estamos selecionando um subconjunto específico de colunas do DataFrame df_tratamento. Essas colunas foram selecionadas para focar em informações relevantes para a análise e tratamento dos dados
             ''')
 
-        st.image(r'midias\imagem47.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem47.png')
 
         st.markdown(
             '''
@@ -1028,11 +1027,11 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Essas operações ajudam a preparar os dados para análises posteriores, facilitando a interpretação e a visualização das informações.
             ''')
 
-        st.image(r'midias\imagem48.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem48.png')
 
         st.markdown('Separação de base treino e teste')
 
-        st.image(r'midias\imagem49.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem49.png')
 
         st.markdown(
             '''
@@ -1041,8 +1040,8 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Essa classe pode ser útil em pipelines de pré-processamento de dados, onde a remoção de colunas específicas é necessária antes de aplicar outras transformações ou modelos.
             ''')
         
-        st.image(r'midias\imagem50.png')
-        st.image(r'midias\imagem51.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem50.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem51.png')
 
         st.markdown(
             '''
@@ -1054,19 +1053,19 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Essa classe é útil para preparar dados categóricos para modelos de machine learning, transformando categorias em um formato numérico que pode ser utilizado pelos algoritmos
             ''')
         
-        st.image(r'midias\imagem52.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem52.png')
 
         st.markdown('Utilizamos a OrdinalFeature para transformar colunas do DataFrame que contêm dados ordinais (dados que têm uma ordem natural) em valores numéricos, utilizando a codificação ordinal.')
 
-        st.image(r'midias\imagem53.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem53.png')
 
         st.markdown('A Oversample foi usada para aplicar a técnica de sobremostragem (oversampling) em um DataFrame, especificamente utilizando o método SMOTE (Synthetic Minority Over-sampling Technique) para balancear a classe minoritária na coluna ATIVO.')
 
-        st.image(r'midias\imagem54.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem54.png')
 
         st.markdown('Aplicamos a Pipeline nos dados:')
 
-        st.image(r'midias\imagem55.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem55.png')
 
         st.markdown(
             '''
@@ -1075,14 +1074,14 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
             Treinamos o modelo de machine learning com dados de treino, avaliando seu desempenho em dados de teste para gerar várias métricas e visualizações para análise.
             ''')
 
-        st.image(r'midias\imagem56.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem56.png')
 
         st.markdown(
             '''
              Importamos a classe LogisticRegression, que criou uma instância do modelo de regressão logística com um estado aleatório fixo, e passou esse modelo para a função roda_modelo para treinar e avaliar o modelo com os dados de treino e teste.
             ''')
 
-        st.image(r'midias\imagem57.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem57.png')
 
         st.markdown(
             '''
@@ -1131,14 +1130,14 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         col1, col2 = st.columns(2)
 
         with col1:
-            st.image(r'midias\imagem58.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem58.png')
 
         with col2:
-            st.image(r'midias\imagem59.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem59.png')
 
     with st.expander('DecisionTreeClassifier'):
 
-        st.image(r'midias\imagem60.png')
+        st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem60.png')
 
         st.markdown(
             '''
@@ -1166,10 +1165,10 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
         col1, col2= st.columns(2)
 
         with col1:
-            st.image(r'midias\imagem61.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem61.png')
 
         with col2:
-            st.image(r'midias\imagem62.png')
+            st.image('https://raw.githubusercontent.com/Tamireees/Datathon-Projeto-Passos-Magicos/main/midias/imagem62.png')
 
 
 
@@ -1220,7 +1219,7 @@ if selected_page == "Formulário: Modelo Preditivo":
             df_input = pd.DataFrame(data)
 
             df_prev = novo_pipeline(df_input)
-            model_xgb = joblib.load(r'notebook\Model_XGB.joblib')
+            model_xgb = joblib.load('notebook/Model_XGB.joblib')
             predictions = model_xgb.predict(df_prev)
 
 
