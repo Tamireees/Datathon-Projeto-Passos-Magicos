@@ -7,7 +7,8 @@ from nbconvert import HTMLExporter
 import nbformat
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+from utils import novo_pipeline
+import time
 
 
 
@@ -1178,3 +1179,64 @@ if selected_page == "Etapas do Desenvolvimento: Modelo Preditivo":
 if selected_page == "Formulário: Modelo Preditivo":
     
     st.title("Formulário: Modelo Preditivo")
+
+    with st.form("modelo_preditivo_form"):
+        nome = st.text_input("Nome do Aluno")
+        fase_2020 = st.number_input("Fase 2020", min_value=0, step=1)
+        fase_2021 = st.number_input("Fase 2021", min_value=0, step=1)
+        fase_2022 = st.number_input("Fase 2022", min_value=0, step=1)
+        pedra_2020 = st.selectbox("Pedra 2020", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
+        pedra_2021 = st.selectbox("Pedra 2021", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
+        pedra_2022 = st.selectbox("Pedra 2022", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
+        ponto_virada_2020 = st.number_input("Ponto de Virada 2020", min_value=0, max_value=1, step=1)
+        ponto_virada_2021 = st.number_input("Ponto de Virada 2021", min_value=0, max_value=1, step=1)
+        ponto_virada_2022 = st.number_input("Ponto de Virada 2022", min_value=0, max_value=1, step=1)
+        ano_ingresso = st.number_input("Ano de Ingresso", min_value=2000, step=1)
+        dimensao_academica = st.selectbox("Dimensão Acadêmica", ['excelente', 'abaixo da media'])
+        dimensao_psicossocial = st.selectbox("Dimensão Psicossocial", ['excelente', 'abaixo da media'])
+        dimensao_psicopedagogica = st.selectbox("Dimensão Psicopedagógica", ['excelente', 'abaixo da media'])
+
+        submitted = st.form_submit_button("Prever")
+    
+        if submitted:
+        # Criei um DataFrame com os dados de entrada do usuário
+            data = {
+                'NOME' : [nome],
+                'FASE_2020': [fase_2020],
+                'FASE_2021': [fase_2021],
+                'FASE_2022': [fase_2022],
+                'PEDRA_2020': [pedra_2020],
+                'PEDRA_2021': [pedra_2021],
+                'PEDRA_2022': [pedra_2022],
+                'PONTO_VIRADA_2020': [ponto_virada_2020],
+                'PONTO_VIRADA_2021': [ponto_virada_2021],
+                'PONTO_VIRADA_2022': [ponto_virada_2022],
+                'ANO_INGRESSO': [ano_ingresso],
+                'dimensao_academica': [dimensao_academica],
+                'dimensao_psicossocial': [dimensao_psicossocial],
+                'dimensao_psicopedagogica': [dimensao_psicopedagogica]
+            }
+
+            df_input = pd.DataFrame(data)
+
+            df_prev = novo_pipeline(df_input)
+            model_xgb = joblib.load(r'notebook\Model_XGB.joblib')
+            predictions = model_xgb.predict(df_prev)
+
+
+            st.write("Calculando...")
+            animation_placeholder = st.empty()
+
+            for _ in range(10):
+                animation_placeholder.text("Carregando...")
+                time.sleep(0.1)
+
+            # Verificar o valor de predictions e exibir o texto correspondente
+            if predictions[0] == 1:
+                animation_placeholder.text("Probabilidade de NÃO desistencia: 90%")
+            elif predictions[0] == 0:
+                animation_placeholder.text("Probabilidade de desistência: 90%")
+            else:
+                animation_placeholder.text("Resultado indefinido")
+
+        
