@@ -1180,21 +1180,46 @@ if selected_page == "Formulário: Modelo Preditivo":
     
     st.title("Formulário: Modelo Preditivo")
 
+    st.markdown("""
+    ##### Objetivo do Formulário: Modelo Preditivo para coleta de informações do Aluno
+    Este formulário tem como objetivo coletar dados relevantes sobre um aluno para **acionar um modelo preditivo de *machine learning***. O modelo foi treinado para **analisar os dados fornecidos** e **gerar uma previsão** sobre o potencial do aluno em **concluir o curso com sucesso**.
+    ###### Como usar o formulário
+
+    1. **Preencha todos os campos:** Certifique-se de fornecer informações precisas e completas em todos os campos do formulário.Dúvidas consulte o ícone "?".
+    2. **Clique em "Prever":** Após preencher todos os campos, clique no botão "Prever" para enviar os dados para o modelo.
+    3. **Visualize o resultado:** O resultado da previsão será exibido logo abaixo do formulário.
+
+    ##### Informações importantes
+
+    * Os dados fornecidos serão utilizados exclusivamente para gerar a previsão sobre a conclusão do curso.
+    * O modelo preditivo foi treinado com um conjunto de dados específico e pode não ser perfeito.
+    * A previsão gerada é apenas uma estimativa e não deve ser considerada como uma decisão final.
+
+    #####  Em caso de dúvidas
+
+    Se você tiver alguma dúvida sobre o formulário ou o modelo preditivo, entre em contato com a equipe responsável.
+    """)
+
     with st.form("modelo_preditivo_form"):
-        nome = st.text_input("Nome do Aluno")
-        fase_2020 = st.number_input("Fase 2020", min_value=0, step=1)
-        fase_2021 = st.number_input("Fase 2021", min_value=0, step=1)
-        fase_2022 = st.number_input("Fase 2022", min_value=0, step=1)
-        pedra_2020 = st.selectbox("Pedra 2020", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
-        pedra_2021 = st.selectbox("Pedra 2021", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
-        pedra_2022 = st.selectbox("Pedra 2022", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'])
-        ponto_virada_2020 = st.number_input("Ponto de Virada 2020", min_value=0, max_value=1, step=1)
-        ponto_virada_2021 = st.number_input("Ponto de Virada 2021", min_value=0, max_value=1, step=1)
-        ponto_virada_2022 = st.number_input("Ponto de Virada 2022", min_value=0, max_value=1, step=1)
-        ano_ingresso = st.number_input("Ano de Ingresso", min_value=2000, step=1)
-        dimensao_academica = st.selectbox("Dimensão Acadêmica", ['excelente', 'abaixo da media'])
-        dimensao_psicossocial = st.selectbox("Dimensão Psicossocial", ['excelente', 'abaixo da media'])
-        dimensao_psicopedagogica = st.selectbox("Dimensão Psicopedagógica", ['excelente', 'abaixo da media'])
+        nome = st.text_input("Nome do Aluno", help="Digite o nome completo do aluno")
+     
+        fase_2020 = st.number_input("Fase 2020", min_value=0, step=1, help= "preencha com pontuação atiginda em 2020 caso não possuir dados preencher com 0")
+        fase_2021 = st.number_input("Fase 2021", min_value=0, step=1 ,help= "preencha com pontuação atiginda em 2020 caso não possuir dados neste ano por favor preencha com 0")     
+        fase_2022 = st.number_input("Fase 2022", min_value=0, step=1 ,help= "preencha com pontuação atiginda em 2020 caso não possuir dados neste ano por favor preencha com 0")
+       
+        pedra_2020 = st.selectbox("Pedra 2020", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'],help= "Selecione a pedra preciosa conquistada no ano de 2020")  
+        pedra_2021 = st.selectbox("Pedra 2021", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'],help= "Selecione a pedra preciosa conquistada no ano de 2021")     
+        pedra_2022 = st.selectbox("Pedra 2022", ['Ametista', 'Quartzo', 'Ágata', 'Topázio'],help= "Selecione a pedra preciosa conquistada no ano de 2022")
+      
+        ponto_virada_2020 = st.number_input("Ponto de Virada 2020", min_value=0, max_value=1, step=1,help= "preencha com 0 ou 1 ,sendo 1 antigiu o ponto de virada e 0 não atingiu ponto de virada")      
+        ponto_virada_2021 = st.number_input("Ponto de Virada 2021", min_value=0, max_value=1, step=1,help= "preencha com 0 ou 1 ,sendo 1 antigiu o ponto de virada e 0 não atingiu ponto de virada")
+        ponto_virada_2022 = st.number_input("Ponto de Virada 2022", min_value=0, max_value=1, step=1,help= "preencha com 0 ou 1 ,sendo 1 antigiu o ponto de virada e 0 não atingiu ponto de virada")
+    
+        ano_ingresso = st.number_input("Ano de Ingresso", min_value=2018, step=1,help= "insira a data de ingresso no curso")
+   
+        dimensao_academica = st.selectbox("Dimensão Acadêmica", ['excelente', 'abaixo da media'],help= "Selecione Dimensão Acadêmica conquistada")
+        dimensao_psicossocial = st.selectbox("Dimensão Psicossocial", ['excelente', 'abaixo da media'],help= "Selecione Dimensão Psicossocial conquistada")
+        dimensao_psicopedagogica = st.selectbox("Dimensão Psicopedagógica", ['excelente', 'abaixo da media'],help= "Selecione Dimensão Psicopedagógica conquistada")
 
         submitted = st.form_submit_button("Prever")
     
