@@ -11,6 +11,19 @@ from utils import novo_pipeline
 import time
 
 
+import streamlit as st
+
+st.set_page_config(page_title="Meu App", layout="wide")
+
+st.markdown("""
+    <style>
+        body {
+            background-color: #0e1117;
+            color: white;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 language = st.sidebar.selectbox(
     "Choose Language / Escolha o Idioma",
     ["Português", "English"],
