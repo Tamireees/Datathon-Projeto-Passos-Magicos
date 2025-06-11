@@ -52,3 +52,4 @@ MarkupSafe
 # Machine learning
 scikit-learn
 imbalanced-learn
+nbconvert
