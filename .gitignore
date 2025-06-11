@@ -1,4 +1,25 @@
+# Ambientes virtuais
 venv/
+.env/
+
+# Cache do Python
 __pycache__/
+*.py[cod]
+*.so
+
+# Arquivos do VSCode
 .vscode/
 
+# Logs, dados temporários
+*.log
+*.tmp
+
+# Arquivos de Streamlit
+.streamlit/config.toml
+
+# Jupyter notebooks checkpoints (se usar)
+.ipynb_checkpoints/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
