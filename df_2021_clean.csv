@@ -1,0 +1,687 @@
+NOME,ANO_INGRESSO_2021,FASE_2021,NIVEL_IDEAL_2021,PEDRA_2021,IAN_2021,IDA_2021,IEG_2021,IAA_2021,IPS_2021,IPP_2021,IPV_2021,INDE_2021,PONTO_VIRADA_2021,REC_AVA_UNIFICADO,DEFASAGEM_2021
+ALUNO-1,2021.0,2.0,3,Ametista,5.0,8.8,6.3,7.5,6.9,7.7,8.1,7.319,0,Promovido de Fase,-1.0
+ALUNO-3,2018.0,3.0,3,Ametista,10.0,5.6,6.9,7.1,6.3,7.3,7.2,7.021,0,Promovido de Fase,0.0
+ALUNO-5,2019.0,2.0,2,Ametista,10.0,5.4,7.5,7.4,7.5,8.5,7.4,7.399,0,Mantido na Fase atual,0.0
+ALUNO-8,2017.0,5.0,5,Topázio,10.0,7.1,8.6,8.8,7.5,8.0,8.5,8.269,0,Promovido de Fase,0.0
+ALUNO-11,2020.0,1.0,1,Topázio,10.0,8.8,10.0,9.0,6.3,7.7,9.7,8.99,1,Mantido na Fase atual,0.0
+ALUNO-13,2021.0,0.0,1,Quartzo,5.0,0.8,0.0,8.0,7.5,0.0,6.0,3.413,0,Não avaliado,-1.0
+ALUNO-17,2018.0,1.0,3,Ágata,5.0,2.6,4.2,9.5,7.5,8.4,8.8,6.14,0,Não avaliado,-2.0
+ALUNO-18,2017.0,4.0,5,Ágata,5.0,5.3,3.3,10.0,6.3,7.7,5.2,5.666,0,Mantido na Fase atual,-1.0
+ALUNO-19,2021.0,2.0,3,Ágata,5.0,4.6,6.3,9.0,7.5,7.7,8.3,6.751,0,Mantido na Fase atual,-1.0
+ALUNO-28,2021.0,4.0,4,Topázio,10.0,8.8,9.2,8.3,7.5,9.4,9.9,9.079,1,Promovido de Fase + Bolsa,0.0
+ALUNO-29,2021.0,3.0,5,Ágata,5.0,3.8,5.3,9.6,7.5,7.5,7.9,6.342,0,Promovido de Fase,-2.0
+ALUNO-34,2018.0,2.0,3,Ágata,5.0,5.5,2.9,6.9,7.5,7.7,8.7,6.129,0,Mantido na Fase atual,-1.0
+ALUNO-35,2017.0,7.0,8,Topázio,5.0,8.2,9.4,9.2,7.5,8.4,9.4,8.416,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-36,2019.0,3.0,5,Ágata,5.0,4.7,6.4,8.3,3.8,7.3,7.9,6.246,0,Promovido de Fase,-2.0
+ALUNO-37,2018.0,2.0,2,Ágata,10.0,6.5,5.4,0.0,6.9,7.5,6.7,6.154,0,Mantido na Fase atual,0.0
+ALUNO-38,2021.0,3.0,3,Ágata,10.0,5.1,6.9,3.8,7.5,7.5,7.8,6.847,0,Mantido na Fase atual,0.0
+ALUNO-40,2021.0,5.0,6,Ametista,5.0,6.0,7.8,9.2,7.5,8.3,8.0,7.334,0,Mantido na Fase atual,-1.0
+ALUNO-41,2020.0,2.0,3,Ágata,5.0,6.8,5.0,0.0,7.5,7.5,8.8,6.1,0,Promovido de Fase,-1.0
+ALUNO-42,2021.0,0.0,0,Ágata,10.0,4.0,6.7,10.0,7.5,7.2,6.0,6.802,0,Mantido na Fase atual,0.0
+ALUNO-46,2020.0,0.0,0,Topázio,10.0,6.9,10.0,8.5,7.5,8.1,8.4,8.471,0,Não avaliado,0.0
+ALUNO-47,2021.0,1.0,2,Ágata,5.0,4.0,6.3,8.5,7.5,7.5,5.8,6.056,0,Mantido na Fase atual,-1.0
+ALUNO-51,2021.0,1.0,1,Ametista,10.0,5.4,9.2,9.0,7.5,7.7,8.6,8.051,0,Mantido na Fase atual,0.0
+ALUNO-54,2021.0,3.0,3,Ágata,10.0,4.1,5.8,7.5,7.5,7.3,5.8,6.388,0,Mantido na Fase atual,0.0
+ALUNO-55,2017.0,7.0,8,Ametista,5.0,7.6,8.9,9.6,8.1,8.1,9.2,8.219,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-56,2021.0,6.0,7,Ágata,5.0,5.5,7.5,8.8,5.6,7.8,7.2,6.777,0,Promovido de Fase,-1.0
+ALUNO-57,2018.0,7.0,7,Ametista,10.0,6.0,6.9,8.3,6.3,7.7,7.0,7.213,0,Promovido de Fase + Bolsa,0.0
+ALUNO-60,2016.0,6.0,8,Ametista,5.0,6.1,7.5,7.9,6.9,7.2,7.7,6.956,0,Promovido de Fase,-2.0
+ALUNO-61,2020.0,1.0,2,Quartzo,5.0,0.0,1.3,0.0,5.6,6.9,5.1,3.017,0,Mantido na Fase atual,-1.0
+ALUNO-62,2020.0,2.0,3,Ágata,5.0,3.1,4.6,8.5,7.5,8.1,6.2,5.704,0,Mantido na Fase atual,-1.0
+ALUNO-65,2021.0,0.0,1,Topázio,5.0,6.9,10.0,10.0,7.5,8.1,10.0,8.438,1,Não avaliado,-1.0
+ALUNO-66,2021.0,2.0,3,Ágata,5.0,5.9,6.3,8.0,7.5,8.5,7.7,6.875,0,Promovido de Fase,-1.0
+ALUNO-67,2021.0,1.0,2,Quartzo,5.0,1.1,3.3,7.4,7.5,8.3,6.1,4.939,0,Mantido na Fase atual,-1.0
+ALUNO-71,2019.0,0.0,2,#NULO!,5.0,3.6,0.0,7.4,5.0,0.0,0.0,,0,Não avaliado,-2.0
+ALUNO-75,2019.0,4.0,3,Topázio,10.0,8.5,9.2,10.0,7.5,8.8,9.7,9.108,1,Promovido de Fase + Bolsa,1.0
+ALUNO-76,2020.0,1.0,0,Topázio,10.0,7.6,10.0,10.0,7.5,7.5,9.2,8.869,1,Mantido na Fase atual,1.0
+ALUNO-77,2021.0,0.0,1,Ametista,5.0,6.4,10.0,9.5,7.5,7.5,8.1,7.854,0,Mantido na Fase atual,-1.0
+ALUNO-78,2021.0,1.0,2,Ágata,5.0,2.6,9.2,8.9,7.5,7.3,5.6,6.339,0,Mantido na Fase atual,-1.0
+ALUNO-81,2019.0,5.0,6,Ágata,5.0,6.5,5.8,6.3,2.5,8.1,7.7,6.188,0,Promovido de Fase,-1.0
+ALUNO-83,2016.0,5.0,5,Ágata,10.0,3.0,6.4,6.7,3.8,7.3,6.7,5.987,0,Mantido na Fase atual,0.0
+ALUNO-84,2021.0,1.0,1,Ametista,10.0,6.8,10.0,3.5,7.5,7.5,8.3,7.867,0,Mantido na Fase atual,0.0
+ALUNO-85,2019.0,0.0,2,Ágata,5.0,6.9,6.7,9.5,6.3,4.7,7.0,6.652,0,Não avaliado,-2.0
+ALUNO-87,2016.0,5.0,5,Ametista,10.0,7.8,7.8,7.9,7.5,8.1,7.7,8.004,0,Promovido de Fase,0.0
+ALUNO-88,2018.0,2.0,3,Ametista,5.0,7.4,9.6,9.5,6.3,8.1,9.1,8.096,1,Promovido de Fase,-1.0
+ALUNO-90,2019.0,4.0,5,Ágata,5.0,4.6,5.0,7.1,7.5,7.2,7.0,5.994,0,Promovido de Fase,-1.0
+ALUNO-91,2018.0,2.0,2,Quartzo,10.0,2.2,0.0,9.5,7.5,5.6,2.5,4.2,0,Não avaliado,0.0
+ALUNO-93,2021.0,0.0,0,Ágata,10.0,5.1,4.2,8.0,7.5,6.6,5.9,6.248,0,Mantido na Fase atual,0.0
+ALUNO-94,2021.0,4.0,3,Ágata,10.0,4.6,3.6,7.5,7.5,7.3,5.2,5.923,0,Mantido na Fase atual,1.0
+ALUNO-95,2019.0,4.0,6,Quartzo,5.0,1.3,5.6,8.3,7.5,6.9,4.1,4.957,0,Promovido de Fase,-2.0
+ALUNO-97,2018.0,2.0,3,Ágata,5.0,5.8,5.8,8.0,7.5,7.5,6.0,6.317,0,Promovido de Fase,-1.0
+ALUNO-98,2021.0,3.0,4,Ametista,5.0,6.3,6.4,9.2,7.5,7.5,7.5,6.953,0,Mantido na Fase atual,-1.0
+ALUNO-100,2018.0,1.0,3,Quartzo,5.0,0.0,0.0,8.5,3.8,6.3,3.8,3.117,0,Mantido na Fase atual,-2.0
+ALUNO-102,2020.0,1.0,2,Ágata,5.0,4.8,7.5,6.3,7.5,7.9,7.8,6.704,0,Mantido na Fase atual,-1.0
+ALUNO-103,2020.0,1.0,1,Ametista,10.0,6.2,8.8,9.5,6.3,7.9,8.6,8.076,0,Mantido na Fase atual,0.0
+ALUNO-104,2021.0,0.0,0,Ametista,10.0,6.4,10.0,9.0,7.5,7.2,6.8,8.01,0,Mantido na Fase atual,0.0
+ALUNO-105,2020.0,4.0,4,Quartzo,10.0,2.8,1.1,10.0,7.5,6.7,3.7,4.956,0,Mantido na Fase atual,0.0
+ALUNO-106,2020.0,1.0,2,Ametista,5.0,7.9,7.9,10.0,7.5,8.3,10.0,8.242,1,Promovido de Fase,-1.0
+ALUNO-109,2021.0,6.0,7,Ametista,5.0,7.8,6.7,7.5,7.5,8.4,8.2,7.36,0,Promovido de Fase,-1.0
+ALUNO-111,2020.0,4.0,5,Ametista,5.0,6.0,8.1,8.3,7.5,8.4,7.4,7.222,0,Promovido de Fase,-1.0
+ALUNO-112,2021.0,4.0,5,Ágata,5.0,6.2,3.1,9.2,6.9,7.7,6.9,6.098,0,Promovido de Fase,-1.0
+ALUNO-113,2019.0,2.0,3,Ágata,5.0,4.6,7.1,9.5,7.5,8.1,6.6,6.664,0,Mantido na Fase atual,-1.0
+ALUNO-117,2020.0,2.0,2,Ametista,10.0,7.1,7.1,8.5,7.5,8.3,7.6,7.774,0,Mantido na Fase atual,0.0
+ALUNO-118,2019.0,1.0,1,Topázio,10.0,6.9,9.6,8.5,7.5,7.5,8.2,8.299,0,Mantido na Fase atual,0.0
+ALUNO-120,2019.0,1.0,2,Ametista,5.0,6.1,8.3,8.5,7.5,7.5,6.8,7.096,0,Mantido na Fase atual,-1.0
+ALUNO-124,2021.0,0.0,0,Topázio,10.0,6.1,8.3,9.0,7.5,8.1,9.7,8.275,1,Não avaliado,0.0
+ALUNO-125,2020.0,2.0,2,Ágata,10.0,4.6,4.6,6.3,7.5,7.9,7.2,6.461,0,Mantido na Fase atual,0.0
+ALUNO-126,2021.0,0.0,1,Ágata,5.0,4.5,4.2,9.0,7.5,7.2,7.3,6.069,0,Mantido na Fase atual,-1.0
+ALUNO-127,2021.0,1.0,2,Ametista,5.0,5.6,7.1,10.0,7.5,7.5,6.9,6.907,0,Mantido na Fase atual,-1.0
+ALUNO-128,2019.0,0.0,2,Quartzo,5.0,4.0,6.7,7.9,4.4,2.5,5.6,5.229,0,Mantido na Fase atual,-2.0
+ALUNO-129,2021.0,2.0,2,Ágata,10.0,4.6,4.2,7.4,7.5,7.2,4.3,5.819,0,Mantido na Fase atual,0.0
+ALUNO-133,2019.0,1.0,2,Ametista,5.0,7.1,9.6,9.5,7.5,7.7,8.4,7.99,0,Mantido na Fase atual,-1.0
+ALUNO-135,2019.0,1.0,2,Ágata,5.0,3.6,4.2,9.5,6.3,6.9,7.3,5.788,0,Mantido na Fase atual,-1.0
+ALUNO-137,2021.0,0.0,1,Ágata,5.0,5.3,5.8,8.0,7.5,5.0,6.2,6.012,0,Mantido na Fase atual,-1.0
+ALUNO-143,2021.0,3.0,3,Ágata,10.0,4.3,4.4,7.9,6.3,7.5,6.8,6.278,0,Mantido na Fase atual,0.0
+ALUNO-149,2019.0,7.0,7,Topázio,10.0,7.4,8.1,8.8,6.9,8.3,9.4,8.36,1,Promovido de Fase + Bolsa,0.0
+ALUNO-151,2019.0,2.0,3,Topázio,5.0,9.1,9.6,9.5,8.1,10.0,10.0,9.004,1,Promovido de Fase,-1.0
+ALUNO-152,2019.0,3.0,3,Topázio,10.0,8.0,8.3,8.8,7.5,8.3,9.8,8.672,1,Promovido de Fase + Bolsa,0.0
+ALUNO-153,2017.0,4.0,4,Topázio,10.0,7.5,7.5,10.0,7.5,8.0,9.0,8.355,1,Promovido de Fase,0.0
+ALUNO-154,2019.0,1.0,2,Quartzo,5.0,1.5,2.9,9.5,7.5,8.1,6.3,5.163,0,Mantido na Fase atual,-1.0
+ALUNO-155,2021.0,6.0,7,Quartzo,5.0,3.4,5.3,7.1,0.0,8.1,6.6,5.082,0,Não avaliado,-1.0
+ALUNO-156,2018.0,3.0,3,Ametista,10.0,7.3,7.8,7.5,6.3,8.3,8.8,7.981,0,Promovido de Fase,0.0
+ALUNO-158,2018.0,4.0,5,Ágata,5.0,4.5,6.1,8.3,6.9,6.9,6.1,6.056,0,Mantido na Fase atual,-1.0
+ALUNO-159,2021.0,0.0,1,Ametista,5.0,6.1,10.0,9.0,7.5,8.1,9.3,8.025,1,Mantido na Fase atual,-1.0
+ALUNO-162,2018.0,1.0,2,Ametista,5.0,6.6,10.0,8.5,7.5,7.5,6.8,7.531,0,Mantido na Fase atual,-1.0
+ALUNO-164,2019.0,2.0,2,Ametista,10.0,5.9,5.8,9.5,7.5,7.5,6.7,7.125,0,Mantido na Fase atual,0.0
+ALUNO-165,2019.0,1.0,3,Ametista,5.0,7.3,7.5,10.0,7.5,8.3,7.7,7.579,0,Promovido de Fase,-2.0
+ALUNO-167,2021.0,1.0,2,Ametista,5.0,5.8,9.2,10.0,7.5,7.5,8.3,7.639,0,Mantido na Fase atual,-1.0
+ALUNO-168,2019.0,2.0,3,Quartzo,5.0,2.5,1.7,0.0,5.6,7.5,4.4,3.524,0,Mantido na Fase atual,-1.0
+ALUNO-169,2020.0,0.0,1,Ametista,5.0,6.1,10.0,8.5,4.4,5.3,6.8,6.898,0,Mantido na Fase atual,-1.0
+ALUNO-171,2021.0,3.0,4,Ametista,5.0,7.5,8.9,8.8,7.5,8.3,9.0,8.036,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-173,2016.0,5.0,7,Ágata,5.0,4.9,6.7,9.6,5.0,7.7,7.5,6.532,0,Mantido na Fase atual,-2.0
+ALUNO-176,,2.0,3,Ágata,5.0,4.3,6.3,7.5,5.0,6.7,5.7,5.674,0,Mantido na Fase atual,-1.0
+ALUNO-177,2021.0,0.0,0,Ametista,10.0,4.6,8.3,9.0,7.5,6.9,6.3,7.196,0,Mantido na Fase atual,0.0
+ALUNO-184,2021.0,2.0,2,Ametista,10.0,5.6,9.2,8.5,7.5,7.5,8.0,7.896,0,Mantido na Fase atual,0.0
+ALUNO-185,2021.0,0.0,0,Ametista,10.0,5.4,10.0,8.0,7.5,7.2,7.8,7.906,0,Mantido na Fase atual,0.0
+ALUNO-188,2018.0,3.0,4,Ágata,5.0,4.7,5.8,7.1,7.5,8.1,7.8,6.435,0,Mantido na Fase atual,-1.0
+ALUNO-193,2016.0,3.0,4,Ametista,5.0,7.7,10.0,9.2,5.6,7.9,9.6,8.215,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-197,2019.0,3.0,3,Ametista,10.0,6.0,7.2,8.3,7.5,8.1,8.6,7.751,0,Promovido de Fase,0.0
+ALUNO-200,2016.0,4.0,4,Quartzo,10.0,3.3,1.7,7.5,6.9,6.7,3.5,4.788,0,Mantido na Fase atual,0.0
+ALUNO-201,2019.0,4.0,5,Ágata,5.0,6.4,5.6,5.8,0.0,8.3,6.7,5.636,0,Promovido de Fase,-1.0
+ALUNO-206,2018.0,7.0,7,Quartzo,10.0,2.0,4.2,8.8,0.0,7.7,6.3,5.143,0,Mantido na Fase atual,0.0
+ALUNO-207,2021.0,3.0,4,Quartzo,5.0,5.3,3.9,8.3,6.9,7.5,4.4,5.504,0,Mantido na Fase atual,-1.0
+ALUNO-208,2020.0,2.0,3,Ágata,5.0,4.5,6.3,7.0,7.5,7.5,8.0,6.45,0,Mantido na Fase atual,-1.0
+ALUNO-209,2019.0,1.0,2,Ametista,5.0,4.2,7.9,8.5,7.5,8.1,9.2,7.167,1,Mantido na Fase atual,-1.0
+ALUNO-212,2019.0,0.0,1,Ágata,5.0,4.3,8.3,9.5,5.0,2.5,4.7,5.663,0,Mantido na Fase atual,-1.0
+ALUNO-213,2018.0,3.0,3,Topázio,10.0,7.5,9.4,9.6,7.5,8.8,8.9,8.761,0,Promovido de Fase,0.0
+ALUNO-217,2019.0,1.0,2,Ametista,5.0,7.1,8.8,8.5,7.5,8.1,8.4,7.765,0,Mantido na Fase atual,-1.0
+ALUNO-218,2021.0,0.0,0,Topázio,10.0,6.9,10.0,9.5,7.5,8.1,9.7,8.821,1,Não avaliado,0.0
+ALUNO-219,2019.0,2.0,3,Quartzo,5.0,1.9,4.2,0.0,6.9,8.1,4.8,4.176,0,Mantido na Fase atual,-1.0
+ALUNO-221,2021.0,3.0,4,Quartzo,5.0,1.8,2.8,9.2,7.5,5.8,3.9,4.442,0,Mantido na Fase atual,-1.0
+ALUNO-225,2016.0,5.0,5,Ametista,10.0,6.0,6.7,8.3,6.9,7.5,6.7,7.138,0,Mantido na Fase atual,0.0
+ALUNO-226,2018.0,2.0,3,Quartzo,5.0,4.3,4.2,0.0,5.6,7.1,5.8,4.617,0,Mantido na Fase atual,-1.0
+ALUNO-229,2021.0,0.0,2,Quartzo,5.0,4.0,0.0,8.5,7.5,6.9,7.3,5.054,0,Não avaliado,-2.0
+ALUNO-231,2019.0,7.0,7,Ametista,10.0,5.4,8.6,9.2,6.9,8.0,7.5,7.698,0,Promovido de Fase + Bolsa,0.0
+ALUNO-232,2021.0,5.0,6,Ametista,5.0,6.7,7.2,8.3,7.5,8.3,8.2,7.331,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-235,2019.0,3.0,3,Ametista,10.0,6.6,6.9,9.2,5.6,7.3,8.1,7.544,0,Mantido na Fase atual,0.0
+ALUNO-238,2019.0,2.0,4,Quartzo,5.0,2.1,1.3,8.5,4.4,5.0,3.5,3.663,0,Não avaliado,-2.0
+ALUNO-240,2021.0,3.0,3,Ametista,10.0,6.9,6.1,8.8,7.5,7.3,8.4,7.629,0,Mantido na Fase atual,0.0
+ALUNO-241,2017.0,2.0,3,Quartzo,5.0,0.0,0.4,7.9,5.6,4.1,2.6,2.86,0,Não avaliado,-1.0
+ALUNO-242,2018.0,2.0,3,Ágata,5.0,2.9,5.4,8.5,7.5,7.1,6.8,5.833,0,Mantido na Fase atual,-1.0
+ALUNO-243,2021.0,0.0,0,Ágata,10.0,3.2,5.0,8.5,7.5,7.5,6.8,6.354,0,Mantido na Fase atual,0.0
+ALUNO-246,2019.0,1.0,2,Ametista,5.0,4.6,8.8,9.0,5.6,8.5,7.7,7.013,0,Mantido na Fase atual,-1.0
+ALUNO-247,2021.0,0.0,1,Ametista,5.0,6.8,8.3,10.0,7.5,8.1,9.7,8.013,1,Não avaliado,-1.0
+ALUNO-249,2021.0,1.0,2,Ágata,5.0,2.1,7.9,8.5,7.5,7.5,5.8,6.025,0,Mantido na Fase atual,-1.0
+ALUNO-251,2019.0,2.0,2,Ametista,10.0,7.3,6.7,9.0,7.5,8.5,8.4,7.976,0,Promovido de Fase,0.0
+ALUNO-252,2021.0,0.0,1,Ametista,5.0,5.9,10.0,10.0,7.5,7.2,6.6,7.473,0,Mantido na Fase atual,-1.0
+ALUNO-258,2021.0,0.0,1,Ágata,5.0,5.3,10.0,7.8,7.5,2.5,4.8,6.283,0,Não avaliado,-1.0
+ALUNO-260,2021.0,0.0,1,Ágata,5.0,4.5,6.7,9.5,7.5,7.5,7.8,6.75,0,Mantido na Fase atual,-1.0
+ALUNO-261,2020.0,4.0,8,Ametista,2.5,5.9,7.8,9.2,7.5,8.4,7.0,6.899,0,Promovido de Fase,-4.0
+ALUNO-262,2017.0,6.0,6,Ametista,10.0,7.7,6.9,9.2,7.5,7.8,7.7,7.903,0,Promovido de Fase,0.0
+ALUNO-263,2016.0,6.0,6,Ametista,10.0,6.5,7.8,7.9,7.5,8.0,7.5,7.694,0,Promovido de Fase,0.0
+ALUNO-266,2019.0,2.0,2,Ametista,10.0,6.8,8.3,9.0,6.3,7.5,8.0,7.892,0,Mantido na Fase atual,0.0
+ALUNO-267,2021.0,4.0,5,Ametista,5.0,8.2,8.9,9.2,6.3,8.3,8.6,8.014,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-271,2021.0,3.0,3,Ágata,10.0,4.3,5.0,9.6,7.5,7.7,5.5,6.429,0,Mantido na Fase atual,0.0
+ALUNO-273,2018.0,1.0,2,Quartzo,5.0,0.0,2.1,9.5,7.5,6.3,4.4,4.125,0,Mantido na Fase atual,-1.0
+ALUNO-274,2018.0,5.0,7,Ágata,5.0,6.1,7.8,7.1,7.5,7.7,6.9,6.88,0,Promovido de Fase,-2.0
+ALUNO-275,2017.0,3.0,4,Ágata,5.0,3.4,5.8,8.8,6.3,6.9,6.4,5.815,0,Mantido na Fase atual,-1.0
+ALUNO-277,2018.0,1.0,3,Ametista,5.0,7.8,10.0,9.5,7.5,8.5,7.8,8.183,0,Promovido de Fase,-2.0
+ALUNO-282,2021.0,5.0,6,Topázio,5.0,8.8,9.7,9.2,7.5,8.8,9.0,8.544,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-283,2021.0,5.0,6,Topázio,5.0,8.7,9.4,8.8,7.5,8.8,9.5,8.531,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-288,2020.0,3.0,3,Ametista,10.0,7.7,7.5,8.3,7.5,7.3,8.7,8.088,0,Promovido de Fase,0.0
+ALUNO-293,2019.0,5.0,5,Quartzo,10.0,0.0,3.9,0.0,0.0,5.9,3.5,3.08,0,Mantido na Fase atual,0.0
+ALUNO-294,2021.0,0.0,0,Topázio,10.0,7.3,10.0,9.5,7.5,8.4,10.0,8.994,1,Mantido na Fase + Bolsa,0.0
+ALUNO-295,2017.0,1.0,2,Ágata,5.0,6.9,7.1,9.0,7.5,7.5,5.3,6.771,0,Mantido na Fase atual,-1.0
+ALUNO-296,2020.0,2.0,2,Ametista,10.0,3.6,7.9,9.5,7.5,7.3,7.4,7.221,0,Mantido na Fase atual,0.0
+ALUNO-297,2019.0,3.0,6,Quartzo,2.5,2.8,3.3,8.8,5.6,7.7,6.1,4.894,0,Mantido na Fase atual,-3.0
+ALUNO-301,2019.0,2.0,2,Topázio,10.0,6.3,9.2,9.0,7.5,8.5,8.4,8.289,0,Mantido na Fase + Bolsa,0.0
+ALUNO-303,2021.0,0.0,0,Ametista,10.0,6.8,8.3,8.5,7.5,7.5,7.0,7.767,0,Mantido na Fase atual,0.0
+ALUNO-305,2018.0,3.0,4,Ametista,5.0,7.5,7.8,7.9,5.6,7.5,8.3,7.315,0,Mantido na Fase atual,-1.0
+ALUNO-310,2021.0,0.0,0,Ametista,10.0,4.6,8.3,9.0,7.5,6.6,6.3,7.165,0,Mantido na Fase atual,0.0
+ALUNO-312,2019.0,2.0,3,Ametista,5.0,7.8,9.6,9.0,4.4,8.8,8.8,7.946,0,Promovido de Fase,-1.0
+ALUNO-313,2020.0,0.0,2,Ametista,5.0,6.3,8.3,9.5,5.0,8.1,8.4,7.375,0,Não avaliado,-2.0
+ALUNO-315,2019.0,5.0,4,Topázio,10.0,8.2,9.2,8.8,7.5,8.6,9.8,8.909,1,Promovido de Fase + Bolsa,1.0
+ALUNO-319,2019.0,2.0,3,Ametista,5.0,8.2,9.6,7.5,6.9,7.3,8.0,7.821,0,Promovido de Fase,-1.0
+ALUNO-321,2019.0,7.0,7,Ametista,10.0,7.6,7.5,8.3,5.6,8.3,8.3,7.891,0,Promovido de Fase + Bolsa,0.0
+ALUNO-323,2016.0,1.0,3,Quartzo,5.0,3.3,7.1,7.4,4.4,3.8,4.3,4.976,0,Mantido na Fase atual,-2.0
+ALUNO-324,2019.0,7.0,7,Topázio,10.0,7.9,8.1,8.3,6.9,8.3,8.6,8.252,0,Promovido de Fase + Bolsa,0.0
+ALUNO-331,2021.0,0.0,0,Topázio,10.0,7.3,10.0,9.0,7.5,8.4,9.8,8.923,1,Não avaliado,0.0
+ALUNO-332,2019.0,1.0,2,Topázio,5.0,7.4,9.6,9.0,7.5,8.3,9.8,8.342,1,Promovido de Fase,-1.0
+ALUNO-336,,0.0,1,Ametista,5.0,6.9,10.0,9.0,6.3,7.5,6.9,7.533,0,Mantido na Fase atual,-1.0
+ALUNO-337,2016.0,5.0,6,Ametista,5.0,7.3,8.1,7.5,7.5,8.8,8.5,7.661,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-339,2018.0,3.0,5,Ametista,5.0,6.2,8.1,8.8,7.5,8.5,9.2,7.676,1,Mantido na Fase atual,-2.0
+ALUNO-340,2018.0,3.0,5,Ametista,5.0,7.0,8.1,8.8,7.5,8.3,9.1,7.8,1,Mantido na Fase atual,-2.0
+ALUNO-342,2016.0,2.0,3,Ametista,5.0,7.6,6.7,8.5,7.5,7.5,8.4,7.392,0,Promovido de Fase,-1.0
+ALUNO-343,2020.0,5.0,7,Ametista,5.0,6.0,8.1,8.3,6.9,8.0,7.2,7.07,0,Mantido na Fase atual,-2.0
+ALUNO-345,2019.0,1.0,1,Ágata,10.0,4.2,5.0,9.5,7.5,7.7,7.3,6.764,0,Mantido na Fase atual,0.0
+ALUNO-346,2019.0,1.0,1,Quartzo,10.0,0.0,3.8,7.9,7.5,7.5,4.4,4.925,0,Mantido na Fase atual,0.0
+ALUNO-348,2019.0,1.0,2,Ametista,5.0,6.4,8.8,10.0,7.5,7.7,7.5,7.558,0,Mantido na Fase atual,-1.0
+ALUNO-349,2020.0,1.0,2,Quartzo,5.0,0.4,3.3,8.0,7.5,6.9,4.6,4.414,0,Mantido na Fase atual,-1.0
+ALUNO-352,2021.0,4.0,4,Ágata,10.0,3.5,3.6,7.5,7.5,7.2,5.7,5.783,0,Promovido de Fase,0.0
+ALUNO-357,2021.0,3.0,3,Ágata,10.0,5.9,5.3,8.3,7.5,7.3,6.6,6.854,0,Mantido na Fase atual,0.0
+ALUNO-359,2019.0,2.0,3,Ametista,5.0,8.0,5.0,8.0,7.5,8.5,9.1,7.326,1,Promovido de Fase,-1.0
+ALUNO-363,2021.0,0.0,0,Ametista,10.0,6.5,8.3,10.0,7.5,7.8,8.7,8.231,0,Mantido na Fase atual,0.0
+ALUNO-364,2019.0,2.0,2,Ágata,10.0,4.7,7.5,0.0,4.4,7.1,8.6,6.306,0,Mantido na Fase atual,0.0
+ALUNO-365,2017.0,6.0,6,Ametista,10.0,6.5,6.9,9.2,5.0,6.9,7.9,7.376,0,Promovido de Fase,0.0
+ALUNO-367,2016.0,4.0,4,Ágata,10.0,4.8,4.4,7.9,7.5,7.0,6.5,6.392,0,Mantido na Fase atual,0.0
+ALUNO-370,2019.0,3.0,4,Ametista,5.0,9.1,8.9,7.9,6.3,9.0,8.9,8.196,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-372,2017.0,2.0,3,Ágata,5.0,4.9,5.4,8.0,7.5,7.5,7.4,6.36,0,Promovido de Fase,-1.0
+ALUNO-373,2017.0,4.0,5,Quartzo,5.0,1.5,4.4,9.2,5.6,7.2,4.2,4.712,0,Mantido na Fase atual,-1.0
+ALUNO-374,2021.0,7.0,9,Topázio,10.0,6.4,9.4,9.6,7.5,8.1,7.9,8.276,0,Promovido de Fase + Bolsa,0.0
+ALUNO-375,2016.0,2.0,2,Topázio,10.0,8.1,10.0,9.5,7.5,7.5,8.9,8.858,0,Promovido de Fase,0.0
+ALUNO-376,2021.0,4.0,6,Quartzo,5.0,3.9,5.8,8.8,0.0,7.7,5.7,5.216,0,Mantido na Fase atual,-2.0
+ALUNO-377,2017.0,3.0,3,Ametista,10.0,4.2,7.5,8.8,5.6,7.5,7.9,7.11,0,Promovido de Fase,0.0
+ALUNO-378,2016.0,6.0,6,Ametista,10.0,7.7,7.8,6.7,4.4,7.8,7.3,7.441,0,Promovido de Fase,0.0
+ALUNO-379,2018.0,4.0,5,Quartzo,5.0,1.7,2.8,10.0,5.0,5.6,3.5,4.151,0,Mantido na Fase atual,-1.0
+ALUNO-381,2019.0,0.0,2,Ametista,5.0,6.1,8.3,9.5,6.3,7.8,6.6,7.052,0,Mantido na Fase atual,-2.0
+ALUNO-383,2021.0,0.0,2,Ametista,5.0,6.3,5.8,9.5,7.5,7.2,7.8,6.915,0,Não avaliado,-2.0
+ALUNO-384,2021.0,1.0,2,Ametista,5.0,3.6,9.2,8.5,8.8,8.1,9.1,7.418,1,Promovido de Fase,-1.0
+ALUNO-385,2020.0,3.0,5,Quartzo,5.0,2.6,3.9,8.8,7.5,7.3,6.4,5.435,0,Mantido na Fase atual,-2.0
+ALUNO-387,2018.0,3.0,4,Ágata,5.0,6.6,5.8,7.9,5.0,7.3,5.9,6.19,0,Promovido de Fase,-1.0
+ALUNO-388,2018.0,2.0,3,Ágata,5.0,3.8,3.8,9.5,7.5,7.5,7.7,6.007,0,Mantido na Fase atual,-1.0
+ALUNO-389,2020.0,6.0,7,Ametista,5.0,9.0,8.6,8.3,6.3,9.4,8.9,8.201,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-393,2017.0,2.0,3,Ametista,5.0,7.4,6.7,9.0,7.5,8.1,7.4,7.26,0,Promovido de Fase,-1.0
+ALUNO-394,2016.0,4.0,6,Ágata,5.0,5.2,5.3,7.1,6.9,7.2,6.7,6.053,0,Promovido de Fase,-2.0
+ALUNO-396,2019.0,5.0,6,Ametista,5.0,7.2,8.1,7.9,7.5,7.7,8.7,7.593,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-397,2016.0,3.0,3,Quartzo,10.0,2.5,2.8,6.7,3.1,4.6,3.8,4.257,0,Mantido na Fase atual,0.0
+ALUNO-400,2019.0,1.0,2,Quartzo,5.0,1.2,3.3,0.0,5.6,7.3,5.2,3.729,0,Mantido na Fase atual,-1.0
+ALUNO-403,2021.0,3.0,3,Ametista,10.0,6.4,7.2,9.2,7.5,7.9,8.5,7.878,0,Promovido de Fase,0.0
+ALUNO-404,2016.0,4.0,4,Topázio,10.0,7.4,9.2,8.8,7.5,8.9,8.3,8.499,0,Promovido de Fase,0.0
+ALUNO-405,2021.0,0.0,0,Ametista,10.0,6.0,8.3,8.5,7.5,7.5,7.8,7.767,0,Mantido na Fase atual,0.0
+ALUNO-406,2018.0,1.0,2,Ágata,5.0,6.4,8.3,9.0,6.9,7.5,5.4,6.868,0,Mantido na Fase atual,-1.0
+ALUNO-407,2018.0,4.0,4,Topázio,10.0,6.6,8.9,8.3,7.5,9.2,9.4,8.475,1,Promovido de Fase + Bolsa,0.0
+ALUNO-408,2020.0,1.0,1,Topázio,10.0,7.2,9.2,9.0,8.8,8.8,8.9,8.699,0,Promovido de Fase,0.0
+ALUNO-416,2018.0,2.0,4,Ametista,5.0,6.9,8.8,9.0,4.4,7.3,8.2,7.349,0,Promovido de Fase,-2.0
+ALUNO-421,2018.0,4.0,6,Ágata,5.0,5.8,5.8,9.2,7.5,7.7,6.9,6.624,0,Promovido de Fase,-2.0
+ALUNO-422,2021.0,0.0,2,Ametista,5.0,7.2,10.0,9.0,7.5,8.4,7.7,7.965,0,Não avaliado,-2.0
+ALUNO-423,2021.0,5.0,7,Quartzo,5.0,1.5,1.7,0.0,5.0,6.9,4.2,3.146,0,Mantido na Fase atual,-2.0
+ALUNO-424,2017.0,2.0,3,Ágata,5.0,4.5,5.0,9.0,7.5,7.3,6.1,5.99,0,Mantido na Fase atual,-1.0
+ALUNO-425,2019.0,3.0,4,Ágata,5.0,5.5,6.4,9.2,7.5,7.1,6.9,6.642,0,Mantido na Fase atual,-1.0
+ALUNO-432,,0.0,2,Quartzo,5.0,2.6,6.7,9.0,5.0,2.5,4.8,4.946,0,Mantido na Fase atual,-2.0
+ALUNO-435,2020.0,5.0,7,Quartzo,5.0,3.0,4.7,6.7,0.0,7.5,3.5,4.169,0,Mantido na Fase atual,-2.0
+ALUNO-436,2021.0,2.0,3,Ametista,5.0,6.3,8.8,9.5,7.5,8.5,8.4,7.743,0,Mantido na Fase atual,-1.0
+ALUNO-437,2018.0,2.0,2,Ágata,10.0,4.0,5.0,8.5,7.5,7.7,6.6,6.482,0,Mantido na Fase atual,0.0
+ALUNO-438,2021.0,5.0,7,Ágata,5.0,2.8,5.3,9.2,7.5,7.5,6.1,5.756,0,Mantido na Fase atual,-2.0
+ALUNO-440,2021.0,5.0,6,Ametista,5.0,6.7,8.1,8.3,7.5,8.1,7.7,7.382,0,Promovido de Fase,-1.0
+ALUNO-441,2019.0,2.0,3,Ametista,5.0,7.8,7.9,9.0,6.3,8.1,8.0,7.571,0,Promovido de Fase,-1.0
+ALUNO-442,2020.0,1.0,2,Quartzo,5.0,0.7,4.2,8.5,7.5,7.5,6.8,5.188,0,Mantido na Fase atual,-1.0
+ALUNO-444,2021.0,1.0,2,Ágata,5.0,5.1,4.2,9.5,7.5,8.1,8.1,6.469,0,Promovido de Fase,-1.0
+ALUNO-447,2019.0,1.0,2,Ametista,5.0,6.4,9.6,9.5,5.0,7.9,8.7,7.69,0,Mantido na Fase atual,-1.0
+ALUNO-448,2019.0,3.0,3,Ametista,10.0,6.3,7.8,9.2,7.5,7.5,8.1,7.85,0,Promovido de Fase,0.0
+ALUNO-449,2019.0,2.0,2,Ametista,10.0,4.9,7.5,8.5,7.5,8.5,8.6,7.653,0,Mantido na Fase atual,0.0
+ALUNO-450,2021.0,5.0,6,Ametista,5.0,6.3,7.5,7.1,7.5,8.1,8.3,7.196,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-451,2018.0,1.0,2,Ágata,5.0,1.0,5.0,8.5,7.5,8.3,7.7,5.667,0,Mantido na Fase atual,-1.0
+ALUNO-452,2021.0,1.0,2,Ametista,5.0,4.8,8.8,7.0,7.5,8.1,8.3,7.118,0,Mantido na Fase atual,-1.0
+ALUNO-455,2019.0,2.0,2,Ametista,10.0,4.9,7.1,8.5,7.5,7.3,7.2,7.154,0,Mantido na Fase atual,0.0
+ALUNO-463,2017.0,4.0,3,Topázio,10.0,7.0,8.3,9.6,7.5,8.8,8.2,8.292,0,Promovido de Fase,1.0
+ALUNO-465,2021.0,0.0,2,Ametista,5.0,7.6,10.0,8.5,7.5,7.8,8.6,8.123,0,Não avaliado,-2.0
+ALUNO-468,2021.0,2.0,2,Ágata,10.0,3.6,6.3,7.0,7.5,7.7,7.0,6.583,0,Mantido na Fase atual,0.0
+ALUNO-469,2016.0,4.0,3,Ágata,10.0,6.4,6.7,6.3,7.5,7.3,5.2,6.759,0,Promovido de Fase,1.0
+ALUNO-474,2019.0,2.0,2,Ametista,10.0,4.6,7.5,9.0,7.5,7.1,7.2,7.215,0,Mantido na Fase atual,0.0
+ALUNO-477,2019.0,2.0,3,Quartzo,5.0,4.3,5.8,0.0,7.5,7.3,5.9,5.185,0,Mantido na Fase atual,-1.0
+ALUNO-482,2016.0,2.0,3,Topázio,5.0,9.1,10.0,10.0,7.5,9.8,9.8,9.021,1,Promovido de Fase,-1.0
+ALUNO-483,2018.0,2.0,3,Ametista,5.0,8.1,8.3,9.5,5.0,7.9,8.1,7.644,0,Promovido de Fase,-1.0
+ALUNO-485,2021.0,3.0,4,Ágata,5.0,5.0,6.1,7.1,7.5,7.3,7.4,6.387,0,Mantido na Fase atual,-1.0
+ALUNO-486,2021.0,2.0,3,Quartzo,5.0,6.0,6.3,0.0,7.5,6.7,5.7,5.511,0,Mantido na Fase atual,-1.0
+ALUNO-487,2019.0,0.0,1,Ametista,5.0,7.1,6.7,10.0,7.5,7.8,8.3,7.44,0,Não avaliado,-1.0
+ALUNO-488,2019.0,3.0,4,Ágata,5.0,3.0,5.3,8.3,7.5,7.1,5.5,5.539,0,Mantido na Fase atual,-1.0
+ALUNO-490,2021.0,4.0,6,Ametista,5.0,6.5,7.8,8.8,6.9,7.3,7.0,7.044,0,Promovido de Fase,-2.0
+ALUNO-494,2021.0,1.0,2,Topázio,5.0,7.2,9.2,9.5,7.5,8.8,9.6,8.268,1,Promovido de Fase,-1.0
+ALUNO-496,2021.0,4.0,3,Ametista,10.0,7.5,6.7,9.6,7.5,8.3,7.7,7.895,0,Promovido de Fase + Bolsa,1.0
+ALUNO-497,2021.0,2.0,3,Ametista,5.0,6.6,8.3,9.0,7.5,8.1,8.2,7.599,0,Promovido de Fase,-1.0
+ALUNO-498,2021.0,3.0,3,Ágata,10.0,3.8,3.9,9.6,5.0,7.3,5.1,5.735,0,Mantido na Fase atual,0.0
+ALUNO-499,2017.0,2.0,3,Ametista,5.0,7.1,7.1,9.0,7.5,7.5,8.8,7.497,0,Mantido na Fase atual,-1.0
+ALUNO-500,2019.0,7.0,7,Ametista,10.0,6.4,8.9,9.2,5.6,8.1,7.6,7.878,0,Promovido de Fase + Bolsa,0.0
+ALUNO-502,2018.0,4.0,4,Ágata,10.0,3.9,4.7,10.0,7.5,8.8,7.5,6.853,0,Promovido de Fase + Bolsa,0.0
+ALUNO-503,2021.0,0.0,1,Ametista,5.0,6.9,10.0,9.5,7.5,7.5,8.4,8.008,0,Não avaliado,-1.0
+ALUNO-506,2020.0,0.0,0,#NULO!,10.0,4.1,0.0,7.4,5.0,0.0,0.0,,0,Não avaliado,0.0
+ALUNO-507,2016.0,4.0,4,Ágata,10.0,2.8,3.9,9.6,5.0,7.2,5.3,5.58,0,Mantido na Fase atual,0.0
+ALUNO-511,2021.0,0.0,1,Ametista,5.0,6.6,8.3,7.5,7.5,7.5,7.8,7.296,0,Mantido na Fase atual,-1.0
+ALUNO-512,2019.0,4.0,5,Ametista,5.0,7.0,8.6,8.3,7.5,8.8,9.5,7.972,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-513,2020.0,1.0,2,Ametista,5.0,6.1,7.5,8.5,7.5,7.7,8.4,7.285,0,Mantido na Fase atual,-1.0
+ALUNO-518,2019.0,7.0,7,Ametista,10.0,7.9,6.7,9.6,7.5,8.1,7.7,7.971,0,Promovido de Fase + Bolsa,0.0
+ALUNO-520,2018.0,3.0,2,Topázio,10.0,7.2,9.7,7.9,5.6,9.0,8.9,8.414,0,Promovido de Fase,1.0
+ALUNO-521,2018.0,2.0,2,Ametista,10.0,5.3,4.6,9.5,7.5,8.5,8.7,7.254,0,Promovido de Fase,0.0
+ALUNO-522,2018.0,2.0,3,Ágata,5.0,3.8,4.2,8.5,7.5,7.5,7.1,5.868,0,Mantido na Fase atual,-1.0
+ALUNO-523,2021.0,3.0,3,Ametista,10.0,6.4,5.6,7.9,7.5,6.9,7.3,7.082,0,Promovido de Fase,0.0
+ALUNO-524,2020.0,1.0,2,Topázio,5.0,8.4,9.2,9.5,7.5,8.8,9.6,8.494,1,Promovido de Fase,-1.0
+ALUNO-526,2021.0,1.0,2,Ametista,5.0,7.8,8.8,8.5,7.5,7.7,7.3,7.626,0,Mantido na Fase atual,-1.0
+ALUNO-527,2017.0,6.0,7,Ametista,5.0,7.1,7.2,9.2,7.5,8.6,8.7,7.62,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-529,2021.0,1.0,2,Ametista,5.0,8.0,9.6,8.0,7.5,8.1,8.6,8.09,0,Mantido na Fase atual,-1.0
+ALUNO-531,2019.0,5.0,7,Ametista,5.0,5.7,8.3,8.8,7.5,7.8,7.5,7.223,0,Promovido de Fase + Bolsa,-2.0
+ALUNO-533,2019.0,3.0,4,Ágata,5.0,4.9,5.3,9.2,7.5,7.8,4.9,5.956,0,Não avaliado,-1.0
+ALUNO-536,2021.0,1.0,2,Quartzo,5.0,3.1,1.7,8.0,7.5,6.7,4.6,4.586,0,Mantido na Fase atual,-1.0
+ALUNO-537,2021.0,0.0,1,Quartzo,5.0,3.4,4.2,6.3,7.5,5.0,4.6,4.808,0,Mantido na Fase atual,-1.0
+ALUNO-538,2021.0,2.0,3,Quartzo,5.0,1.1,5.0,9.0,5.0,5.2,5.9,4.824,0,Mantido na Fase atual,-1.0
+ALUNO-540,2018.0,2.0,3,Ágata,5.0,4.5,5.4,8.5,7.5,7.5,6.2,6.078,0,Mantido na Fase atual,-1.0
+ALUNO-541,2019.0,4.0,4,Ametista,10.0,6.8,6.9,9.2,7.5,8.1,8.0,7.835,0,Promovido de Fase,0.0
+ALUNO-542,2021.0,0.0,2,Ametista,5.0,7.0,8.3,8.0,7.5,7.8,8.3,7.565,0,Mantido na Fase atual,-2.0
+ALUNO-544,2019.0,2.0,3,Ametista,5.0,6.7,7.9,9.0,6.3,8.1,7.7,7.292,0,Promovido de Fase,-1.0
+ALUNO-546,2018.0,6.0,8,Ágata,5.0,4.0,7.2,10.0,2.5,4.6,6.3,5.728,0,Mantido na Fase atual,-2.0
+ALUNO-547,2018.0,4.0,5,Ágata,5.0,7.1,6.4,7.5,6.3,8.0,7.1,6.8,0,Promovido de Fase,-1.0
+ALUNO-548,2021.0,0.0,0,Topázio,10.0,5.3,10.0,9.5,7.5,7.8,9.5,8.431,1,Não avaliado,0.0
+ALUNO-550,2021.0,0.0,1,Ametista,5.0,6.9,8.3,10.0,7.5,7.2,9.3,7.873,1,Mantido na Fase atual,-1.0
+ALUNO-555,2019.0,2.0,2,Topázio,10.0,6.6,10.0,7.4,8.1,8.5,8.8,8.489,0,Mantido na Fase + Bolsa,0.0
+ALUNO-557,2018.0,2.0,3,Ametista,5.0,5.9,8.3,9.0,6.9,8.1,8.9,7.543,0,Promovido de Fase,-1.0
+ALUNO-560,2019.0,2.0,2,Ágata,10.0,3.2,4.6,9.5,7.5,8.1,7.1,6.489,0,Mantido na Fase atual,0.0
+ALUNO-561,2019.0,3.0,5,Quartzo,5.0,4.0,1.1,7.9,7.5,6.9,4.9,4.74,0,Mantido na Fase atual,-2.0
+ALUNO-562,2019.0,2.0,2,Topázio,10.0,9.2,7.9,7.5,7.5,8.8,8.1,8.418,0,Mantido na Fase + Bolsa,0.0
+ALUNO-563,2021.0,0.0,1,Topázio,5.0,7.1,10.0,9.5,7.5,8.1,9.7,8.371,1,Não avaliado,-1.0
+ALUNO-564,2021.0,4.0,4,Ágata,10.0,2.8,3.9,10.0,7.5,7.2,4.8,5.755,0,Mantido na Fase atual,0.0
+ALUNO-565,2021.0,1.0,1,Topázio,10.0,5.8,8.8,10.0,7.5,8.1,9.6,8.385,1,Mantido na Fase atual,0.0
+ALUNO-566,2021.0,5.0,5,Ametista,10.0,7.9,7.8,8.8,7.5,8.4,7.6,8.133,0,Promovido de Fase,0.0
+ALUNO-567,2021.0,0.0,0,Ágata,10.0,5.0,5.8,8.0,7.5,7.2,7.3,6.885,0,Mantido na Fase atual,0.0
+ALUNO-569,2021.0,1.0,1,Topázio,10.0,7.0,10.0,10.0,7.5,7.5,8.7,8.644,0,Mantido na Fase atual,0.0
+ALUNO-570,2019.0,1.0,3,Quartzo,5.0,2.0,3.3,9.5,7.5,7.7,5.1,5.049,0,Mantido na Fase atual,-2.0
+ALUNO-571,2021.0,3.0,4,Ametista,5.0,7.6,7.2,6.7,7.5,7.7,7.9,7.246,0,Mantido na Fase atual,-1.0
+ALUNO-572,2021.0,0.0,0,Topázio,10.0,6.7,10.0,7.5,7.5,8.4,10.0,8.681,1,Não avaliado,0.0
+ALUNO-574,2019.0,6.0,7,Ametista,5.0,5.7,8.6,8.8,7.5,8.0,7.8,7.336,0,Promovido de Fase,-1.0
+ALUNO-578,2021.0,0.0,0,Ametista,10.0,5.2,6.7,8.5,7.5,7.2,9.0,7.49,1,Mantido na Fase atual,0.0
+ALUNO-579,2017.0,2.0,2,Ametista,10.0,5.4,6.3,8.5,7.5,7.5,8.2,7.332,0,Mantido na Fase atual,0.0
+ALUNO-583,2019.0,4.0,5,Ágata,5.0,5.8,5.6,6.7,7.5,7.7,7.9,6.535,0,Promovido de Fase,-1.0
+ALUNO-584,2021.0,1.0,2,Ametista,5.0,2.7,8.8,9.0,7.5,8.1,8.9,7.039,0,Mantido na Fase atual,-1.0
+ALUNO-585,2018.0,2.0,5,Quartzo,2.5,0.4,1.3,0.0,4.4,6.6,5.3,2.735,0,Mantido na Fase atual,-3.0
+ALUNO-586,2020.0,1.0,2,Ametista,5.0,7.1,9.6,8.5,7.5,8.1,8.9,8.019,0,Mantido na Fase atual,-1.0
+ALUNO-588,2019.0,1.0,1,Topázio,10.0,7.8,9.6,10.0,7.5,8.8,8.9,8.881,0,Promovido de Fase,0.0
+ALUNO-589,2019.0,1.0,3,Ametista,5.0,6.4,8.3,7.4,7.5,8.1,8.3,7.413,0,Promovido de Fase,-2.0
+ALUNO-594,2020.0,1.0,3,Ametista,5.0,4.8,9.2,9.5,7.5,7.9,8.4,7.476,0,Mantido na Fase atual,-2.0
+ALUNO-595,2021.0,0.0,0,Topázio,10.0,6.9,10.0,9.5,7.5,7.8,9.8,8.806,1,Não avaliado,0.0
+ALUNO-596,2021.0,1.0,2,Ágata,5.0,3.0,6.7,10.0,7.5,8.1,6.9,6.374,0,Mantido na Fase atual,-1.0
+ALUNO-602,2021.0,1.0,3,Quartzo,5.0,2.3,4.6,0.0,7.5,8.4,7.3,4.94,0,Mantido na Fase atual,-2.0
+ALUNO-603,2018.0,1.0,3,Ágata,5.0,3.3,9.2,0.0,3.1,8.1,8.3,5.787,0,Mantido na Fase atual,-2.0
+ALUNO-608,2017.0,4.0,5,Ametista,5.0,8.5,7.2,7.1,5.0,7.7,8.5,7.31,0,Promovido de Fase,-1.0
+ALUNO-610,2021.0,5.0,6,Ametista,5.0,5.8,6.4,8.8,7.5,8.4,7.5,6.913,0,Mantido na Fase + Bolsa,-1.0
+ALUNO-613,2018.0,1.0,2,Ametista,5.0,5.5,9.2,9.5,3.1,8.3,8.3,7.196,0,Mantido na Fase atual,-1.0
+ALUNO-615,2019.0,1.0,1,Topázio,10.0,7.4,8.8,9.0,7.5,7.5,8.7,8.358,0,Mantido na Fase atual,0.0
+ALUNO-617,2021.0,0.0,0,Topázio,10.0,5.9,10.0,9.0,7.5,8.1,9.7,8.583,1,Não avaliado,0.0
+ALUNO-619,2019.0,2.0,2,Ágata,10.0,4.6,5.0,7.9,7.5,7.7,7.2,6.682,0,Mantido na Fase atual,0.0
+ALUNO-620,2021.0,1.0,2,Quartzo,5.0,0.0,1.3,0.0,7.5,6.3,4.1,2.942,0,Mantido na Fase atual,-1.0
+ALUNO-622,2018.0,3.0,3,Quartzo,10.0,0.7,3.6,10.0,7.5,6.9,4.5,5.193,0,Mantido na Fase atual,0.0
+ALUNO-624,2019.0,3.0,6,Ágata,2.5,5.1,5.0,7.1,7.5,7.1,6.5,5.742,0,Mantido na Fase atual,-3.0
+ALUNO-627,2021.0,0.0,1,Ametista,5.0,6.9,8.3,8.0,7.5,7.5,8.0,7.442,0,Mantido na Fase atual,-1.0
+ALUNO-628,2021.0,0.0,2,Ametista,5.0,5.9,8.3,9.0,7.5,7.5,8.4,7.438,0,Mantido na Fase atual,-2.0
+ALUNO-632,2021.0,0.0,2,Ágata,5.0,3.4,5.0,9.0,7.5,7.5,6.5,5.888,0,Não avaliado,-2.0
+ALUNO-634,2018.0,1.0,3,Quartzo,5.0,2.4,2.1,6.3,6.3,4.4,3.3,3.754,0,Mantido na Fase atual,-2.0
+ALUNO-635,2017.0,5.0,6,Quartzo,5.0,4.8,3.3,4.6,5.0,5.9,4.0,4.494,0,Mantido na Fase atual,-1.0
+ALUNO-638,2019.0,2.0,4,Ágata,5.0,6.1,6.3,8.5,6.9,7.5,7.7,6.783,0,Mantido na Fase atual,-2.0
+ALUNO-642,2019.0,1.0,2,Ametista,5.0,6.4,7.5,8.5,6.3,6.9,8.2,7.082,0,Alocado em Fase anterior,-1.0
+ALUNO-644,2018.0,2.0,2,Topázio,10.0,9.4,10.0,10.0,5.0,8.5,9.7,9.163,1,Promovido de Fase,0.0
+ALUNO-645,2020.0,0.0,1,Ágata,5.0,5.3,6.7,10.0,7.5,7.5,6.2,6.633,0,Não avaliado,-1.0
+ALUNO-646,2019.0,2.0,3,Ametista,5.0,6.6,7.9,9.0,7.5,7.7,7.8,7.396,0,Mantido na Fase atual,-1.0
+ALUNO-647,2018.0,2.0,3,Quartzo,5.0,0.0,1.7,9.5,5.0,7.3,4.3,3.868,0,Mantido na Fase atual,-1.0
+ALUNO-653,2021.0,0.0,0,Ametista,10.0,4.9,5.8,9.0,7.5,7.5,7.0,6.942,0,Mantido na Fase atual,0.0
+ALUNO-657,2019.0,2.0,3,Ametista,5.0,8.5,6.3,9.5,7.5,9.0,10.0,8.046,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-658,2021.0,0.0,1,Ágata,5.0,2.8,4.2,9.5,7.5,7.8,6.2,5.615,0,Não avaliado,-1.0
+ALUNO-659,2019.0,3.0,3,Quartzo,10.0,1.3,3.6,8.3,7.5,7.8,5.1,5.348,0,Não avaliado,0.0
+ALUNO-660,2021.0,5.0,7,Quartzo,5.0,5.3,4.7,8.3,0.0,7.9,6.0,5.336,0,Promovido de Fase + Bolsa,-2.0
+ALUNO-663,2018.0,2.0,2,Quartzo,10.0,3.3,2.9,7.8,7.5,6.7,5.2,5.479,0,Mantido na Fase atual,0.0
+ALUNO-664,2019.0,5.0,6,Topázio,5.0,9.3,8.6,10.0,7.5,8.8,9.9,8.681,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-668,2020.0,2.0,2,Ágata,10.0,4.5,5.8,8.0,7.5,7.5,6.8,6.722,0,Mantido na Fase atual,0.0
+ALUNO-670,2020.0,6.0,7,Ametista,5.0,7.9,7.5,7.9,7.5,9.2,9.2,7.872,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-671,2018.0,1.0,2,Ametista,5.0,7.4,9.6,9.0,6.3,8.3,8.5,7.963,0,Promovido de Fase,-1.0
+ALUNO-672,2018.0,1.0,2,Quartzo,5.0,2.3,3.3,9.5,7.5,7.7,6.6,5.411,0,Mantido na Fase atual,-1.0
+ALUNO-675,2021.0,5.0,5,Quartzo,10.0,0.0,2.8,8.3,7.5,7.5,3.6,4.6,0,Mantido na Fase atual,0.0
+ALUNO-681,2018.0,2.0,4,Ágata,5.0,6.6,6.3,8.5,6.9,7.3,7.5,6.842,0,Promovido de Fase,-2.0
+ALUNO-682,2020.0,1.0,2,Ametista,5.0,7.3,9.6,8.0,7.5,8.1,9.1,8.04,1,Mantido na Fase atual,-1.0
+ALUNO-685,2019.0,0.0,1,Ágata,5.0,4.7,5.0,8.5,6.3,7.2,7.1,6.048,0,Não avaliado,-1.0
+ALUNO-686,2018.0,0.0,2,Ametista,5.0,6.5,5.8,9.5,7.5,7.5,7.5,6.917,0,Não avaliado,-2.0
+ALUNO-687,2021.0,3.0,5,Quartzo,5.0,2.0,5.0,6.7,7.5,7.3,5.3,5.101,0,Mantido na Fase atual,-2.0
+ALUNO-688,2018.0,7.0,8,Ametista,5.0,8.3,9.7,8.3,5.6,7.8,7.3,7.738,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-689,2017.0,2.0,3,Ametista,5.0,7.9,9.2,8.5,7.5,7.5,8.3,7.908,0,Promovido de Fase,-1.0
+ALUNO-690,2021.0,0.0,1,Ágata,5.0,4.9,8.3,9.0,0.0,7.5,6.2,6.042,0,Mantido na Fase atual,-1.0
+ALUNO-693,2020.0,0.0,1,Ágata,5.0,5.9,5.0,8.5,7.5,7.5,8.3,6.675,0,Não avaliado,-1.0
+ALUNO-694,2021.0,0.0,0,Topázio,10.0,7.3,10.0,9.5,7.5,7.8,8.7,8.665,0,Mantido na Fase atual,0.0
+ALUNO-695,2020.0,0.0,1,Topázio,5.0,7.1,10.0,10.0,7.5,7.5,9.3,8.263,1,Não avaliado,-1.0
+ALUNO-698,2020.0,6.0,7,Ametista,5.0,7.2,8.1,7.9,5.6,8.1,7.9,7.294,0,Promovido de Fase,-1.0
+ALUNO-700,2019.0,2.0,3,Ágata,5.0,4.9,4.6,9.5,7.5,7.5,6.8,6.197,0,Mantido na Fase atual,-1.0
+ALUNO-703,2019.0,3.0,4,Ametista,5.0,6.3,6.7,9.2,7.5,7.5,7.9,7.106,0,Promovido de Fase,-1.0
+ALUNO-706,,2.0,3,Ametista,5.0,6.9,6.3,10.0,7.5,7.7,7.8,7.213,0,Promovido de Fase,-1.0
+ALUNO-707,2019.0,2.0,5,Ágata,2.5,5.4,7.1,9.5,7.5,7.5,8.1,6.814,0,Promovido de Fase,-3.0
+ALUNO-708,2019.0,1.0,2,Ametista,5.0,5.1,9.2,9.0,7.5,8.3,7.2,7.286,0,Mantido na Fase atual,-1.0
+ALUNO-709,2021.0,1.0,2,Ametista,5.0,5.8,8.3,8.5,7.5,8.5,8.4,7.449,0,Mantido na Fase atual,-1.0
+ALUNO-710,2018.0,2.0,2,Topázio,10.0,8.3,9.2,9.5,7.5,8.3,8.4,8.713,0,Promovido de Fase,0.0
+ALUNO-713,2019.0,2.0,3,Quartzo,5.0,2.6,6.3,0.0,6.9,8.1,6.8,5.129,0,Mantido na Fase atual,-1.0
+ALUNO-716,2019.0,2.0,2,Ametista,10.0,4.5,6.3,8.5,7.5,7.5,7.1,6.911,0,Mantido na Fase atual,0.0
+ALUNO-717,2021.0,3.0,4,Quartzo,5.0,3.3,4.7,8.8,7.5,7.1,5.3,5.494,0,Promovido de Fase,-1.0
+ALUNO-721,2019.0,2.0,3,Quartzo,5.0,2.5,3.8,9.5,5.6,6.7,5.5,5.029,0,Mantido na Fase atual,-1.0
+ALUNO-722,2021.0,1.0,2,Topázio,5.0,6.9,10.0,10.0,7.5,8.1,9.2,8.271,1,Promovido de Fase,-1.0
+ALUNO-725,2018.0,2.0,3,Quartzo,5.0,0.0,0.4,0.0,7.5,7.5,3.4,2.767,0,Mantido na Fase atual,-1.0
+ALUNO-726,2021.0,0.0,0,Ágata,10.0,3.4,4.2,8.4,7.5,7.2,5.7,5.981,0,Mantido na Fase atual,0.0
+ALUNO-729,2021.0,4.0,5,Ágata,5.0,5.8,3.9,6.7,7.5,7.5,5.4,5.686,0,Mantido na Fase atual,-1.0
+ALUNO-730,2021.0,5.0,6,Ágata,5.0,5.8,4.4,8.3,5.0,7.3,5.3,5.69,0,Mantido na Fase atual,-1.0
+ALUNO-732,2018.0,5.0,5,Ametista,10.0,8.0,6.4,7.9,7.5,8.1,7.7,7.765,0,Promovido de Fase,0.0
+ALUNO-733,2018.0,3.0,3,Ametista,10.0,4.4,6.4,8.8,6.3,7.7,7.3,6.89,0,Promovido de Fase,0.0
+ALUNO-736,2021.0,0.0,0,Quartzo,10.0,3.6,5.0,9.0,0.0,2.5,6.2,5.113,0,Mantido na Fase atual,0.0
+ALUNO-737,2019.0,2.0,3,Ametista,5.0,6.9,7.1,9.0,7.5,8.5,8.1,7.431,0,Promovido de Fase,-1.0
+ALUNO-738,2018.0,3.0,3,Ametista,10.0,8.1,7.8,9.2,6.3,7.5,7.9,8.042,0,Promovido de Fase,0.0
+ALUNO-739,2016.0,3.0,4,Ametista,5.0,7.6,8.1,9.2,8.8,8.1,9.2,8.085,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-740,2020.0,0.0,2,Ágata,5.0,4.2,5.8,9.0,7.5,7.5,7.6,6.421,0,Não avaliado,-2.0
+ALUNO-741,2021.0,5.0,5,Ametista,10.0,6.2,4.4,8.8,7.5,8.0,7.3,7.002,0,Mantido na Fase atual,0.0
+ALUNO-742,2021.0,3.0,3,Ametista,10.0,6.8,6.1,7.5,7.5,7.7,7.5,7.36,0,Promovido de Fase,0.0
+ALUNO-743,2020.0,1.0,1,Ametista,10.0,6.4,8.8,10.0,5.0,7.9,8.7,8.061,0,Mantido na Fase atual,0.0
+ALUNO-746,2018.0,2.0,2,Topázio,10.0,9.3,8.8,9.0,8.8,8.5,9.4,9.107,1,Promovido de Fase,0.0
+ALUNO-747,2019.0,4.0,4,Topázio,10.0,7.4,8.9,8.8,7.5,9.2,9.3,8.675,1,Promovido de Fase + Bolsa,0.0
+ALUNO-748,2021.0,0.0,2,Ametista,5.0,6.4,10.0,10.0,7.5,7.8,8.3,7.985,0,Não avaliado,-2.0
+ALUNO-749,2018.0,4.0,5,Ágata,5.0,7.6,5.0,6.3,7.5,7.5,6.8,6.508,0,Promovido de Fase,-1.0
+ALUNO-753,2019.0,4.0,3,Quartzo,10.0,0.8,2.5,8.3,7.5,7.2,4.1,4.785,0,Mantido na Fase atual,1.0
+ALUNO-755,2017.0,4.0,4,Ágata,10.0,6.8,4.7,7.1,6.9,7.8,7.0,6.872,0,Promovido de Fase,0.0
+ALUNO-757,2017.0,3.0,4,Quartzo,5.0,2.9,5.3,7.9,7.5,7.3,5.1,5.421,0,Mantido na Fase atual,-1.0
+ALUNO-758,2020.0,2.0,3,Ametista,5.0,6.5,5.4,8.5,7.5,8.3,8.3,6.983,0,Promovido de Fase,-1.0
+ALUNO-760,2020.0,0.0,0,Ametista,10.0,6.8,5.8,8.0,7.5,7.8,7.5,7.36,0,Não avaliado,0.0
+ALUNO-763,2021.0,1.0,2,Ágata,5.0,3.2,7.1,7.5,7.5,7.9,8.5,6.546,0,Mantido na Fase atual,-1.0
+ALUNO-766,2021.0,5.0,6,Ametista,5.0,6.5,7.5,9.2,7.5,7.8,8.4,7.44,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-768,2017.0,3.0,5,Ametista,5.0,8.4,9.2,8.3,6.3,8.1,8.9,8.065,0,Promovido de Fase + Bolsa,-2.0
+ALUNO-769,2021.0,3.0,3,Topázio,10.0,8.5,7.2,9.6,7.5,7.7,8.9,8.401,0,Promovido de Fase + Bolsa,0.0
+ALUNO-773,2016.0,2.0,3,Topázio,5.0,8.9,10.0,9.5,7.5,9.8,9.8,8.921,1,Promovido de Fase,-1.0
+ALUNO-775,2021.0,2.0,2,Topázio,10.0,8.9,10.0,9.5,7.5,8.1,9.6,9.211,1,Promovido de Fase,0.0
+ALUNO-776,2020.0,3.0,5,Quartzo,5.0,3.9,4.2,7.9,7.5,6.9,5.4,5.424,0,Mantido na Fase atual,-2.0
+ALUNO-777,2019.0,2.0,5,Quartzo,2.5,4.3,3.8,8.0,7.5,7.5,6.8,5.5,0,Promovido de Fase,-3.0
+ALUNO-781,,3.0,3,Quartzo,10.0,3.3,3.1,8.8,7.5,6.7,4.4,5.45,0,Mantido na Fase atual,0.0
+ALUNO-783,2020.0,2.0,3,Ágata,5.0,3.6,4.6,7.5,7.5,8.3,8.3,6.118,0,Mantido na Fase atual,-1.0
+ALUNO-784,2021.0,2.0,3,Topázio,5.0,7.9,9.2,9.5,8.8,8.5,9.7,8.533,1,Promovido de Fase,-1.0
+ALUNO-786,2018.0,5.0,7,Quartzo,5.0,3.3,6.1,7.1,5.0,7.2,5.1,5.341,0,Mantido na Fase atual,-2.0
+ALUNO-790,2019.0,4.0,4,Topázio,10.0,7.5,8.3,10.0,7.5,8.8,9.3,8.65,1,Promovido de Fase + Bolsa,0.0
+ALUNO-792,2017.0,2.0,3,Quartzo,5.0,4.1,5.8,6.3,5.0,7.5,5.8,5.531,0,Mantido na Fase atual,-1.0
+ALUNO-793,2020.0,1.0,2,Ágata,5.0,3.9,7.9,8.0,7.5,7.3,6.8,6.506,0,Mantido na Fase atual,-1.0
+ALUNO-794,2017.0,3.0,6,Ametista,2.5,8.2,7.5,7.9,6.3,7.9,8.1,7.211,0,Promovido de Fase,-3.0
+ALUNO-796,2018.0,4.0,4,Ágata,10.0,2.3,6.7,8.3,7.5,7.3,4.2,5.943,0,Mantido na Fase atual,0.0
+ALUNO-797,2019.0,2.0,6,Quartzo,2.5,0.0,0.4,0.0,6.3,6.9,4.1,2.468,0,Mantido na Fase atual,-4.0
+ALUNO-798,2021.0,3.0,4,Ametista,5.0,6.5,7.5,9.2,7.5,7.5,7.7,7.25,0,Promovido de Fase,-1.0
+ALUNO-802,2021.0,0.0,0,Topázio,10.0,7.9,10.0,9.5,7.5,8.8,9.4,9.046,1,Não avaliado,0.0
+ALUNO-803,2020.0,0.0,1,Ametista,5.0,6.6,6.7,8.5,7.5,8.8,7.5,7.133,0,Não avaliado,-1.0
+ALUNO-805,2021.0,1.0,1,Ametista,10.0,5.1,5.8,8.5,7.5,8.1,6.9,6.993,0,Mantido na Fase atual,0.0
+ALUNO-807,2019.0,1.0,1,Topázio,10.0,9.1,10.0,10.0,5.0,9.0,9.8,9.176,1,Promovido de Fase + Bolsa,0.0
+ALUNO-809,2021.0,1.0,2,Quartzo,5.0,0.0,2.5,10.0,7.5,7.2,6.5,4.769,0,Mantido na Fase atual,-1.0
+ALUNO-811,2018.0,2.0,3,Ametista,5.0,6.3,8.3,8.0,7.5,7.5,7.3,7.196,0,Mantido na Fase atual,-1.0
+ALUNO-812,2021.0,0.0,2,Ametista,5.0,7.1,10.0,10.0,7.5,7.5,8.3,8.075,0,Mantido na Fase atual,-2.0
+ALUNO-813,2018.0,2.0,2,Ametista,10.0,3.9,7.5,9.0,7.5,7.7,7.8,7.275,0,Mantido na Fase atual,0.0
+ALUNO-814,2019.0,2.0,3,Ágata,5.0,4.4,5.0,7.9,7.5,7.9,7.6,6.231,0,Mantido na Fase atual,-1.0
+ALUNO-817,2019.0,2.0,5,Ametista,2.5,7.6,7.5,9.0,7.5,7.9,9.2,7.549,1,Promovido de Fase,-3.0
+ALUNO-818,2021.0,0.0,0,Ametista,10.0,4.4,6.7,8.0,7.5,7.5,7.3,6.958,0,Mantido na Fase atual,0.0
+ALUNO-820,2017.0,5.0,5,Ametista,10.0,8.2,6.1,8.8,7.5,8.6,8.7,8.073,0,Promovido de Fase + Bolsa,0.0
+ALUNO-822,2021.0,0.0,0,Topázio,10.0,6.6,10.0,9.5,7.5,8.1,9.7,8.758,1,Não avaliado,0.0
+ALUNO-823,2018.0,2.0,2,Ametista,10.0,3.9,7.1,8.5,7.5,7.9,8.1,7.207,0,Mantido na Fase atual,0.0
+ALUNO-824,2019.0,1.0,2,Ametista,5.0,4.9,10.0,9.0,7.5,8.1,9.1,7.76,1,Promovido de Fase,-1.0
+ALUNO-825,2018.0,3.0,4,Quartzo,5.0,1.2,2.8,7.9,6.3,6.3,4.8,4.286,0,Mantido na Fase atual,-1.0
+ALUNO-826,2020.0,2.0,3,Quartzo,5.0,1.0,2.5,0.0,7.5,7.9,7.2,4.186,0,Mantido na Fase atual,-1.0
+ALUNO-827,2021.0,0.0,1,Ágata,5.0,6.0,5.0,9.0,7.5,7.5,8.2,6.733,0,Mantido na Fase atual,-1.0
+ALUNO-828,2016.0,5.0,6,Ametista,5.0,7.3,7.5,9.2,7.5,8.1,7.7,7.482,0,Promovido de Fase,-1.0
+ALUNO-829,2017.0,3.0,3,Ágata,10.0,3.6,3.9,10.0,7.5,7.3,7.2,6.418,0,Mantido na Fase atual,0.0
+ALUNO-830,2017.0,5.0,4,Topázio,10.0,7.9,7.8,10.0,7.5,8.8,8.8,8.506,0,Promovido de Fase + Bolsa,1.0
+ALUNO-831,2019.0,1.0,3,Ametista,5.0,3.6,10.0,9.5,7.5,7.7,8.3,7.351,0,Mantido na Fase atual,-2.0
+ALUNO-833,2021.0,0.0,1,Ágata,5.0,4.4,8.3,8.5,4.4,2.5,6.2,5.825,0,Não avaliado,-1.0
+ALUNO-834,2021.0,3.0,4,Quartzo,5.0,5.8,3.1,6.7,6.9,7.3,5.7,5.506,0,Mantido na Fase atual,-1.0
+ALUNO-835,2016.0,2.0,3,Quartzo,5.0,1.6,5.4,0.0,5.6,7.8,5.4,4.335,0,Mantido na Fase atual,-1.0
+ALUNO-838,2016.0,6.0,6,Ágata,10.0,5.3,7.2,7.5,2.5,7.7,5.2,6.315,0,Alocado em Fase anterior,0.0
+ALUNO-840,2019.0,0.0,1,Ágata,5.0,6.6,8.3,9.0,4.4,5.3,6.2,6.598,0,Não avaliado,-1.0
+ALUNO-843,2021.0,6.0,7,Ágata,5.0,7.3,7.2,7.1,5.6,6.9,6.5,6.644,0,Promovido de Fase,-1.0
+ALUNO-845,2021.0,3.0,3,Ágata,10.0,4.5,4.4,8.8,4.4,6.0,4.9,5.683,0,Promovido de Fase,0.0
+ALUNO-848,2019.0,2.0,3,Ágata,5.0,4.9,7.9,8.5,7.5,8.1,6.8,6.85,0,Mantido na Fase atual,-1.0
+ALUNO-849,2020.0,2.0,2,Ametista,10.0,4.6,8.3,7.5,8.1,7.9,7.6,7.444,0,Promovido de Fase,0.0
+ALUNO-850,2016.0,3.0,3,Ametista,10.0,6.6,7.5,9.2,7.5,8.1,9.3,8.151,1,Promovido de Fase + Bolsa,0.0
+ALUNO-851,2019.0,1.0,2,Ametista,5.0,4.8,9.6,9.5,7.5,8.1,9.2,7.713,1,Mantido na Fase + Bolsa,-1.0
+ALUNO-855,2020.0,2.0,4,Ágata,5.0,2.8,7.1,8.0,7.5,7.9,7.1,6.243,0,Mantido na Fase atual,-2.0
+ALUNO-858,2019.0,2.0,2,Topázio,10.0,6.2,10.0,9.5,7.5,7.7,9.4,8.586,1,Mantido na Fase atual,0.0
+ALUNO-860,2018.0,3.0,5,Ametista,5.0,7.2,5.0,8.8,7.5,8.3,8.4,7.069,0,Promovido de Fase,-2.0
+ALUNO-861,2020.0,3.0,5,Ametista,5.0,7.7,8.3,9.2,7.5,7.7,7.9,7.724,0,Promovido de Fase,-2.0
+ALUNO-862,2019.0,1.0,2,Ametista,5.0,6.5,9.6,9.0,7.5,8.1,9.1,7.99,1,Mantido na Fase atual,-1.0
+ALUNO-865,2021.0,0.0,1,Topázio,5.0,7.3,10.0,9.5,7.5,8.1,9.7,8.396,1,Não avaliado,-1.0
+ALUNO-866,2019.0,1.0,1,Topázio,10.0,8.4,10.0,8.5,7.5,7.7,9.0,8.846,1,Mantido na Fase atual,0.0
+ALUNO-867,2021.0,1.0,3,Quartzo,5.0,1.7,2.1,0.0,8.1,6.9,6.7,4.088,0,Mantido na Fase atual,-2.0
+ALUNO-868,2021.0,0.0,0,Ametista,10.0,7.0,8.3,9.0,7.5,7.8,7.9,8.081,0,Mantido na Fase atual,0.0
+ALUNO-871,2021.0,0.0,2,Ágata,5.0,2.9,6.7,8.5,7.5,7.5,7.5,6.258,0,Não avaliado,-2.0
+ALUNO-872,2017.0,3.0,3,Quartzo,10.0,2.9,2.2,6.7,5.0,5.2,3.7,4.451,0,Alocado em Fase anterior,0.0
+ALUNO-873,2020.0,1.0,3,Ágata,5.0,1.5,5.8,10.0,7.5,7.9,6.8,5.864,0,Mantido na Fase atual,-2.0
+ALUNO-874,2016.0,5.0,5,Ágata,10.0,2.7,6.7,7.1,6.9,7.2,6.1,6.192,0,Mantido na Fase atual,0.0
+ALUNO-875,2021.0,0.0,2,Ametista,5.0,7.1,10.0,8.0,7.5,8.4,8.8,8.069,0,Mantido na Fase atual,-2.0
+ALUNO-877,2019.0,2.0,3,Ágata,5.0,1.9,7.5,7.4,7.5,8.1,8.5,6.379,0,Mantido na Fase atual,-1.0
+ALUNO-878,2021.0,0.0,1,Ametista,5.0,6.7,6.7,9.0,7.5,5.6,8.5,7.083,0,Não avaliado,-1.0
+ALUNO-884,2021.0,5.0,7,Quartzo,5.0,2.1,3.9,7.9,0.0,7.5,6.4,4.511,0,Alocado em Fase anterior,-2.0
+ALUNO-885,2021.0,1.0,1,Ametista,10.0,3.9,8.3,10.0,7.5,8.1,8.8,7.772,0,Mantido na Fase atual,0.0
+ALUNO-886,2020.0,0.0,0,Topázio,10.0,7.1,10.0,9.5,7.5,7.8,8.3,8.544,0,Não avaliado,0.0
+ALUNO-889,2019.0,2.0,3,Ametista,5.0,8.3,8.3,8.5,7.5,7.5,8.8,7.933,0,Promovido de Fase,-1.0
+ALUNO-890,2018.0,3.0,3,Ágata,10.0,2.3,5.3,10.0,7.5,7.2,5.4,6.058,0,Não avaliado,0.0
+ALUNO-892,2019.0,1.0,3,Ametista,5.0,6.9,9.6,7.0,5.6,8.3,7.6,7.411,0,Promovido de Fase,-2.0
+ALUNO-897,,3.0,4,Quartzo,5.0,4.3,3.3,7.9,6.9,6.7,4.8,5.135,0,Mantido na Fase atual,-1.0
+ALUNO-899,2019.0,2.0,2,Ametista,10.0,7.9,7.1,8.0,7.5,7.5,9.0,8.092,1,Mantido na Fase atual,0.0
+ALUNO-900,2021.0,3.0,4,Ágata,5.0,5.4,5.6,7.9,7.5,7.3,4.4,5.835,0,Mantido na Fase atual,-1.0
+ALUNO-902,2019.0,0.0,1,Ametista,5.0,5.4,10.0,8.5,7.5,7.8,6.6,7.273,0,Mantido na Fase atual,-1.0
+ALUNO-903,2021.0,1.0,1,Topázio,10.0,8.3,10.0,9.0,7.5,8.1,9.7,9.069,1,Mantido na Fase + Bolsa,0.0
+ALUNO-904,2020.0,4.0,4,Ametista,10.0,5.9,5.6,9.2,7.5,7.5,7.2,7.144,0,Promovido de Fase,0.0
+ALUNO-905,2021.0,0.0,1,Ágata,5.0,3.5,5.8,9.5,7.5,7.5,6.6,6.133,0,Mantido na Fase atual,-1.0
+ALUNO-906,2017.0,5.0,5,Topázio,10.0,6.8,9.2,9.6,7.5,7.7,9.9,8.632,1,Promovido de Fase + Bolsa,0.0
+ALUNO-907,2020.0,2.0,2,Quartzo,10.0,3.1,3.8,0.0,7.5,7.3,7.6,5.364,0,Promovido de Fase,0.0
+ALUNO-909,2019.0,2.0,3,Ágata,5.0,3.1,5.4,9.5,7.5,7.3,7.2,6.082,0,Mantido na Fase atual,-1.0
+ALUNO-910,2016.0,6.0,7,Ágata,5.0,5.0,7.8,8.8,7.5,7.5,6.7,6.772,0,Promovido de Fase,-1.0
+ALUNO-911,2019.0,4.0,6,Ágata,5.0,5.1,6.9,6.7,5.0,7.5,7.0,6.239,0,Mantido na Fase atual,-2.0
+ALUNO-914,2021.0,2.0,3,Quartzo,5.0,4.6,2.9,0.0,7.5,7.7,7.7,5.061,0,Mantido na Fase atual,-1.0
+ALUNO-916,2017.0,4.0,4,Topázio,10.0,7.8,9.7,8.3,7.5,9.2,9.3,8.866,1,Promovido de Fase + Bolsa,0.0
+ALUNO-919,2020.0,6.0,6,Ágata,10.0,5.5,3.9,7.5,7.5,7.8,6.8,6.517,0,Promovido de Fase,0.0
+ALUNO-922,2019.0,2.0,2,Ametista,10.0,5.6,6.7,8.5,6.3,8.5,8.5,7.475,0,Promovido de Fase,0.0
+ALUNO-923,2020.0,0.0,1,Ágata,5.0,3.9,8.3,8.0,5.0,6.6,5.0,5.91,0,Mantido na Fase atual,-1.0
+ALUNO-926,2018.0,2.0,3,Ametista,5.0,6.9,7.9,9.0,5.0,7.5,8.1,7.219,0,Promovido de Fase,-1.0
+ALUNO-927,2020.0,1.0,2,Ametista,5.0,4.7,8.8,7.4,7.5,8.1,8.8,7.247,0,Mantido na Fase atual,-1.0
+ALUNO-930,2019.0,5.0,6,Topázio,5.0,9.0,8.3,10.0,7.5,8.0,9.3,8.355,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-931,2019.0,1.0,2,Ametista,5.0,6.6,9.6,8.5,6.9,8.3,8.2,7.757,0,Promovido de Fase,-1.0
+ALUNO-932,2017.0,3.0,3,Ametista,10.0,6.4,5.8,10.0,7.5,7.1,6.9,7.289,0,Promovido de Fase,0.0
+ALUNO-937,2021.0,2.0,2,Topázio,10.0,8.3,8.3,10.0,7.5,8.1,8.4,8.581,0,Promovido de Fase,0.0
+ALUNO-938,2016.0,3.0,4,Ágata,5.0,6.0,7.5,8.8,6.3,7.9,7.0,6.883,0,Promovido de Fase,-1.0
+ALUNO-939,2021.0,3.0,4,Ágata,5.0,7.4,5.0,9.2,4.4,9.1,6.2,6.469,0,Mantido na Fase atual,-1.0
+ALUNO-940,2019.0,1.0,2,Ágata,5.0,2.9,8.3,8.5,7.5,7.9,7.1,6.557,0,Mantido na Fase atual,-1.0
+ALUNO-944,2017.0,3.0,5,Quartzo,5.0,1.3,4.7,9.2,5.6,7.3,3.6,4.625,0,Mantido na Fase atual,-2.0
+ALUNO-945,2021.0,3.0,5,Ametista,5.0,9.0,6.4,8.8,7.5,8.3,8.6,7.747,0,Promovido de Fase,-2.0
+ALUNO-946,2021.0,3.0,3,Ametista,10.0,7.1,6.1,7.9,7.5,7.5,8.1,7.542,0,Promovido de Fase,0.0
+ALUNO-947,2021.0,1.0,2,Ametista,5.0,5.1,8.8,8.5,7.5,8.1,8.1,7.31,0,Mantido na Fase atual,-1.0
+ALUNO-948,2018.0,3.0,4,Ametista,5.0,6.2,6.4,8.3,7.5,7.5,7.8,6.908,0,Promovido de Fase,-1.0
+ALUNO-951,2020.0,6.0,7,Ametista,5.0,7.0,7.2,8.3,7.5,8.0,7.6,7.233,0,Promovido de Fase,-1.0
+ALUNO-956,2021.0,0.0,0,Ametista,10.0,5.9,7.5,9.0,7.5,7.5,7.6,7.604,0,Mantido na Fase atual,0.0
+ALUNO-957,2019.0,2.0,2,Ametista,10.0,5.3,7.5,7.5,7.5,8.1,7.9,7.44,0,Mantido na Fase atual,0.0
+ALUNO-958,2021.0,4.0,6,Ametista,5.0,7.6,8.1,7.1,6.9,8.1,8.3,7.494,0,Promovido de Fase,-2.0
+ALUNO-959,2021.0,1.0,2,Ametista,5.0,6.1,10.0,9.0,7.5,8.1,9.4,8.064,1,Promovido de Fase,-1.0
+ALUNO-961,2019.0,2.0,2,Ametista,10.0,4.2,7.5,9.5,6.3,7.7,7.9,7.261,0,Mantido na Fase atual,0.0
+ALUNO-963,2021.0,1.0,2,Ametista,5.0,7.3,9.6,7.0,7.5,8.1,8.8,7.885,0,Mantido na Fase atual,-1.0
+ALUNO-964,2021.0,2.0,3,Ágata,5.0,6.3,5.4,0.0,7.5,8.3,8.0,6.029,0,Promovido de Fase,-1.0
+ALUNO-965,2018.0,3.0,3,Ametista,10.0,5.0,6.1,8.8,7.5,7.5,8.2,7.239,0,Promovido de Fase,0.0
+ALUNO-966,2021.0,0.0,2,Quartzo,5.0,0.0,0.0,8.0,7.5,2.5,5.0,3.3,0,Não avaliado,-2.0
+ALUNO-969,2021.0,0.0,2,Topázio,5.0,7.7,10.0,9.5,7.5,8.8,9.9,8.596,1,Não avaliado,-2.0
+ALUNO-972,2021.0,0.0,1,Topázio,5.0,6.6,10.0,9.5,7.5,8.1,9.6,8.254,1,Não avaliado,-1.0
+ALUNO-973,2019.0,1.0,2,Ágata,5.0,2.7,7.9,6.3,6.3,6.9,6.8,5.933,0,Mantido na Fase atual,-1.0
+ALUNO-977,2021.0,1.0,2,Ágata,5.0,5.4,7.1,9.0,7.5,5.8,5.1,6.249,0,Mantido na Fase atual,-1.0
+ALUNO-983,2018.0,3.0,2,Topázio,10.0,7.2,7.5,7.9,7.5,8.5,9.8,8.296,1,Promovido de Fase + Bolsa,1.0
+ALUNO-984,2017.0,1.0,2,Quartzo,5.0,1.1,0.4,9.5,7.5,7.2,4.3,4.081,0,Mantido na Fase atual,-1.0
+ALUNO-986,2018.0,4.0,5,Ágata,5.0,6.3,6.4,8.8,1.9,8.3,7.5,6.427,0,Promovido de Fase,-1.0
+ALUNO-987,2021.0,0.0,0,Ametista,10.0,6.1,8.3,9.0,7.5,7.2,8.6,7.965,0,Mantido na Fase atual,0.0
+ALUNO-989,2020.0,2.0,3,Quartzo,5.0,5.8,3.3,0.0,7.5,7.5,6.9,5.207,0,Mantido na Fase atual,-1.0
+ALUNO-991,2019.0,2.0,2,Ametista,10.0,5.2,5.4,9.0,7.5,7.9,7.7,7.107,0,Mantido na Fase atual,0.0
+ALUNO-993,2018.0,5.0,5,Ágata,10.0,6.6,3.6,5.4,5.0,7.0,6.3,6.05,0,Mantido na Fase atual,0.0
+ALUNO-994,2019.0,2.0,3,Ametista,5.0,7.4,7.5,9.5,7.5,7.5,8.3,7.604,0,Promovido de Fase,-1.0
+ALUNO-995,,1.0,2,Ágata,5.0,0.9,5.8,8.0,7.5,7.7,7.9,5.751,0,Mantido na Fase atual,-1.0
+ALUNO-996,2018.0,2.0,2,Ametista,10.0,5.6,5.8,9.0,7.5,7.3,6.2,6.892,0,Mantido na Fase atual,0.0
+ALUNO-997,2019.0,2.0,2,Topázio,10.0,8.6,10.0,8.5,5.0,7.9,9.5,8.767,1,Mantido na Fase atual,0.0
+ALUNO-999,2018.0,3.0,3,Ágata,10.0,6.4,6.1,7.9,4.4,6.9,7.2,6.858,0,Promovido de Fase,0.0
+ALUNO-1001,2021.0,0.0,0,Topázio,10.0,6.9,10.0,9.5,7.5,8.4,10.0,8.931,1,Mantido na Fase + Bolsa,0.0
+ALUNO-1002,2020.0,3.0,5,Ametista,5.0,7.5,8.3,8.8,7.5,7.7,8.1,7.693,0,Promovido de Fase,-2.0
+ALUNO-1004,2020.0,0.0,2,Ametista,5.0,6.4,10.0,10.0,6.9,7.8,6.3,7.506,0,Mantido na Fase atual,-2.0
+ALUNO-1007,2019.0,2.0,3,Quartzo,5.0,0.8,1.7,0.0,7.5,7.2,6.5,3.752,0,Não avaliado,-1.0
+ALUNO-1009,2021.0,0.0,0,Ametista,10.0,6.3,10.0,7.0,7.5,2.5,7.2,7.4,0,Mantido na Fase atual,0.0
+ALUNO-1010,2019.0,1.0,2,Ametista,5.0,5.2,10.0,8.0,7.5,7.5,8.1,7.449,0,Promovido de Fase,-1.0
+ALUNO-1013,2021.0,2.0,3,Ametista,5.0,6.1,7.9,9.0,7.5,8.1,7.7,7.292,0,Mantido na Fase atual,-1.0
+ALUNO-1014,2019.0,1.0,2,Ametista,5.0,6.3,8.3,9.0,7.5,8.1,8.7,7.636,0,Mantido na Fase atual,-1.0
+ALUNO-1015,2018.0,3.0,3,Topázio,10.0,6.9,8.9,9.6,7.5,7.9,9.1,8.475,1,Promovido de Fase,0.0
+ALUNO-1016,2019.0,2.0,3,Quartzo,5.0,1.1,0.8,9.0,7.5,7.5,8.3,4.946,0,Promovido de Fase,-1.0
+ALUNO-1017,2018.0,3.0,2,Ametista,10.0,5.8,7.2,8.8,7.5,7.9,9.2,7.844,1,Promovido de Fase,1.0
+ALUNO-1022,2020.0,1.0,1,Ametista,10.0,1.9,9.2,9.0,7.5,7.7,7.9,7.219,0,Mantido na Fase atual,0.0
+ALUNO-1023,2021.0,0.0,1,Ametista,5.0,5.8,10.0,9.0,7.5,7.5,9.2,7.896,1,Mantido na Fase atual,-1.0
+ALUNO-1026,2021.0,3.0,3,Ametista,10.0,5.6,6.1,9.6,7.5,7.1,6.2,7.008,0,Mantido na Fase atual,0.0
+ALUNO-1027,2016.0,6.0,6,Ágata,10.0,6.8,3.9,7.5,0.0,7.1,5.4,5.672,0,Promovido de Fase,0.0
+ALUNO-1028,2019.0,2.0,3,Ametista,5.0,7.1,5.4,8.4,7.5,7.5,7.8,6.917,0,Mantido na Fase atual,-1.0
+ALUNO-1029,2019.0,2.0,2,Topázio,10.0,8.4,7.9,9.0,7.5,9.2,9.7,8.782,1,Promovido de Fase + Bolsa,0.0
+ALUNO-1031,2020.0,1.0,1,Topázio,10.0,8.1,10.0,9.5,7.5,7.5,9.0,8.863,1,Mantido na Fase atual,0.0
+ALUNO-1032,2021.0,1.0,3,Ametista,5.0,5.1,8.3,10.0,7.5,8.5,8.3,7.451,0,Mantido na Fase atual,-2.0
+ALUNO-1034,2019.0,2.0,3,Ametista,5.0,5.8,9.2,8.0,7.5,8.3,9.0,7.679,1,Promovido de Fase,-1.0
+ALUNO-1035,2020.0,1.0,2,Ametista,5.0,6.0,7.9,9.5,6.9,8.8,9.6,7.718,1,Promovido de Fase,-1.0
+ALUNO-1038,2021.0,4.0,4,Ágata,10.0,6.5,6.1,8.3,0.0,8.0,7.3,6.619,0,Promovido de Fase,0.0
+ALUNO-1043,2021.0,0.0,0,Topázio,10.0,6.8,10.0,9.5,7.5,7.5,7.8,8.367,0,Mantido na Fase atual,0.0
+ALUNO-1044,2021.0,0.0,0,Topázio,10.0,5.5,10.0,9.0,7.5,7.5,8.8,8.25,0,Mantido na Fase atual,0.0
+ALUNO-1049,2021.0,1.0,2,Ametista,5.0,6.0,8.8,7.9,7.5,8.5,8.1,7.457,0,Mantido na Fase atual,-1.0
+ALUNO-1050,2021.0,0.0,0,Topázio,10.0,6.9,10.0,10.0,7.5,7.5,9.5,8.788,1,Mantido na Fase atual,0.0
+ALUNO-1051,2019.0,3.0,3,Quartzo,10.0,1.3,1.7,0.0,7.5,6.9,2.9,3.599,0,Mantido na Fase atual,0.0
+ALUNO-1055,2021.0,3.0,3,Ágata,10.0,4.7,4.7,7.5,5.0,7.7,7.6,6.421,0,Mantido na Fase atual,0.0
+ALUNO-1057,2021.0,3.0,3,Ametista,10.0,5.8,5.6,8.3,7.5,8.3,9.0,7.494,1,Promovido de Fase,0.0
+ALUNO-1063,2021.0,0.0,1,Quartzo,5.0,2.3,0.0,9.5,7.5,7.5,7.5,4.9,0,Não avaliado,-1.0
+ALUNO-1064,2021.0,0.0,2,Ágata,5.0,6.3,10.0,10.0,0.0,5.0,7.8,6.817,0,Mantido na Fase atual,-2.0
+ALUNO-1065,2021.0,0.0,1,Ametista,5.0,7.0,10.0,9.5,7.5,7.5,8.3,8.0,0,Mantido na Fase atual,-1.0
+ALUNO-1066,2021.0,3.0,3,Ágata,10.0,5.8,4.7,6.7,7.5,7.3,6.5,6.54,0,Mantido na Fase atual,0.0
+ALUNO-1067,2018.0,1.0,2,Topázio,5.0,8.1,10.0,9.5,7.5,8.8,9.2,8.544,1,Promovido de Fase,-1.0
+ALUNO-1068,2021.0,6.0,7,Ametista,5.0,6.8,8.6,9.2,7.5,8.1,7.2,7.501,0,Promovido de Fase,-1.0
+ALUNO-1070,2019.0,1.0,2,Ametista,5.0,5.4,9.6,9.5,7.5,8.3,8.7,7.758,0,Promovido de Fase,-1.0
+ALUNO-1071,2021.0,2.0,3,Ametista,5.0,5.7,7.1,9.5,7.5,7.3,8.6,7.194,0,Mantido na Fase atual,-1.0
+ALUNO-1072,2020.0,3.0,3,Ametista,10.0,4.6,5.3,9.2,7.5,7.5,8.2,7.033,0,Promovido de Fase,0.0
+ALUNO-1073,2021.0,1.0,2,Ametista,5.0,5.4,8.3,8.5,7.5,7.5,6.6,6.914,0,Mantido na Fase atual,-1.0
+ALUNO-1075,2016.0,5.0,5,Ametista,10.0,6.3,7.2,7.5,7.5,7.8,9.4,7.859,1,Promovido de Fase + Bolsa,0.0
+ALUNO-1078,2019.0,2.0,3,Quartzo,5.0,0.0,1.7,9.0,8.1,7.7,5.7,4.45,0,Mantido na Fase atual,-1.0
+ALUNO-1083,2021.0,2.0,4,Quartzo,5.0,0.0,2.9,0.0,5.0,7.8,5.7,3.498,0,Mantido na Fase atual,-2.0
+ALUNO-1084,2019.0,1.0,1,Ametista,10.0,5.6,9.6,8.0,6.9,7.9,8.2,7.954,0,Mantido na Fase atual,0.0
+ALUNO-1085,2021.0,4.0,5,Ágata,5.0,3.9,7.5,8.8,7.5,7.3,5.5,6.234,0,Promovido de Fase,-1.0
+ALUNO-1086,2021.0,0.0,2,Ametista,5.0,6.2,10.0,7.9,7.5,7.5,8.6,7.746,0,Mantido na Fase atual,-2.0
+ALUNO-1087,2018.0,2.0,3,Ametista,5.0,5.0,8.8,8.5,7.5,8.1,8.3,7.329,0,Promovido de Fase,-1.0
+ALUNO-1089,2019.0,1.0,2,Ágata,5.0,3.6,2.9,9.0,7.5,7.5,7.2,5.653,0,Mantido na Fase atual,-1.0
+ALUNO-1090,2018.0,1.0,2,Ametista,5.0,3.7,8.8,8.5,7.5,7.9,9.0,7.179,1,Mantido na Fase atual,-1.0
+ALUNO-1093,2016.0,6.0,3,Ametista,10.0,5.4,7.2,7.9,7.5,8.0,6.8,7.225,0,Promovido de Fase,3.0
+ALUNO-1095,2019.0,1.0,0,Topázio,10.0,8.9,9.2,10.0,8.1,9.2,9.7,9.294,1,Promovido de Fase,1.0
+ALUNO-1096,,3.0,3,Topázio,10.0,7.5,8.9,10.0,7.5,8.3,9.7,8.814,1,Promovido de Fase + Bolsa,0.0
+ALUNO-1098,2021.0,0.0,0,Topázio,10.0,5.3,10.0,10.0,7.5,7.5,8.8,8.313,0,Mantido na Fase atual,0.0
+ALUNO-1099,2021.0,1.0,1,Topázio,10.0,5.9,9.6,10.0,6.3,8.1,8.9,8.331,0,Mantido na Fase atual,0.0
+ALUNO-1103,2016.0,2.0,4,Quartzo,5.0,3.3,2.9,0.0,5.6,6.0,5.5,4.0,0,Mantido na Fase atual,-2.0
+ALUNO-1104,2021.0,1.0,2,Ametista,5.0,3.6,7.9,9.5,7.5,7.9,7.9,6.889,0,Mantido na Fase atual,-1.0
+ALUNO-1105,2016.0,2.0,3,Ágata,5.0,5.5,6.3,9.5,6.3,7.3,7.3,6.621,0,Mantido na Fase atual,-1.0
+ALUNO-1107,2021.0,2.0,3,Ametista,5.0,8.0,9.6,10.0,7.5,7.5,8.5,8.217,0,Promovido de Fase,-1.0
+ALUNO-1110,2019.0,2.0,2,Ágata,10.0,5.1,5.4,9.0,7.5,6.5,7.3,6.871,0,Mantido na Fase atual,0.0
+ALUNO-1112,2018.0,7.0,7,Ametista,10.0,6.5,7.2,8.3,6.3,7.8,6.3,7.242,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1114,2021.0,3.0,3,Ágata,10.0,6.5,4.4,7.5,7.5,6.9,5.0,6.376,0,Mantido na Fase atual,0.0
+ALUNO-1115,2021.0,1.0,3,Quartzo,5.0,0.4,1.7,0.0,6.9,7.1,6.7,3.638,0,Mantido na Fase atual,-2.0
+ALUNO-1117,2021.0,0.0,0,Ametista,10.0,6.8,8.3,9.5,0.0,7.5,7.0,7.129,0,Mantido na Fase atual,0.0
+ALUNO-1119,2019.0,2.0,1,Ametista,10.0,5.6,5.8,10.0,7.5,7.1,8.2,7.383,0,Mantido na Fase atual,1.0
+ALUNO-1122,2021.0,4.0,4,Ametista,10.0,8.4,5.8,8.8,7.5,7.8,8.3,7.906,0,Promovido de Fase,0.0
+ALUNO-1123,2021.0,4.0,6,Ametista,5.0,7.5,8.6,7.5,6.3,8.3,8.5,7.634,0,Promovido de Fase,-2.0
+ALUNO-1124,2021.0,4.0,6,Ametista,5.0,6.0,8.6,7.9,5.6,8.1,8.4,7.264,0,Promovido de Fase,-2.0
+ALUNO-1126,2021.0,3.0,4,Quartzo,5.0,4.0,3.3,7.1,7.5,6.7,4.8,5.047,0,Mantido na Fase atual,-1.0
+ALUNO-1127,2018.0,3.0,3,Ametista,10.0,5.5,7.8,9.2,6.3,7.9,7.8,7.547,0,Mantido na Fase atual,0.0
+ALUNO-1128,2018.0,4.0,5,Ametista,5.0,8.1,8.9,9.2,5.0,8.8,8.9,7.961,0,Promovido de Fase,-1.0
+ALUNO-1129,2019.0,2.0,2,Ametista,10.0,4.6,7.9,6.8,6.9,7.7,8.1,7.261,0,Mantido na Fase atual,0.0
+ALUNO-1130,2019.0,2.0,3,Topázio,5.0,9.5,10.0,10.0,7.5,9.8,9.9,9.107,1,Promovido de Fase,-1.0
+ALUNO-1131,2019.0,3.0,4,Ágata,5.0,4.1,5.6,7.1,7.5,6.9,6.0,5.774,0,Mantido na Fase atual,-1.0
+ALUNO-1132,2019.0,7.0,8,Ametista,5.0,8.0,8.6,7.1,7.5,8.3,7.4,7.584,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-1136,2019.0,4.0,5,Topázio,5.0,8.2,9.2,8.8,7.5,8.8,9.1,8.292,1,Promovido de Fase,-1.0
+ALUNO-1139,2019.0,3.0,4,Ágata,5.0,5.0,5.8,8.8,7.5,7.5,7.3,6.497,0,Promovido de Fase,-1.0
+ALUNO-1140,2021.0,5.0,7,Ágata,5.0,5.5,6.1,7.5,7.5,7.8,7.2,6.545,0,Promovido de Fase + Bolsa,-2.0
+ALUNO-1141,2019.0,2.0,4,Ametista,5.0,6.9,5.0,7.4,7.5,8.1,8.9,6.969,0,Promovido de Fase,-2.0
+ALUNO-1143,2021.0,0.0,1,Ametista,5.0,6.3,10.0,8.5,3.8,7.5,7.1,7.154,0,Mantido na Fase atual,-1.0
+ALUNO-1146,2021.0,3.0,3,Ametista,10.0,6.1,7.2,9.6,7.5,7.5,8.3,7.775,0,Promovido de Fase,0.0
+ALUNO-1147,2021.0,5.0,6,Ametista,5.0,8.9,8.1,9.6,7.5,8.8,8.6,8.181,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-1149,2019.0,0.0,2,Ágata,5.0,5.4,4.2,9.0,7.5,5.0,6.3,5.825,0,Não avaliado,-2.0
+ALUNO-1150,2018.0,1.0,2,Ametista,5.0,5.8,8.8,8.0,7.5,8.3,7.6,7.318,0,Mantido na Fase atual,-1.0
+ALUNO-1151,2021.0,3.0,4,Ágata,5.0,7.8,5.3,0.0,7.5,7.9,6.3,5.931,0,Promovido de Fase,-1.0
+ALUNO-1155,2021.0,0.0,0,Topázio,10.0,7.7,10.0,9.5,7.5,8.4,9.8,9.048,1,Não avaliado,0.0
+ALUNO-1156,2021.0,4.0,4,Ágata,10.0,6.5,5.3,8.8,5.6,7.0,6.2,6.73,0,Mantido na Fase atual,0.0
+ALUNO-1157,2021.0,0.0,0,Ametista,10.0,7.1,6.7,7.5,7.5,7.5,8.2,7.629,0,Mantido na Fase atual,0.0
+ALUNO-1159,2019.0,5.0,6,Ametista,5.0,8.6,8.3,8.8,7.5,8.3,8.4,8.014,0,Promovido de Fase,-1.0
+ALUNO-1160,2021.0,4.0,4,Ametista,10.0,5.8,5.8,7.9,7.5,8.0,7.4,7.13,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1161,2018.0,3.0,5,Ágata,5.0,6.9,6.1,7.9,3.8,5.8,8.1,6.458,0,Promovido de Fase,-2.0
+ALUNO-1164,2021.0,0.0,1,Ágata,5.0,6.2,5.0,9.0,7.5,7.5,7.2,6.571,0,Mantido na Fase atual,-1.0
+ALUNO-1165,2019.0,3.0,4,Ametista,5.0,7.2,8.6,7.9,7.5,7.7,8.9,7.765,0,Promovido de Fase,-1.0
+ALUNO-1166,2017.0,2.0,4,Quartzo,5.0,3.5,2.1,0.0,6.9,5.4,5.7,3.979,0,Mantido na Fase atual,-2.0
+ALUNO-1167,2019.0,2.0,2,Ágata,10.0,1.8,6.3,10.0,7.5,6.9,6.2,6.294,0,Mantido na Fase atual,0.0
+ALUNO-1168,2020.0,1.0,3,Ametista,5.0,6.9,9.6,9.5,7.5,8.1,9.0,8.104,1,Promovido de Fase,-2.0
+ALUNO-1170,2019.0,1.0,2,Quartzo,5.0,0.0,1.3,9.5,8.1,7.3,5.2,4.275,0,Mantido na Fase atual,-1.0
+ALUNO-1171,2019.0,3.0,3,Topázio,10.0,9.2,8.9,8.8,6.3,9.2,9.9,9.025,1,Promovido de Fase + Bolsa,0.0
+ALUNO-1174,2019.0,6.0,6,Ágata,10.0,6.0,7.2,8.3,3.8,6.7,6.3,6.775,0,Promovido de Fase,0.0
+ALUNO-1175,2020.0,1.0,2,Ágata,5.0,2.2,6.3,8.0,7.5,8.4,6.7,5.915,0,Mantido na Fase atual,-1.0
+ALUNO-1176,2017.0,5.0,6,Ametista,5.0,8.5,6.9,9.2,8.1,8.4,9.3,8.003,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-1181,2019.0,1.0,2,Ametista,5.0,7.6,9.6,9.0,5.6,8.1,8.7,7.961,0,Mantido na Fase atual,-1.0
+ALUNO-1182,2021.0,0.0,0,Ametista,10.0,4.4,8.3,7.4,7.5,6.6,6.6,7.006,0,Mantido na Fase atual,0.0
+ALUNO-1183,2021.0,1.0,2,Ametista,5.0,6.4,9.2,8.5,7.5,7.5,8.3,7.614,0,Mantido na Fase atual,-1.0
+ALUNO-1190,2019.0,2.0,3,Ametista,5.0,6.1,8.8,8.5,7.5,8.1,8.3,7.554,0,Promovido de Fase,-1.0
+ALUNO-1191,2021.0,3.0,3,Quartzo,10.0,1.9,2.5,7.5,4.4,7.1,4.2,4.615,0,Mantido na Fase atual,0.0
+ALUNO-1195,2020.0,3.0,3,Topázio,10.0,7.4,8.6,9.2,7.5,7.9,8.3,8.322,0,Promovido de Fase,0.0
+ALUNO-1196,2021.0,7.0,9,Ametista,10.0,6.1,6.9,9.2,7.5,8.3,9.0,7.892,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1197,2016.0,7.0,7,Ametista,10.0,7.8,8.3,8.3,7.5,7.8,7.3,8.04,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1198,2020.0,2.0,3,Quartzo,5.0,2.4,3.3,9.5,5.0,6.7,5.3,4.814,0,Mantido na Fase atual,-1.0
+ALUNO-1199,2021.0,0.0,1,Ametista,5.0,4.9,8.3,8.5,7.5,7.5,7.7,7.025,0,Mantido na Fase atual,-1.0
+ALUNO-1201,,7.0,7,Ametista,10.0,6.5,6.1,7.1,5.6,8.1,7.1,7.031,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1204,2021.0,1.0,1,Topázio,10.0,6.9,9.6,10.0,7.5,8.3,9.6,8.797,1,Mantido na Fase + Bolsa,0.0
+ALUNO-1205,2019.0,2.0,2,Ametista,10.0,5.5,9.2,8.5,7.5,7.3,8.9,8.04,0,Mantido na Fase atual,0.0
+ALUNO-1206,2021.0,0.0,0,Topázio,10.0,7.6,10.0,8.5,7.5,8.1,9.7,8.871,1,Não avaliado,0.0
+ALUNO-1210,2021.0,0.0,0,Topázio,10.0,6.8,10.0,8.0,7.5,7.5,8.0,8.25,0,Mantido na Fase atual,0.0
+ALUNO-1211,2021.0,0.0,0,Ágata,10.0,4.8,6.7,8.4,7.5,6.6,6.1,6.748,0,Mantido na Fase atual,0.0
+ALUNO-1212,2021.0,1.0,2,Ágata,5.0,3.3,4.2,9.0,6.3,7.5,7.2,5.703,0,Mantido na Fase atual,-1.0
+ALUNO-1214,2021.0,1.0,2,Ametista,5.0,3.0,10.0,10.0,7.5,8.1,9.2,7.496,1,Mantido na Fase atual,-1.0
+ALUNO-1215,2021.0,1.0,2,Ametista,5.0,6.3,10.0,9.5,2.5,7.5,8.4,7.401,0,Mantido na Fase atual,-1.0
+ALUNO-1217,2016.0,3.0,4,Ametista,5.0,7.6,8.6,8.8,7.5,9.2,9.5,8.181,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-1219,2017.0,5.0,4,Ametista,10.0,7.9,7.5,7.9,7.5,8.6,8.6,8.201,0,Promovido de Fase + Bolsa,1.0
+ALUNO-1221,2021.0,2.0,3,Topázio,5.0,8.0,10.0,9.0,7.5,9.8,9.4,8.618,1,Promovido de Fase + Bolsa,-1.0
+ALUNO-1223,2019.0,2.0,3,Ágata,5.0,4.7,8.3,6.8,8.1,8.1,6.8,6.779,0,Mantido na Fase atual,-1.0
+ALUNO-1226,2019.0,2.0,3,Ágata,5.0,4.7,8.3,5.3,8.1,8.1,6.8,6.621,0,Mantido na Fase atual,-1.0
+ALUNO-1228,2019.0,3.0,3,Quartzo,10.0,3.1,0.6,0.0,7.5,6.3,2.5,3.603,0,Mantido na Fase atual,0.0
+ALUNO-1229,2018.0,1.0,2,Ágata,5.0,0.7,5.8,9.5,4.4,8.1,7.9,5.588,0,Mantido na Fase atual,-1.0
+ALUNO-1230,2017.0,4.0,3,Ametista,10.0,5.8,8.6,7.1,6.9,8.1,8.1,7.714,0,Promovido de Fase,1.0
+ALUNO-1231,2017.0,2.0,3,Quartzo,5.0,3.1,1.7,0.0,6.3,7.5,6.5,4.133,0,Mantido na Fase atual,-1.0
+ALUNO-1232,2019.0,2.0,3,Quartzo,5.0,0.9,0.8,0.0,7.5,6.3,2.5,2.717,0,Mantido na Fase atual,-1.0
+ALUNO-1233,,5.0,5,Ametista,10.0,7.8,6.7,9.6,5.0,7.7,6.5,7.416,0,Promovido de Fase,0.0
+ALUNO-1234,2021.0,0.0,0,Ametista,10.0,5.6,6.7,8.5,7.5,7.5,7.2,7.229,0,Mantido na Fase atual,0.0
+ALUNO-1237,2021.0,3.0,4,Quartzo,5.0,2.3,2.2,6.7,7.5,7.1,4.2,4.372,0,Mantido na Fase atual,-1.0
+ALUNO-1239,2021.0,1.0,2,Ágata,5.0,2.0,5.8,8.5,7.5,7.3,5.9,5.574,0,Mantido na Fase atual,-1.0
+ALUNO-1240,2021.0,2.0,3,Ametista,5.0,4.3,7.9,7.4,7.5,7.9,8.5,6.917,0,Mantido na Fase atual,-1.0
+ALUNO-1242,2021.0,1.0,2,Quartzo,5.0,2.4,4.6,7.4,7.5,8.1,6.6,5.507,0,Mantido na Fase atual,-1.0
+ALUNO-1244,2019.0,1.0,2,Ametista,5.0,5.8,8.8,10.0,7.5,7.5,7.4,7.389,0,Mantido na Fase atual,-1.0
+ALUNO-1248,2017.0,3.0,4,Ágata,5.0,6.5,3.9,9.2,5.6,7.7,6.1,6.047,0,Promovido de Fase,-1.0
+ALUNO-1250,2019.0,3.0,4,Ágata,5.0,5.8,5.8,6.7,6.9,7.5,7.1,6.343,0,Promovido de Fase,-1.0
+ALUNO-1251,2020.0,3.0,3,Ametista,10.0,8.1,7.2,8.8,6.3,7.5,7.4,7.789,0,Promovido de Fase,0.0
+ALUNO-1254,2018.0,3.0,3,Ametista,10.0,6.8,5.8,9.2,7.5,7.5,7.2,7.379,0,Mantido na Fase + Bolsa,0.0
+ALUNO-1256,2018.0,5.0,6,Ágata,5.0,3.6,7.5,9.2,7.5,7.7,6.9,6.541,0,Promovido de Fase + Bolsa,-1.0
+ALUNO-1260,2020.0,1.0,2,Ágata,5.0,3.9,5.0,9.0,7.5,7.7,7.3,6.163,0,Mantido na Fase atual,-1.0
+ALUNO-1264,2019.0,2.0,2,Ágata,10.0,3.1,4.2,8.0,8.1,7.3,7.3,6.254,0,Mantido na Fase atual,0.0
+ALUNO-1266,2021.0,3.0,3,Quartzo,10.0,1.8,3.3,10.0,5.6,6.9,2.8,4.817,0,Não avaliado,0.0
+ALUNO-1268,2021.0,1.0,2,Ametista,5.0,5.0,7.5,8.0,7.5,7.5,8.4,6.978,0,Mantido na Fase atual,-1.0
+ALUNO-1275,2019.0,1.0,2,Topázio,5.0,7.8,9.6,9.5,7.5,8.3,9.8,8.468,1,Promovido de Fase,-1.0
+ALUNO-1278,2019.0,0.0,2,Ágata,5.0,4.6,4.2,8.0,7.5,6.3,6.2,5.671,0,Não avaliado,-2.0
+ALUNO-1279,2021.0,5.0,5,Quartzo,10.0,3.8,1.9,8.3,0.0,7.3,5.1,4.729,0,Mantido na Fase atual,0.0
+ALUNO-1285,2020.0,1.0,1,Topázio,10.0,5.9,10.0,9.0,7.5,7.7,9.1,8.407,1,Promovido de Fase,0.0
+ALUNO-1286,2021.0,0.0,0,Ametista,10.0,6.5,8.3,10.0,7.5,7.8,7.6,8.015,0,Não avaliado,0.0
+ALUNO-1287,2020.0,0.0,2,Ametista,5.0,5.3,10.0,8.0,7.5,7.5,8.4,7.546,0,Não avaliado,-2.0
+ALUNO-1288,2016.0,7.0,7,Ágata,10.0,5.8,7.2,8.8,5.6,6.7,5.4,6.787,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1289,2020.0,2.0,3,Ágata,5.0,4.8,7.9,8.5,7.5,7.9,7.1,6.86,0,Mantido na Fase atual,-1.0
+ALUNO-1292,2019.0,3.0,3,Topázio,10.0,6.7,9.7,9.6,7.5,8.8,8.7,8.614,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1296,2019.0,1.0,2,Ágata,5.0,3.5,8.8,9.5,7.5,7.5,7.2,6.844,0,Mantido na Fase atual,-1.0
+ALUNO-1298,2019.0,0.0,1,Ametista,5.0,6.4,8.3,10.0,7.5,7.5,7.8,7.521,0,Mantido na Fase atual,-1.0
+ALUNO-1299,2017.0,7.0,7,Ametista,10.0,7.2,8.3,7.1,7.5,8.3,7.8,7.936,0,Promovido de Fase + Bolsa,0.0
+ALUNO-1300,2021.0,1.0,2,Ametista,5.0,5.3,8.8,9.0,7.5,7.9,7.8,7.297,0,Mantido na Fase atual,-1.0
+ALUNO-1301,2021.0,3.0,3,Ametista,10.0,6.0,7.5,9.6,7.5,8.3,8.7,7.983,0,Promovido de Fase,0.0
+ALUNO-1302,2019.0,1.0,3,Quartzo,5.0,0.6,3.3,0.0,7.5,7.2,5.3,3.827,0,Mantido na Fase atual,-2.0
+ALUNO-1307,2021.0,2.0,2,Ametista,10.0,4.8,6.7,7.0,7.5,7.5,7.2,6.917,0,Mantido na Fase atual,0.0
+ALUNO-1308,2021.0,3.0,4,Quartzo,5.0,2.3,3.3,7.1,2.5,7.5,7.8,4.892,0,Promovido de Fase,-1.0
+ALUNO-1310,2021.0,3.0,3,Ágata,10.0,3.5,5.3,9.2,7.5,7.5,7.2,6.625,0,Mantido na Fase atual,0.0
+ALUNO-1315,2016.0,2.0,3,Quartzo,5.0,4.3,3.8,8.9,4.4,5.0,5.7,5.075,0,Mantido na Fase atual,-1.0
+ALUNO-1319,2019.0,2.0,2,Ametista,10.0,6.3,8.3,6.4,5.0,8.1,8.4,7.572,0,Promovido de Fase,0.0
+ALUNO-1323,2019.0,2.0,2,Ametista,10.0,5.1,8.8,8.0,5.6,7.9,7.9,7.518,0,Mantido na Fase atual,0.0
+ALUNO-1324,2018.0,2.0,2,Ametista,10.0,3.4,8.8,8.5,7.5,7.5,7.1,7.186,0,Mantido na Fase atual,0.0
+ALUNO-1326,,2.0,4,Quartzo,5.0,1.3,3.8,9.0,5.6,6.9,3.7,4.396,0,Mantido na Fase atual,-2.0
+ALUNO-1330,,4.0,5,Ametista,5.0,5.5,8.3,8.8,7.5,7.5,7.3,7.117,0,Mantido na Fase atual,-1.0
+ALUNO-1332,2021.0,0.0,0,Topázio,10.0,6.6,10.0,10.0,7.5,7.5,9.8,8.775,1,Mantido na Fase atual,0.0
+ALUNO-1334,2021.0,0.0,0,Topázio,10.0,7.4,10.0,8.5,7.5,8.1,9.7,8.821,1,Não avaliado,0.0
+ALUNO-1335,2021.0,2.0,2,Quartzo,10.0,3.4,3.8,0.0,7.5,6.7,4.9,4.831,0,Mantido na Fase atual,0.0
+ALUNO-1338,2019.0,2.0,2,Ágata,10.0,5.2,2.1,7.9,7.5,7.7,8.7,6.511,0,Promovido de Fase,0.0
+ALUNO-1343,2018.0,2.0,3,Quartzo,5.0,1.3,1.3,10.0,5.6,6.9,3.7,3.996,0,Mantido na Fase atual,-1.0
+ALUNO-1344,2018.0,2.0,5,Ágata,2.5,2.0,5.8,9.5,5.6,8.1,7.6,5.664,0,Mantido na Fase atual,-3.0
+ALUNO-1345,2021.0,0.0,1,Ágata,5.0,4.9,6.7,9.0,7.5,7.2,7.1,6.606,0,Mantido na Fase atual,-1.0
+ALUNO-1348,2018.0,3.0,4,Ametista,5.0,6.9,8.6,7.5,6.3,7.5,8.5,7.422,0,Promovido de Fase,-1.0

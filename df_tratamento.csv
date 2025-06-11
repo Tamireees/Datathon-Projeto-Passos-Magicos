@@ -1,0 +1,1345 @@
+NOME,FASE_2020,FASE_2021,FASE_2022,PEDRA_2020,PEDRA_2021,PEDRA_2022,PONTO_VIRADA_2020,PONTO_VIRADA_2021,PONTO_VIRADA_2022,ANO_INGRESSO,dimensao_academica,dimensao_psicossocial,dimensao_psicopedagogica,ATIVO
+ALUNO-1,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-3,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-4,1.0,1.0,2.0,Quartzo,Quartzo,Ametista,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-5,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-8,4.0,5.0,5.0,Ametista,Topázio,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-10,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-11,0.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-12,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-14,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-15,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-17,1.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-18,3.0,4.0,4.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-28,3.0,4.0,4.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-30,0.0,0.0,0.0,Ágata,Ágata,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,1
+ALUNO-33,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-34,2.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-35,7.0,7.0,7.0,Ágata,Topázio,Topázio,0.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-36,3.0,3.0,4.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-37,2.0,2.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-39,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-41,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,abaixo da media,excelente,0
+ALUNO-43,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-44,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-45,1.0,1.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-46,0.0,0.0,1.0,Ágata,Topázio,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-51,0.0,1.0,1.0,Topázio,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-52,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-53,5.0,5.0,5.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2016.0,excelente,excelente,abaixo da media,0
+ALUNO-55,6.0,7.0,7.0,Ágata,Ametista,Ametista,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-57,6.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-59,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-60,5.0,6.0,7.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,1
+ALUNO-61,1.0,1.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-62,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-68,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-71,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-75,3.0,4.0,5.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-76,0.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-78,1.0,1.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-80,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-81,4.0,5.0,6.0,Ametista,Ágata,Ametista,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-82,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-83,4.0,5.0,5.0,Ametista,Ágata,Ametista,1.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-84,0.0,1.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-85,0.0,0.0,1.0,Ágata,Ágata,Ametista,0.0,0.0,1.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-86,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-87,4.0,5.0,5.0,Ametista,Ametista,Ágata,1.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-88,2.0,2.0,3.0,Topázio,Ametista,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-89,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-90,3.0,4.0,5.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-91,2.0,2.0,2.0,Ágata,Quartzo,Ametista,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-94,3.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-95,3.0,4.0,4.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-96,7.0,7.0,7.0,Ágata,Ágata,Ágata,1.0,1.0,1.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-97,2.0,2.0,3.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-100,1.0,1.0,2.0,Ágata,Quartzo,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-102,1.0,1.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-103,0.0,1.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-105,3.0,4.0,4.0,Topázio,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-106,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2020.0,excelente,excelente,excelente,0
+ALUNO-111,3.0,4.0,4.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-112,3.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-113,1.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-115,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-117,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-118,1.0,1.0,1.0,Ametista,Topázio,Topázio,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-120,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-125,1.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-128,0.0,0.0,0.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-132,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-133,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-135,1.0,1.0,1.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-136,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-139,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-145,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-146,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-147,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-149,6.0,7.0,7.0,Ágata,Topázio,Topázio,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-151,1.0,2.0,3.0,Ametista,Topázio,Topázio,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-152,3.0,3.0,4.0,Ametista,Topázio,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-153,4.0,4.0,5.0,Ametista,Topázio,Topázio,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,1
+ALUNO-154,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-156,2.0,3.0,4.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-157,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-158,3.0,4.0,4.0,Quartzo,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-160,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-161,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,abaixo da media,0
+ALUNO-162,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-163,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,abaixo da media,0
+ALUNO-164,1.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-165,0.0,1.0,1.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-168,1.0,2.0,2.0,Ametista,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-169,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,1
+ALUNO-173,5.0,5.0,5.0,Quartzo,Ágata,Ágata,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,0
+ALUNO-174,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,abaixo da media,0
+ALUNO-183,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-184,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-186,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-187,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-188,3.0,3.0,3.0,Ametista,Ágata,Ágata,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-189,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-190,7.0,7.0,7.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-192,1.0,1.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-193,3.0,3.0,4.0,Topázio,Ametista,Ametista,1.0,1.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-194,6.0,6.0,6.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-197,3.0,3.0,4.0,Topázio,Ametista,Topázio,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-198,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,excelente,abaixo da media,excelente,0
+ALUNO-199,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-200,4.0,4.0,4.0,Ametista,Quartzo,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-201,3.0,4.0,5.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-202,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-206,6.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-208,2.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-209,0.0,1.0,1.0,Topázio,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-210,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-212,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-213,2.0,3.0,3.0,Ametista,Topázio,Topázio,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-215,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-216,8.0,8.0,8.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-217,1.0,1.0,2.0,Topázio,Ametista,Topázio,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-219,2.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-222,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-223,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-225,4.0,5.0,5.0,Topázio,Ametista,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-226,2.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,0
+ALUNO-227,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-229,1.0,0.0,0.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-230,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-231,6.0,7.0,7.0,Quartzo,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-235,3.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-238,2.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-241,1.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-242,1.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-246,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-251,1.0,2.0,2.0,Topázio,Ametista,Ametista,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-259,7.0,7.0,7.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-261,3.0,4.0,4.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-262,5.0,6.0,7.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-263,5.0,6.0,7.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-265,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-266,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-267,3.0,4.0,4.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-269,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-270,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,abaixo da media,excelente,0
+ALUNO-273,1.0,1.0,1.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-274,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-275,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-277,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-278,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-280,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-284,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-285,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-286,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-287,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-288,2.0,3.0,4.0,Ágata,Ametista,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-292,4.0,4.0,6.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-293,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,abaixo da media,1
+ALUNO-295,1.0,1.0,2.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-296,2.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-297,3.0,3.0,3.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-298,1.0,1.0,1.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-299,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-300,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-301,1.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-305,2.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-306,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-309,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-312,2.0,2.0,3.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-313,0.0,0.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-315,4.0,5.0,5.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-316,2.0,2.0,3.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-318,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-319,2.0,2.0,2.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-321,6.0,7.0,7.0,Quartzo,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-323,1.0,1.0,1.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2016.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-324,6.0,7.0,7.0,Ametista,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-328,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-329,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-330,1.0,1.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-332,1.0,1.0,2.0,Ametista,Topázio,Topázio,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-335,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,0
+ALUNO-337,5.0,5.0,6.0,Topázio,Ametista,Ametista,1.0,0.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-338,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-339,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-340,3.0,3.0,5.0,Ametista,Ametista,Quartzo,0.0,1.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-341,8.0,8.0,8.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-342,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,1.0,2016.0,excelente,abaixo da media,excelente,1
+ALUNO-343,3.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-344,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-345,0.0,1.0,1.0,Topázio,Ágata,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-346,1.0,1.0,1.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-348,0.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-349,0.0,1.0,1.0,Topázio,Quartzo,Quartzo,1.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-353,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-354,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,0
+ALUNO-355,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-359,2.0,2.0,3.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-361,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-364,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,abaixo da media,excelente,1
+ALUNO-365,5.0,6.0,7.0,Ametista,Ametista,Quartzo,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-367,3.0,4.0,4.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-368,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-370,3.0,3.0,4.0,Topázio,Ametista,Ametista,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-371,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-372,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,0
+ALUNO-373,3.0,4.0,5.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-375,2.0,2.0,3.0,Topázio,Topázio,Topázio,1.0,0.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-377,3.0,3.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-378,5.0,6.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-379,3.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-380,8.0,8.0,8.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-381,0.0,0.0,0.0,Ágata,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-382,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-383,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-385,3.0,3.0,3.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-387,2.0,3.0,4.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-388,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-389,5.0,6.0,6.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-390,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-393,2.0,2.0,2.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-394,4.0,4.0,4.0,Quartzo,Ágata,Ametista,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,1
+ALUNO-396,4.0,5.0,6.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-397,3.0,3.0,3.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-399,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-400,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-401,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-404,3.0,4.0,5.0,Ametista,Topázio,Topázio,0.0,0.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-406,1.0,1.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-407,3.0,4.0,5.0,Ametista,Topázio,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-408,0.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-414,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-416,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-421,3.0,4.0,5.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-424,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-425,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-426,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-431,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,0
+ALUNO-435,4.0,5.0,5.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-437,1.0,2.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-439,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-441,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-442,0.0,1.0,1.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-443,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-445,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-447,0.0,1.0,1.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-448,2.0,3.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-449,1.0,2.0,2.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-450,4.0,5.0,5.0,Ágata,Ametista,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-451,1.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-453,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-455,2.0,2.0,2.0,Topázio,Ametista,Topázio,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-457,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-458,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-459,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-460,5.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2016.0,excelente,excelente,excelente,0
+ALUNO-462,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-463,3.0,4.0,5.0,Ametista,Topázio,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-464,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-466,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-467,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-468,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-469,3.0,4.0,4.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-472,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-473,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-474,1.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-476,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-477,2.0,2.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-478,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-482,2.0,2.0,3.0,Ametista,Topázio,Topázio,0.0,1.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-483,2.0,2.0,3.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-484,8.0,8.0,8.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-486,2.0,2.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,abaixo da media,1
+ALUNO-487,0.0,0.0,0.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-488,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-490,3.0,4.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-491,1.0,1.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-492,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-495,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-496,3.0,4.0,5.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-499,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2017.0,excelente,excelente,excelente,1
+ALUNO-500,6.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-502,4.0,4.0,4.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-503,0.0,0.0,1.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-506,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-507,3.0,4.0,4.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-509,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-512,3.0,4.0,4.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-513,1.0,1.0,1.0,Topázio,Ametista,Topázio,0.0,0.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-515,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-517,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-518,6.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-520,2.0,3.0,4.0,Ametista,Topázio,Topázio,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-521,1.0,2.0,2.0,Topázio,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-522,1.0,2.0,2.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-524,0.0,1.0,1.0,Ametista,Topázio,Topázio,0.0,1.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-527,5.0,6.0,7.0,Ametista,Ametista,Ágata,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-530,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-531,4.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-533,2.0,3.0,3.0,Quartzo,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-534,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-535,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-540,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-541,3.0,4.0,5.0,Topázio,Ametista,Ágata,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-544,2.0,2.0,3.0,Ágata,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-545,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-546,5.0,6.0,7.0,Quartzo,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-547,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-549,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-552,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-555,1.0,2.0,2.0,Ametista,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-557,2.0,2.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-559,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-560,1.0,2.0,2.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-561,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-562,2.0,2.0,3.0,Ametista,Topázio,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-564,3.0,4.0,4.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-568,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-569,0.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-570,1.0,1.0,1.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-574,5.0,6.0,7.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-577,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-579,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-581,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-583,4.0,4.0,5.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-585,1.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-586,1.0,1.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-588,0.0,1.0,1.0,Topázio,Topázio,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-589,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-594,1.0,1.0,1.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-597,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-598,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-599,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-601,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-602,0.0,1.0,1.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-603,1.0,1.0,2.0,Quartzo,Ágata,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-604,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-605,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-606,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-608,4.0,4.0,5.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-609,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,0
+ALUNO-611,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-613,1.0,1.0,2.0,Ágata,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-614,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,0
+ALUNO-615,0.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-616,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-618,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,0
+ALUNO-619,2.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-622,3.0,3.0,3.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-624,3.0,3.0,4.0,Quartzo,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-625,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-626,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-629,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-630,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-631,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-634,1.0,1.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,abaixo da media,1
+ALUNO-635,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-636,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-638,1.0,2.0,3.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-639,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-640,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-642,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,abaixo da media,excelente,1
+ALUNO-644,1.0,2.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-645,0.0,0.0,1.0,Topázio,Ágata,Quartzo,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-646,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-647,1.0,2.0,2.0,Ágata,Quartzo,Ametista,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-648,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-655,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-657,2.0,2.0,3.0,Topázio,Ametista,Topázio,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-659,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-661,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-663,1.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-664,4.0,5.0,6.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-666,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-668,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-670,5.0,6.0,6.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2020.0,excelente,excelente,excelente,0
+ALUNO-671,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-672,1.0,1.0,1.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-676,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-677,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-678,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-680,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-681,2.0,2.0,3.0,Quartzo,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-682,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2020.0,excelente,excelente,excelente,0
+ALUNO-683,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-684,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-685,0.0,0.0,0.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-686,0.0,0.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-688,7.0,7.0,7.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-689,2.0,2.0,3.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-691,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-693,0.0,0.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-695,0.0,0.0,1.0,Topázio,Topázio,Ametista,0.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-696,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-698,5.0,6.0,6.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-699,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-700,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-702,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-703,2.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-704,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-707,2.0,2.0,3.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-708,1.0,1.0,1.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-710,2.0,2.0,3.0,Ametista,Topázio,Topázio,0.0,0.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-712,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-713,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-714,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-716,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-718,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-719,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,0
+ALUNO-720,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-721,1.0,2.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-724,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-725,2.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-731,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-732,4.0,5.0,6.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-733,2.0,3.0,3.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-737,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-738,2.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-739,3.0,3.0,4.0,Topázio,Ametista,Ametista,1.0,1.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-740,0.0,0.0,0.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-743,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-744,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-745,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-746,2.0,2.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-747,3.0,4.0,5.0,Ametista,Topázio,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-749,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-750,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-753,3.0,4.0,4.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-755,3.0,4.0,5.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-756,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-757,3.0,3.0,3.0,Ágata,Quartzo,Ágata,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-758,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-760,0.0,0.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-766,4.0,5.0,6.0,Ágata,Ametista,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-767,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-768,3.0,3.0,4.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-773,2.0,2.0,3.0,Ametista,Topázio,Topázio,1.0,1.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-776,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-777,1.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-779,6.0,6.0,6.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,0
+ALUNO-780,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-782,5.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-783,1.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-785,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-786,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-789,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-790,3.0,4.0,5.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-792,1.0,2.0,3.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,excelente,abaixo da media,excelente,1
+ALUNO-793,0.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-794,2.0,3.0,4.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-795,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-796,3.0,4.0,4.0,Topázio,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-797,1.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-803,0.0,0.0,0.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,0
+ALUNO-807,0.0,1.0,1.0,Ametista,Topázio,Topázio,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-811,2.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-813,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-814,1.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-817,2.0,2.0,3.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-820,4.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-821,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-823,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-824,1.0,1.0,2.0,Ametista,Ametista,Quartzo,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-825,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-826,2.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-828,4.0,5.0,6.0,Ametista,Ametista,Ágata,1.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,1
+ALUNO-829,3.0,3.0,4.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-830,4.0,5.0,5.0,Topázio,Topázio,Topázio,1.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-831,0.0,1.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-835,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-837,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-838,5.0,6.0,6.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,abaixo da media,excelente,0
+ALUNO-840,0.0,0.0,0.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-842,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-846,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-848,2.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-849,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-850,3.0,3.0,4.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-851,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-855,2.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-858,1.0,2.0,2.0,Topázio,Topázio,Ágata,1.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-860,3.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-861,3.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-862,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-866,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-872,2.0,3.0,3.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-873,1.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-874,4.0,5.0,5.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-877,2.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-880,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-886,0.0,0.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-888,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-889,2.0,2.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-890,2.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-892,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-894,5.0,5.0,5.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-898,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2017.0,excelente,abaixo da media,excelente,0
+ALUNO-899,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-902,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-903,1.0,1.0,2.0,Topázio,Topázio,Topázio,0.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-904,3.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-906,4.0,5.0,5.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-907,1.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-908,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-909,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-910,5.0,6.0,7.0,Quartzo,Ágata,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,1
+ALUNO-911,3.0,4.0,4.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-912,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-916,3.0,4.0,5.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,1
+ALUNO-917,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-919,5.0,6.0,7.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-920,4.0,4.0,5.0,Ametista,Ametista,Ametista,1.0,1.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-922,2.0,2.0,3.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-923,0.0,0.0,0.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,1
+ALUNO-926,2.0,2.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,1
+ALUNO-927,1.0,1.0,1.0,Topázio,Ametista,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-928,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-929,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-930,4.0,5.0,6.0,Ametista,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-931,0.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-932,2.0,3.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-935,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-937,1.0,2.0,3.0,Ametista,Topázio,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-938,3.0,3.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-940,0.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-942,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-943,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-944,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,abaixo da media,1
+ALUNO-948,2.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-950,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-951,5.0,6.0,6.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-953,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,abaixo da media,0
+ALUNO-957,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-958,3.0,4.0,5.0,Ametista,Ametista,Ágata,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-961,1.0,2.0,2.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-962,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-964,1.0,2.0,3.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-965,2.0,3.0,3.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-968,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-970,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-973,1.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-983,2.0,3.0,3.0,Ametista,Topázio,Ametista,0.0,1.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-984,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,1
+ALUNO-986,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-989,2.0,2.0,2.0,Ametista,Quartzo,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-991,2.0,2.0,2.0,Ágata,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-992,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-993,5.0,5.0,5.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,1
+ALUNO-994,2.0,2.0,3.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-996,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-997,1.0,2.0,2.0,Topázio,Topázio,Ametista,0.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-999,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,0
+ALUNO-1002,3.0,3.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1003,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1004,0.0,0.0,0.0,Ametista,Ametista,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1006,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1007,2.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1010,1.0,1.0,2.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1012,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-1014,1.0,1.0,1.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1015,3.0,3.0,4.0,Ametista,Topázio,Topázio,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1016,2.0,2.0,2.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1017,2.0,3.0,4.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1018,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1019,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1020,8.0,8.0,8.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1021,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1022,0.0,1.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1024,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1027,5.0,6.0,6.0,Ametista,Ágata,Ágata,1.0,0.0,0.0,2016.0,excelente,abaixo da media,excelente,0
+ALUNO-1028,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1029,1.0,2.0,3.0,Ametista,Topázio,Ametista,1.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1031,0.0,1.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1034,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1035,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,1.0,2020.0,excelente,excelente,excelente,0
+ALUNO-1036,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1041,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1046,3.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1047,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-1051,3.0,3.0,3.0,Ágata,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1056,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1061,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1067,0.0,1.0,2.0,Ametista,Topázio,Ametista,0.0,1.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1070,0.0,1.0,1.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1072,3.0,3.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1075,4.0,5.0,5.0,Topázio,Ametista,Ametista,0.0,1.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-1077,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-1078,1.0,2.0,2.0,Ametista,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1079,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1081,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1084,0.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1085,3.0,4.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1087,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1088,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-1089,0.0,1.0,1.0,Topázio,Ágata,Ágata,1.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1090,1.0,1.0,1.0,Ágata,Ametista,Quartzo,0.0,1.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-1092,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1093,5.0,6.0,7.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-1094,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1095,0.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1097,3.0,3.0,4.0,Ametista,Ametista,Topázio,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-1100,8.0,8.0,8.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-1103,2.0,2.0,3.0,Ágata,Quartzo,Ágata,0.0,0.0,0.0,2016.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-1105,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,1
+ALUNO-1106,0.0,0.0,2.0,Ametista,Ametista,Ágata,1.0,1.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-1110,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1112,6.0,7.0,7.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1119,1.0,2.0,2.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1123,3.0,4.0,4.0,Ametista,Ametista,Ametista,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1127,2.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1128,4.0,4.0,5.0,Ametista,Ametista,Topázio,1.0,0.0,1.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1129,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1130,2.0,2.0,3.0,Topázio,Topázio,Topázio,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1131,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1132,6.0,7.0,7.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1133,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1134,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1136,4.0,4.0,5.0,Ametista,Topázio,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1137,8.0,8.0,8.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1139,2.0,3.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1141,2.0,2.0,3.0,Ágata,Ametista,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1142,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,excelente,0
+ALUNO-1145,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1148,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1149,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1150,1.0,1.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1156,3.0,4.0,4.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1158,8.0,8.0,8.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1159,3.0,5.0,6.0,Topázio,Ametista,Ametista,1.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1161,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1165,2.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1166,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1167,1.0,2.0,2.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1168,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1170,1.0,1.0,1.0,Ametista,Quartzo,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1171,3.0,3.0,4.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1172,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-1173,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1174,5.0,6.0,6.0,Ametista,Ágata,Quartzo,1.0,0.0,0.0,2019.0,excelente,abaixo da media,excelente,1
+ALUNO-1175,1.0,1.0,1.0,Quartzo,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1176,5.0,5.0,6.0,Ametista,Ametista,Topázio,0.0,1.0,1.0,2017.0,excelente,excelente,excelente,1
+ALUNO-1178,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1181,0.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1187,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1188,7.0,7.0,7.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1189,8.0,8.0,8.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1190,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1191,3.0,3.0,4.0,Ágata,Quartzo,Topázio,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-1193,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-1195,2.0,3.0,4.0,Ametista,Topázio,Topázio,0.0,0.0,1.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1197,6.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-1198,1.0,2.0,2.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1200,6.0,6.0,6.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1205,1.0,2.0,2.0,Topázio,Ametista,Ametista,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1215,1.0,1.0,2.0,Topázio,Ametista,Ametista,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1216,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1217,3.0,3.0,4.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2016.0,excelente,excelente,excelente,1
+ALUNO-1218,7.0,7.0,7.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-1219,4.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,0.0,1.0,2017.0,excelente,excelente,excelente,1
+ALUNO-1222,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2016.0,excelente,excelente,excelente,0
+ALUNO-1223,1.0,2.0,3.0,Ametista,Ágata,Ágata,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1225,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1226,1.0,2.0,3.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1228,2.0,3.0,3.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-1229,1.0,1.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1230,3.0,4.0,4.0,Ametista,Ametista,Topázio,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,1
+ALUNO-1231,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-1232,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1237,2.0,3.0,3.0,Ágata,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1238,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1241,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1244,1.0,1.0,1.0,Topázio,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1248,3.0,3.0,4.0,Ametista,Ágata,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,abaixo da media,excelente,1
+ALUNO-1249,5.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-1250,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,1
+ALUNO-1251,3.0,3.0,4.0,Ametista,Ametista,Topázio,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1252,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,excelente,abaixo da media,excelente,0
+ALUNO-1253,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,0
+ALUNO-1254,2.0,3.0,3.0,Ágata,Ametista,Ametista,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1256,4.0,5.0,5.0,Quartzo,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-1257,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1260,1.0,1.0,1.0,Ametista,Ágata,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1261,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-1262,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1264,1.0,2.0,2.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1265,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1266,2.0,3.0,3.0,Ametista,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1270,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1274,4.0,4.0,4.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1275,1.0,1.0,2.0,Topázio,Topázio,Ametista,0.0,1.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1277,3.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-1278,0.0,0.0,1.0,Ametista,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,abaixo da media,1
+ALUNO-1281,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2018.0,excelente,excelente,excelente,0
+ALUNO-1282,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-1284,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1285,0.0,1.0,1.0,Topázio,Topázio,Ametista,0.0,1.0,0.0,2020.0,excelente,excelente,excelente,1
+ALUNO-1287,0.0,0.0,1.0,Ágata,Ametista,Ágata,0.0,0.0,0.0,2020.0,excelente,excelente,abaixo da media,1
+ALUNO-1288,6.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,abaixo da media,excelente,0
+ALUNO-1289,2.0,2.0,3.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,1
+ALUNO-1290,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,excelente,excelente,abaixo da media,0
+ALUNO-1291,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-1292,2.0,3.0,3.0,Topázio,Topázio,Topázio,0.0,0.0,1.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1293,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1294,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1296,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1297,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1298,0.0,0.0,1.0,Topázio,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1299,6.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2017.0,excelente,excelente,excelente,0
+ALUNO-1302,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1303,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2016.0,abaixo da media,excelente,excelente,0
+ALUNO-1309,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1313,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1315,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2016.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1316,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1318,8.0,8.0,8.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2016.0,excelente,excelente,abaixo da media,0
+ALUNO-1319,1.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1323,1.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1324,1.0,2.0,2.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-1325,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1328,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2017.0,excelente,excelente,excelente,0
+ALUNO-1336,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,excelente,0
+ALUNO-1338,1.0,2.0,2.0,Ametista,Ágata,Ametista,1.0,0.0,0.0,2019.0,excelente,excelente,excelente,1
+ALUNO-1339,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1341,7.0,7.0,7.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1343,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,1
+ALUNO-1344,1.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2018.0,abaixo da media,excelente,excelente,0
+ALUNO-1347,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2019.0,excelente,excelente,excelente,0
+ALUNO-1348,3.0,3.0,4.0,Ametista,Ametista,Ágata,1.0,0.0,0.0,2018.0,excelente,excelente,excelente,1
+ALUNO-13,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-19,2.0,2.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-29,3.0,3.0,3.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-38,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-40,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-42,0.0,0.0,0.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-47,1.0,1.0,1.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-54,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-56,6.0,6.0,7.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-65,0.0,0.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-66,2.0,2.0,3.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-67,1.0,1.0,1.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-77,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-93,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-98,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-104,0.0,0.0,0.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-109,6.0,6.0,6.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-124,0.0,0.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-126,0.0,0.0,0.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-127,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-129,2.0,2.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-137,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-143,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-155,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-159,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-167,1.0,1.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-171,3.0,3.0,4.0,Ametista,Ametista,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-176,2.0,2.0,3.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2017.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-177,0.0,0.0,0.0,Ametista,Ametista,Topázio,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-185,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-207,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-218,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-221,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-232,5.0,5.0,6.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-240,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-243,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-247,0.0,0.0,1.0,Ametista,Ametista,Ágata,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-249,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-252,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-258,0.0,0.0,0.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-260,0.0,0.0,0.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-271,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-282,5.0,5.0,6.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-283,5.0,5.0,6.0,Topázio,Topázio,Ametista,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-294,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-303,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-310,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-331,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-336,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2020.0,excelente,excelente,excelente,0
+ALUNO-352,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-357,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-363,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-374,7.0,7.0,7.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-376,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-384,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-403,3.0,3.0,4.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,excelente,abaixo da media,excelente,0
+ALUNO-405,0.0,0.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-422,0.0,0.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-423,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-432,0.0,0.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-436,2.0,2.0,2.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-438,5.0,5.0,7.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-440,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-444,1.0,1.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-452,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-465,0.0,0.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-485,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-494,1.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-497,2.0,2.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-498,3.0,3.0,3.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-511,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-523,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-526,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-529,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-536,1.0,1.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-537,0.0,0.0,0.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-538,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-542,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-548,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-550,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-563,0.0,0.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-565,1.0,1.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-566,5.0,5.0,6.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-567,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-571,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-572,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-578,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-584,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-595,0.0,0.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-596,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-610,5.0,5.0,5.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-617,0.0,0.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-620,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-627,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-628,0.0,0.0,0.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-632,0.0,0.0,1.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-653,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-658,0.0,0.0,0.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-660,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-675,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-687,3.0,3.0,3.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-690,0.0,0.0,0.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-694,0.0,0.0,0.0,Topázio,Topázio,Ametista,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-706,2.0,2.0,3.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-709,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-717,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-722,1.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-726,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-729,4.0,4.0,4.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-730,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-736,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-741,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-742,3.0,3.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-748,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-763,1.0,1.0,1.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-769,3.0,3.0,3.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-775,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-781,3.0,3.0,3.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2020.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-784,2.0,2.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-798,3.0,3.0,4.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-802,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-805,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-809,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-812,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-818,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-822,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-827,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-833,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-834,3.0,3.0,3.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-843,6.0,6.0,7.0,Ágata,Ágata,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-845,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-865,0.0,0.0,1.0,Topázio,Topázio,Ágata,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-867,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-868,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-871,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-875,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-878,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-884,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-885,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-900,3.0,3.0,3.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-905,0.0,0.0,0.0,Ágata,Ágata,Ametista,0.0,0.0,1.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-914,2.0,2.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-939,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-945,3.0,3.0,4.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-946,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-947,1.0,1.0,1.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-956,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-959,1.0,1.0,1.0,Ametista,Ametista,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-963,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-966,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-969,0.0,0.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-972,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-977,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-987,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-995,1.0,1.0,1.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1001,0.0,0.0,0.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1009,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-1013,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1023,0.0,0.0,0.0,Ametista,Ametista,Ágata,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1026,3.0,3.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1032,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1038,4.0,4.0,5.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1043,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1044,0.0,0.0,0.0,Topázio,Topázio,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1049,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1050,0.0,0.0,0.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1055,3.0,3.0,4.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1057,3.0,3.0,3.0,Ametista,Ametista,Ágata,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1063,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1064,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,abaixo da media,excelente,0
+ALUNO-1065,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1066,3.0,3.0,4.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1068,6.0,6.0,7.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1071,2.0,2.0,2.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1073,1.0,1.0,1.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1083,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1086,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1098,0.0,0.0,0.0,Topázio,Topázio,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1099,1.0,1.0,2.0,Topázio,Topázio,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1104,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1107,2.0,2.0,3.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1114,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-1115,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1117,0.0,0.0,0.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1122,4.0,4.0,5.0,Ametista,Ametista,Topázio,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1124,4.0,4.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1126,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1140,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1143,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1146,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1147,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1151,3.0,3.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,abaixo da media,excelente,0
+ALUNO-1155,0.0,0.0,0.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1157,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1160,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1164,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1182,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-1183,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1196,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1199,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1204,1.0,1.0,1.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1206,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1210,0.0,0.0,0.0,Topázio,Topázio,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1211,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1212,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1214,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1221,2.0,2.0,3.0,Topázio,Topázio,Ametista,1.0,1.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1233,5.0,5.0,6.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2017.0,excelente,abaixo da media,excelente,0
+ALUNO-1234,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1239,1.0,1.0,2.0,Ágata,Ágata,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1240,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1242,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1268,1.0,1.0,1.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,abaixo da media,excelente,0
+ALUNO-1279,5.0,5.0,5.0,Quartzo,Quartzo,Ametista,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-1286,0.0,0.0,0.0,Ametista,Ametista,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1300,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1301,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1307,2.0,2.0,2.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-1308,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2021.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-1310,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1330,4.0,4.0,4.0,Ametista,Ametista,Quartzo,0.0,0.0,0.0,2019.0,abaixo da media,excelente,excelente,0
+ALUNO-1332,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1334,0.0,0.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1335,2.0,2.0,2.0,Quartzo,Quartzo,Ágata,0.0,0.0,0.0,2021.0,excelente,abaixo da media,excelente,0
+ALUNO-1345,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,abaixo da media,excelente,excelente,0
+ALUNO-2,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-6,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-7,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-9,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-16,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-20,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-21,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-22,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-23,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-24,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-25,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-26,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-27,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-31,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-32,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-48,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-49,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-50,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-58,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-63,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-64,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-69,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-70,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-72,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-73,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-74,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-79,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-92,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-99,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-101,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-107,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-108,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-110,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-114,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-116,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-119,3.0,3.0,3.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-121,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-122,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-123,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-130,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-131,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-134,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-138,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-140,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-141,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-142,3.0,3.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-144,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-148,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-150,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-166,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-170,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-172,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-175,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-178,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-179,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-180,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-181,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-182,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-191,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-195,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-196,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-203,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-204,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-205,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-211,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-214,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-220,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-224,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-228,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-233,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-234,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-236,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-237,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-239,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-244,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-245,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-248,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-250,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-253,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-254,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-255,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-256,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-257,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-264,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-268,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-272,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-276,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-279,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-281,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-289,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-290,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-291,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-302,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-304,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-307,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-308,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-311,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-314,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-317,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-320,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-322,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-325,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-326,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-327,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-333,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-334,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-347,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-350,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-351,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-356,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-358,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-360,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-362,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-366,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-369,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-386,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-391,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-392,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-395,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2020.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-398,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-402,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-409,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-410,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-411,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-412,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-413,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-415,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-417,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-418,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-419,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-420,1.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-427,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-428,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-429,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-430,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-433,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-434,3.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-446,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-454,5.0,5.0,5.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-456,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-461,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-470,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-471,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-475,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-479,6.0,6.0,6.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-480,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-481,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-489,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-493,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-501,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-504,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-505,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-508,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-510,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-514,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-516,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-519,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-525,7.0,7.0,7.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-528,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-532,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-539,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-543,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-551,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-553,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-554,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-556,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-558,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-573,0.0,0.0,0.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-575,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-576,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-580,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-582,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-587,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-590,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-591,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-592,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-593,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-600,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-607,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-612,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-621,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-623,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-633,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-637,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-641,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-643,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-649,3.0,3.0,3.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-650,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-651,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-652,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-654,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-656,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-662,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-665,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-667,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-669,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-673,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-674,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-679,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-692,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-697,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,excelente,0
+ALUNO-701,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-705,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-711,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-715,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-723,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-727,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-728,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-734,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-735,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-751,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-752,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-754,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-759,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-761,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-762,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-764,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-765,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-770,3.0,3.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2021.0,excelente,excelente,excelente,0
+ALUNO-771,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-772,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-774,3.0,3.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-778,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-787,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-788,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-791,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-799,2.0,2.0,2.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-800,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-801,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-804,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-806,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-808,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-810,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-815,4.0,4.0,4.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-816,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-819,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-832,3.0,3.0,3.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-836,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-839,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-841,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-844,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-847,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-852,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-853,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-854,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-856,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-857,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-859,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-863,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-864,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-869,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-870,2.0,2.0,2.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-876,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-879,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-881,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-882,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-883,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-887,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-891,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-893,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-895,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-896,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-901,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-913,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-915,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-918,4.0,4.0,4.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-921,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-924,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-925,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-933,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-934,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-936,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-941,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-949,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-952,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-954,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-955,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-960,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-967,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2021.0,excelente,excelente,abaixo da media,0
+ALUNO-971,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-974,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-975,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-976,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-978,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-979,1.0,1.0,1.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-980,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-981,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-982,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-985,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-988,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-990,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-998,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1000,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1005,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1008,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1011,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1025,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1030,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1033,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1037,3.0,3.0,3.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1039,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1040,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1042,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1045,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1048,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1052,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1053,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1054,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1058,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1059,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1060,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1062,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,abaixo da media,0
+ALUNO-1069,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1074,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1076,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1080,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1082,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1091,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1101,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1102,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1108,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1109,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1111,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1113,7.0,7.0,7.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1116,1.0,1.0,1.0,Ametista,Ametista,Ametista,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1118,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1120,1.0,1.0,1.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1121,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1125,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1135,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1138,4.0,4.0,4.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1144,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1152,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1153,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1154,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1162,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1163,7.0,7.0,7.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1169,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-1177,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1179,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1180,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,abaixo da media,excelente,0
+ALUNO-1184,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1185,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1186,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1192,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1194,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1202,1.0,1.0,1.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1203,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1207,2.0,2.0,2.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1208,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1209,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1213,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1220,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1224,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1227,5.0,5.0,5.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1235,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1236,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1243,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1245,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1246,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1247,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1255,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1258,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1263,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1267,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1269,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1271,3.0,3.0,3.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1272,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1273,0.0,0.0,0.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1276,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1280,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1283,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1295,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1304,5.0,5.0,5.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1305,0.0,0.0,0.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1306,4.0,4.0,4.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1311,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1312,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1314,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,abaixo da media,abaixo da media,0
+ALUNO-1317,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1320,2.0,2.0,2.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1321,0.0,0.0,0.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,excelente,excelente,abaixo da media,0
+ALUNO-1322,5.0,5.0,5.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1327,2.0,2.0,2.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1329,1.0,1.0,1.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1331,0.0,0.0,0.0,Ametista,Ametista,Ametista,0.0,0.0,0.0,2021.0,excelente,excelente,excelente,0
+ALUNO-1333,1.0,1.0,1.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1337,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,abaixo da media,0
+ALUNO-1340,3.0,3.0,3.0,Quartzo,Quartzo,Quartzo,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
+ALUNO-1342,2.0,2.0,2.0,Topázio,Topázio,Topázio,0.0,0.0,0.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1346,0.0,0.0,0.0,Topázio,Topázio,Topázio,1.0,1.0,1.0,2022.0,excelente,excelente,excelente,0
+ALUNO-1349,3.0,3.0,3.0,Ágata,Ágata,Ágata,0.0,0.0,0.0,2022.0,abaixo da media,excelente,excelente,0
