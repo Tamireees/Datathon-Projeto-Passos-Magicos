@@ -1,7 +1,136 @@
-https://academicportfoliofiap.streamlit.app/
+[https://academicportfoliofiap.streamlit.app/](https://tamireees-datathon-projeto-passos-magicos-app-bilingual-5ogdvp.streamlit.app/)
 
 ![logo](https://github.com/user-attachments/assets/cf81b6e0-f4b2-4403-9020-2e0199172c06)   
 
+# 📊 Datathon – Passos Mágicos Project
+
+## 🧠 Project Overview
+
+This project was developed as part of a **Datathon** with the objective of applying **Data Analytics and Data Science techniques** to evaluate and demonstrate the social impact of the NGO **Passos Mágicos**.
+
+The project explores **descriptive, diagnostic, and predictive analyses** to support strategic decision-making, improve educational outcomes, and generate insights about students in situations of social vulnerability.
+
+---
+
+## 🎯 Objectives
+
+### **Analytical Objectives**
+* Build interactive dashboards for impact visualization
+* Analyze academic performance and attendance indicators
+* Identify socioeconomic patterns affecting learning outcomes
+* Create KPIs to support operational and strategic decisions
+
+### **Predictive Objectives**
+* Develop predictive models to analyze student behavior and performance
+* Identify risk factors for dropout and low academic performance
+* Apply Machine Learning techniques to generate actionable insights
+* Deploy predictive models using Streamlit
+
+---
+
+## 🏫 Context – Passos Mágicos NGO
+
+The **Passos Mágicos Association** is a non-profit organization operating since **1992** in **Embu-Guaçu, Brazil**, focused on transforming lives through education.
+
+Its methodology integrates **quality education**, **psychological assistance**, **social inclusion**, and **student protagonism**, creating a holistic learning ecosystem for children and young people in vulnerable contexts.
+
+---
+
+## 📚 Methodology
+
+The analytical and modeling workflow follows the steps below:
+
+1. **Data Collection**
+   * Academic performance data
+   * Attendance records
+   * Socioeconomic surveys
+   * Program participation data
+
+2. **Data Cleaning & Preprocessing**
+   * Handling missing values
+   * Feature engineering
+   * Data normalization and encoding
+   * Outlier detection
+
+3. **Exploratory Data Analysis (EDA)**
+   * Descriptive statistics
+   * Correlation analysis
+   * Trend and cohort analysis
+   * Visualization of educational outcomes over time
+
+4. **Analytical Modeling**
+   * KPI definition (performance, engagement, progression)
+   * Segmentation of student profiles
+   * Impact analysis by program and year
+
+5. **Predictive Modeling**
+   * Supervised learning models (classification/regression)
+   * Model evaluation using appropriate metrics
+   * Feature importance and interpretability analysis
+
+6. **Deployment & Visualization**
+   * Interactive dashboards (Power BI)
+   * Predictive application deployed via Streamlit
+
+---
+
+## 📈 Key Indicators (KPIs)
+
+* Student performance improvement rate
+* Attendance and engagement index
+* Program progression rate
+* Dropout risk probability
+* Socioeconomic vulnerability index
+
+---
+
+## 📊 Data Highlights (2018–2023)
+
+* Growth from **355** to **1,100** students served
+* Expansion of educational programs across all academic levels
+* Transition to fully remote learning during COVID-19
+* Distribution of emergency aid to over **650 households**
+* Average **77% improvement** in student grades in 2023
+
+---
+
+## 🤖 Machine Learning Approach
+
+### **Problem Framing**
+* Predict student academic performance and risk of dropout
+* Identify key variables influencing learning outcomes
+
+### **Models Considered**
+* Logistic Regression
+* Random Forest
+* Gradient Boosting
+* XGBoost (if applicable)
+
+### **Evaluation Metrics**
+* Accuracy
+* Precision / Recall
+* F1-Score
+* ROC-AUC
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **SQL**
+* **Power BI**
+* **Statistics**
+* **Machine Learning**
+* **Pandas / NumPy**
+* **Scikit-learn**
+* **Matplotlib / Seaborn**
+* **Streamlit**
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+![logo](https://github.com/user-attachments/assets/cf81b6e0-f4b2-4403-9020-2e0199172c06)   
 # Datathon: Projeto Passos Magicos
 
 
